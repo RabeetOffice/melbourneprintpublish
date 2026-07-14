@@ -1,0 +1,148 @@
+<?php
+$blogs = [
+
+    [
+        "id" => "13",
+        "hidden" => "",
+        "image" => "/assets/images/How to Write a Short Story.png",
+        "alt" => "How to Write a Short Story | Melbourne P&P ",
+        "name" => "How to Write a Short Story | Melbourne P&P",
+        "text" => "Learn how to write a short story that lands. A practical 2026 guide to structure, compression and getting published, from Melbourne Print & Publish......",
+        "date" => "30-06-2026",
+        "link" => "/blogs/how-to-write-a-short-story/"
+    ],
+
+    [
+        "id" => "12",
+        "hidden" => "",
+        "image" => "/assets/images/What Is Title Case.jpg",
+        "alt" => "What Is Title Case? Australian Writers' Style Essentials ",
+        "name" => "What Is Title Case? Australian Writers' Style Essentials ",
+        "text" => "Learn what title case is, how it differs from sentence case, and how to capitalise titles correctly in Australian English, with rules and examples.....",
+        "date" => "23-06-2026",
+        "link" => "/blogs/what-is-title-case/"
+    ],
+
+    [
+        "id" => "11",
+        "hidden" => "",
+        "image" => "/assets/images/unnamed (1).webp",
+        "alt" => "How to Outline a Novel: An Australian Author's Approach",
+        "name" => "How to Outline a Novel: An Australian Author's Approach",
+        "text" => "Practical methods, beat sheets and Aussie tips to outline a novel from logline to scene list. Build a working roadmap with Melbourne Print and Publish....",
+        "date" => "17-06-2026",
+        "link" => "/blogs/how-to-outline-a-novel/"
+    ],
+
+    [
+        "id" => "10",
+        "hidden" => "",
+        "image" => "/assets/images/blog3.png",
+        "alt" => "Magical Realism: A Framework for Writers and Readers",
+        "name" => "Title Capitalisation Rules: AP, Chicago, APA & MLA",
+        "text" => "Which words do you capitalise in a title? Learn the AP, Chicago, APA and MLA rules, then format any heading with confidence using this clear, full guide.....",
+        "date" => "16-06-2026",
+        "link" => "/blogs/how-to-capitalise-titles/"
+    ],
+
+    [
+        "id" => "9",
+        "hidden" => "",
+        "image" => "/assets/images/antique.jpg",
+        "alt" => "Magical Realism: A Framework for Writers and Readers",
+        "name" => "Magical Realism: A Framework for Writers and Readers",
+        "text" => "Discover magical realism through a clear diagnostic framework. Learn its key traits, narrative techniques, and how to identify it across global fiction.....",
+        "date" => "05-06-2026",
+        "link" => "/blogs/what-is-magical-realism/"
+    ],
+
+    [
+        "id" => "8",
+        "hidden" => "",
+        "image" => "/assets/images/what-is-foreshadowing.png",
+        "alt" => "What Is Foreshadowing?",
+        "name" => "What Is Foreshadowing? Meaning, Types & Examples Explained",
+        "text" => "Think about the last time a story genuinely stunned you. The moment a reveal landed so cleanly that you sat back and thought, how did I not see that coming?....",
+        "date" => "29-05-2026",
+        "link" => "/blogs/what-is-foreshadowing/"
+    ],
+
+    [
+        "id" => "7",
+        "hidden" => "",
+        "image" => "/assets/images/adult-highlighting-text-for-study-and-education.webp",
+        "alt" => "What Is Proofreading? Your Australian Writer's Guide",
+        "name" => "What Is Proofreading? The Australian Authors’ Guide",
+        "text" => "You've just finished writing. Maybe it's a university assignment. Maybe it's a business proposal that could land you a major client. Or maybe it's the manuscript you've spent .....",
+        "date" => "19-05-2026",
+        "link" => "/blogs/what-is-proofreading/"
+    ],
+
+    [
+        "id" => "6",
+        "hidden" => "",
+        "image" => "/assets/images/omni.webp",
+        "alt" => "Mastering Abbreviationss",
+        "name" => "Mastering the Omniscient Point of View",
+        "text" => "Every story ever written rests on one quiet decision the reader never sees being made. That decision is point of view, and out of all the choices a writer faces, none reshapes a manuscript more completely....",
+        "date" => "12-05-2026",
+        "link" => "/blogs/omniscient-point-of-view/"
+    ],
+
+    [
+        "id" => "5",
+        "hidden" => "",
+        "image" => "/assets/images/self.jpg",
+        "alt" => "Mastering Abbreviationss",
+        "name" => "How to Self-Publish a Book in Australia",
+        "text" => "Let's be real for a second. If you've spent months (or years) pouring your heart into a manuscript, only to hit a wall of confusing publishing jargon, platform choices, and....",
+        "date" => "5-05-2026",
+        "link" => "/blogs/how-to-self-publish-a-book-in-australia/"
+    ],
+
+    [
+        "id" => "4",
+        "hidden" => "",
+        "image" => "/assets/images/abbreviations-acronyms.webp",
+        "alt" => "Mastering Abbreviations",
+        "name" => "Mastering Abbreviations, Acronyms and Initialisms: The Definitive Guide to Correct Usage",
+        "text" => "Let’s be honest. You’ve probably used the word “acronym” to describe something that wasn’t actually an acronym. Most people have. And nobody corrected you because, frankly, most...",
+        "date" => "20-04-2026",
+        "link" => "/blogs/abbreviations-acronyms-initialisms-correct-usage/"
+    ],
+
+    [
+        "id" => "3",
+        "hidden" => "",
+        "image" => "/assets/images/How-to-Get-an-ISBN-1-scaled.webp",
+        "alt" => "How to Copyright a Book in Australia",
+        "name" => "How to Get an ISBN for Self-Published Books in Australia",
+        "text" => "So you have written a book. Maybe it is a memoir that took you three years and two breakdowns to finish. Maybe it is a children’s picture book about a wallaby who cannot find his way home...",
+        "date" => "15-04-2026",
+        "link" => "/blogs/how-to-get-an-isbn-for-self-published-books-in-australia/"
+    ],
+
+    [
+        "id" => "2",
+        "hidden" => "",
+        "image" => "/assets/images/Endorse-vs.-Approve.webp",
+        "alt" => "",
+        "name" => "Endorse vs. Approve: The Definitive Guide to Using Each Word Correctly in Any Context",
+        "text" => "You have probably used the words “approve” and “endorse” in the same breath before. Most people have. And most people, if pressed, would struggle to explain why one fits a situation and the other does not.",
+        "date" => "9-04-2026",
+        "link" => "/blogs/endorse-vs-approve/"
+    ],
+
+    [
+        "id" => "1",
+        "hidden" => "",
+        "image" => "/assets/images/panoramic-shot.jpg",
+        "alt" => "How to Copyright a Book in Australia",
+        "name" => "How to Copyright a Book in Australia",
+        "text" => "So you’ve written a book. Or you’re close to finishing one. Either way, at some point the question creeps in: is my work actually protected? Can someone copy it? What happens if they do?",
+        "date" => "4-03-2026",
+        "link" => "/blogs/how-to-copyright-a-book-in-australia/"
+    ]
+
+];
+?>

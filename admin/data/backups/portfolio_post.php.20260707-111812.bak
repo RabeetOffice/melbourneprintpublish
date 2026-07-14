@@ -1,0 +1,350 @@
+<?php
+$portfolio = [
+
+
+   [
+        "id" => "35",
+        "hidden" => "",
+        "image" => "https://m.media-amazon.com/images/I/81QqO4jnZ-L._SY466_.jpg",
+        "alt" => "Foreverman",
+        "name" => "Foreverman",
+        "link" => "https://www.amazon.com/dp/B0H4MXP9PG?ref=cm_sw_r_ffobk_cp_ud_dp_WY1E9MTNT83YW73PTG7P_1&ref_=cm_sw_r_ffobk_cp_ud_dp_WY1E9MTNT83YW73PTG7P_1&social_share=cm_sw_r_ffobk_cp_ud_dp_WY1E9MTNT83YW73PTG7P_1&bestFormat=true"
+    ],
+
+   [
+        "id" => "34",
+        "hidden" => "",
+        "image" => "https://m.media-amazon.com/images/I/81lBF-xTWSL._SY466_.jpg",
+        "alt" => "Meetings Beyond the Veil",
+        "name" => "Meetings Beyond the Veil",
+        "link" => "https://www.amazon.it/dp/B0H45M4B4B?ref=cm_sw_r_ffobk_cp_ud_dp_FBAJQYBFS4XH2R6TJ9ER&ref_=cm_sw_r_ffobk_cp_ud_dp_FBAJQYBFS4XH2R6TJ9ER&social_share=cm_sw_r_ffobk_cp_ud_dp_FBAJQYBFS4XH2R6TJ9ER&bestFormat=true"
+    ],
+
+    [
+        "id" => "33",
+        "hidden" => "",
+        "image" => "https://m.media-amazon.com/images/I/61HUHc9YkfL._SL1360_.jpg",
+        "alt" => "Still Standing",
+        "name" => "Still Standing",
+        "link" => "https://www.amazon.com.au/Still-Standing-Joanne-Duggan/dp/1764587685/ref=sr_1_1?crid=JRTHG39DBP5P&dib=eyJ2IjoiMSJ9.VlG7VoNsyy-EtBVQ_KHCsg.fkz0iSMhOeIfaqaX48h3kTrP7t1DjJlncUKcMyBiw1o&dib_tag=se&keywords=still+standing+by+Joanne+Duggan&qid=1778141562&s=books&sprefix=still+standing+by+%2Cstripbooks%2C544&sr=1-1"
+    ],
+
+    [
+        "id" => "32",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/sendss.webp",
+        "alt" => "A Dance of Tethered Aeons",
+        "name" => "A Dance of Tethered Aeons",
+        "link" => "https://www.amazon.com/Dance-Tethered-Aeons-Franklin-Burger-ebook/dp/B0GY25KLF9/"
+    ],
+    
+        [
+        "id" => "31",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/book2.jpg",
+        "alt" => "The Dialectics Of Mania",
+        "name" => "The Dialectics Of Mania",
+        "link" => "https://www.amazon.com/dp/1918900000?ref=cm_sw_r_ffobk_cp_ud_dp_ECKWJ5JNZ67V5WXZ91FF&ref_=cm_sw_r_ffobk_cp_ud_dp_ECKWJ5JNZ67V5WXZ91FF&social_share=cm_sw_r_ffobk_cp_ud_dp_ECKWJ5JNZ67V5WXZ91FF&bestFormat=true"
+    ],
+    [
+        "id" => "33",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/indian.jpg",
+        "alt" => "Indian Summer",
+        "name" => "Indian Summer",
+        "link" => "https://www.amazon.com/Indian-Summer-Ib-Svane/dp/1918900035/ref=tmm_hrd_swatch_0"
+    ],
+    [
+        "id" => "1",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/Veil-of-Gods.webp",
+        "alt" => "A Veil of Gods and Kings",
+        "name" => "A Veil of Gods and Kings",
+        "link" => "https://www.amazon.com.au/Veil-Gods-Kings-Apollo-Ascending/dp/B09TN45M45/ref=sr_1_6?crid=BI8WUQX1JCWA&amp;dib=eyJ2IjoiMSJ9.NssB06XcvMT8rHv80xKqZqp9M6MC43Q7AF3uO9RT_a-VukShGyzurAY-u-NA_q-BGhLykJllh8nh-DznjNRbeik59TryOOV-oUW5v3qqfcmvUMngpHRZQnS_1eTRhAd84vg167lvctbz2Y0bP0XCaRKdRgS5phNVG1Ppdt8Zgkm015gO0D69lb3LJfcVNtK9xNCyeNPPsvvbzOoQFrQuOrX8yLTRTMbGA4WYMqrvmWNEfd2qj3STs1ANZJzSNm2vB2k-aNgQWxpgjChFgHUPEzbijuTMohTqZ9ESArqhEKU.w3ChJ5OCMs1c9iD0tAYsMWjw9IuHN4wwA4IqzjsjiEM&amp;dib_tag=se&amp;keywords=fantasy+books+independently+published&amp;qid=1771397705&amp;sprefix=fantasy+books+indepently+publis%2Caps%2C354&amp;sr=8-6"
+    ],
+    
+
+    [
+        "id" => "2",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/The-Dark-Heir.webp",
+        "alt" => "The Dark Heir",
+        "name" => "The Dark Heir",
+        "link" => "//www.amazon.com.au/dunkle-Erbe-Historischer-Roman-German-ebook/dp/B0BPJHNVKW/ref=sr_1_280?crid=1D272NKHJFKL4&dib=eyJ2IjoiMSJ9.sK9PpvoS85SVe4Azxtnpk7vzxcFZ38klXe3erewLTkazSYXVV8I9syfduxlVUOxUrUmE3B0mIBo_b3zTKXWeDhiVoyvKi39f373GvkNdCyYnYT0WXSk0lojifTo43SLTw3pRKxpiyHPbyQvbAVgzKfY9J6PakICSOeFVH2mTkwnMq2I9R12LghwEkKcTk3jU.-pVXYDABZUB63qfKVdSEe_2q7EGSs944OUidxwFtZ4o&dib_tag=se&keywords=independent+publishers&qid=1771399318&s=digital-text&sprefix=independent+publishers%2Cdigital-text%2C394&sr=1-280&xpid=nZfkPBK8vJtdV"
+    ],
+
+    [
+        "id" => "3",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/Taking-Fire.webp",
+        "alt" => "Taking Fire",
+        "name" => "Taking Fire",
+        "link" => "https://www.amazon.com.au/Taking-Fire-Vietnam-Gunship-Journal-ebook/dp/B08CZ38DX3/ref=sr_1_265?crid=1D272NKHJFKL4&amp;dib=eyJ2IjoiMSJ9.FbwjewK54Qv9Wc4TAdTmL5OwldlQPVjNFJkF7x2MgDPqsGUoUdfWVhf6nV2hJLhC2Oiyhhu6fUDz7RqJnhMsH1EAe5X3NZOwA7YaPL_rX8oUlG1_Krz88DvSB8TU8CzZ2hmuFelaqIGR7g0roEXOE2Y6nPZpEmN-xQcwmIBXgSM.OfdMIFrJGGCrAT3c2A1RMTj-lXd8YoKPcFIvnN-nkOo&amp;dib_tag=se&amp;keywords=independent+publishers&amp;qid=1771399301&amp;s=digital-text&amp;sprefix=independent+publishers%2Cdigital-text%2C394&amp;sr=1-265&amp;xpid=nZfkPBK8vJtdV"
+    ],
+
+    [
+        "id" => "4",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/Die-Klinge.webp",
+        "alt" => "Die Klinge des Glaubens",
+        "name" => "Die Klinge des Glaubens",
+        "link" => "https://www.amazon.com.au/Die-Klinge-Glaubens-Historischer-Roman/dp/B0BF2WXK1G/ref=tmm_pap_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.Zge0rHRjZO7QQHR-G4h_w1ZZKmLGphTnJNoTyk5Qc1Lyq2lhQ7SdHUFf0-BukQOWJ0Re-sTuMIlXv53-RV7CuGFM5Dvvlkmip4RVC1Z3iY--fHajbe2_ZmX3fl9yKL7J3i-r-6GmsmEs2BFEJkZnzHSEVH1o-P5A40uKQg79pik.znY4lYCKpIRfoA7TUxePNuEdWX-ertnXIJeX_ko9b0Q&qid=1771399244&sr=1-201"
+    ],
+
+    [
+        "id" => "5",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/One-Trip.webp",
+        "alt" => "One Trip Too Many",
+        "name" => "One Trip Too Many",
+        "link" => "https://www.amazon.com.au/One-Trip-Too-Many-Memoirs-ebook/dp/B009QRXH5I/"
+    ],
+
+    [
+        "id" => "6",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/Call-Me.webp",
+        "alt" => "Call Me Trooper",
+        "name" => "Call Me Trooper",
+        "link" => "https://www.amazon.com.au/Call-Me-Trooper-Chronicles-Michigan-ebook/dp/B07HVYDTH2/ref=sr_1_40?crid=1D272NKHJFKL4&dib=eyJ2IjoiMSJ9.I27KKI9zbKPkYyl64SYMxDascDkUFqsu83GCL1xXlL2PltXfgYri4H_4w6r-FuP2zOoRoe3Mg8mLFZ6LhmsyDbrAC4oGK3vkGv75amoEnpvhZxsvU6nR1pqL5eXBOEHIxiaP5QTmn7xpWXAHvmLejH6pFLbLJ4hhmOr0SqCCCVjGvc5Rbl4wH419CT4VYVq7.QfVJoww1kge5JSJvuEM9c5UUzIxp9TapvPTnfijePhA&dib_tag=se&keywords=independent+publishers&qid=1771398731&s=digital-text&sprefix=independent+publishers%2Cdigital-text%2C394&sr=1-40&xpid=nZfkPBK8vJtdV"
+    ],
+
+    [
+        "id" => "7",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/Lady-Chatterley.webp",
+        "alt" => "Lady Chatterley’s Lover",
+        "name" => "Lady Chatterley’s Lover",
+        "link" => "//www.amazon.com.au/Lady-Chatterleys-Lover-Reawakening-Unexpurgated-ebook/dp/B0CW9CQZ9C/ref=sr_1_117?crid=1D272NKHJFKL4&amp;dib=eyJ2IjoiMSJ9.QZxeAth7TlRDD_Iu92e_cg0IDNgHfIxbzs_MLx2FIlf74HIXpU2Aq2OEg5KfuAlCywoKc2qElqvImf7CZwypJRwncTWGCyysYXS1oDAd5SJITq-vASAgsT5gCtR7Az7VacCZ4An2DpE-EAJFNX2k5eamwU9wK8PKW-yPDBy-uDFPvLAospilI2iETDvFlZb5.wU1SNJixgbxzg2jKq-qXggk2f6XzFf-TwaBVRSaUgrs&amp;dib_tag=se&amp;keywords=independent+publishers&amp;qid=1771399094&amp;s=digital-text&amp;sprefix=independent+publishers%2Cdigital-text%2C394&amp;sr=1-117&amp;xpid=nZfkPBK8vJtdV"
+    ],
+
+    [
+        "id" => "8",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/The-Prophet.webp",
+        "alt" => "The Prophet",
+        "name" => "The Prophet",
+        "link" => "https://www.amazon.com.au/Prophet-Kahlil-Gibran-ebook/dp/B09T8NJYJ1/ref=sr_1_22?crid=1D272NKHJFKL4&dib=eyJ2IjoiMSJ9.ld_cGVGzOYUgSK_INC7j1qElUIYCF8idxxnTLTifP_Ur1w2b1SnHW3BYtdb8f-wV0_EBZflx7CQ2EsoDBpi87AIygpymA6P7gs8p7HWgmlJBCvPXRJFLuO08UbuuchZAKOrwB58ASKRPMRc4wYjhebWZV2U7UjnTGjcHmyem0BU.EPHQ_sJ1e25KVDslHkD9261kSGRv82N2N6niOj9Od5s&dib_tag=se&keywords=independent+publishers&qid=1771398709&s=digital-text&sprefix=independent+publishers%2Cdigital-text%2C394&sr=1-22&xpid=nZfkPBK8vJtdV"
+    ],
+
+    [
+        "id" => "9",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/how-to-talk.webp",
+        "alt" => "How to Talk to Anybody",
+        "name" => "How to Talk to Anybody",
+        "link" => "https://www.amazon.com/How-Talk-Anybody-Conversations-Communication/dp/B09TWBJF8C/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;dib_tag=se&amp;dib=eyJ2IjoiMSJ9.nTnIoQb3XuPn8Yr9TTK-0KwpuIlRP6N9PPMn34DwsLhnK2ZLysY1l4ZRQPnVkbCgUcnVbx0bSD1qaNUArB9zgGf32J0JdejLxmpl0Gq9HoNY4tVJ56bqPE6SKs7PvJ6mKEwMl6h4z-uPdsQGutdlTIJSBrg7okS9_oTcPCB7awqrnwbNlT45w1ucNGKlXQwns8xPYPO4cFnH8ctGoXlRbui02bINoCGUYmlKHb3Lx4c.-i7zUgvs-wdlYqcYA8CWSRIZyntFdzlgJawlNcWvPrE&amp;qid=1771312573&amp;sr=1-1"
+    ],
+
+    [
+        "id" => "10",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/Initiates.webp",
+        "alt" => "Initiates of the Flame",
+        "name" => "Initiates of the Flame",
+        "link" => "https://www.amazon.com.au/Initiates-Flame-Manly-Hall-ebook/dp/B09T2NCSLX/ref=sr_1_99?crid=1D272NKHJFKL4&dib=eyJ2IjoiMSJ9.phvM5c9ji2S4TDnZyr1T-LlDr3xeX2RFcHoOG6RXOZ-_ZXcWMn8ifpPaokKTlYwdvcH-Re1jeuDdULhwPa_G_Q.-LWbtqL9CAA_vum9PBt0t5SnVlrldKimbjo13w51yKI&dib_tag=se&keywords=independent+publishers&qid=1771399079&s=digital-text&sprefix=independent+publishers%2Cdigital-text%2C394&sr=1-99&xpid=nZfkPBK8vJtdV"
+    ],
+
+    [
+        "id" => "11",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/inspiring.webp",
+        "alt" => "Inspiring Stories for Teen Girls",
+        "name" => "Inspiring Stories for Teen Girls",
+        "link" => "https://www.amazon.com/Inspiring-Stories-Teen-Girls-Motivational/dp/B0FMNKWSK6/ref=sr_1_1?crid=388UVY66EIJI3&dib=eyJ2IjoiMSJ9.3lsMO6_UeRd5lhZ4Upd2r3moAWoNeiIiwayyIwW8PEjbOgornf1XS8eTw2IRD-hvLkNQnEGodpZXwc1xzyfsVVbmn2XnEm_mz9Lv-VzJKE1H0kDIRYeeLxIz2BmGrpGWglJZ56nb3vQ8EUseP-Dk6bSE6XQ7TM1N0cuZB0UZ__Efk_8J_W9AP8Ha98v2o977uV47msk5UZQIAVS6lIiF4qpErayIkS9ceaanddaLBgo.bASJjwC4FcVEH8BwCpcqn84m45JnghI59rOviZptD2A&dib_tag=se&keywords=Inspiring+Stories+for+Teen+Girls&qid=1771313593&s=books&sprefix=inspiring+stories+for+teen+girls%2Cstripbooks-intl-ship%2C492&sr=1-10"
+    ],
+
+    [
+        "id" => "12",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/Siddhartha.webp",
+        "alt" => "Siddhartha",
+        "name" => "Siddhartha",
+        "link" => "https://www.amazon.com.au/Siddhartha-Indian-Tale-Hermann-Hesse-ebook/dp/B09STSRGGL/ref=sr_1_57?crid=1D272NKHJFKL4&amp;dib=eyJ2IjoiMSJ9.CtI63RipMsyOq_WZa8G51RvQfwNdH369N76gIxtdJhm-Mhq15ByXEouGwt50vEYxdhcASUI_VQMdoGJEwCQFuxjCwWkdobGb6SPVjCovXCLZqggmnoev5BjxHH2gcAdwKWyImS1WUWYAK7xznFGCRo4TDc4Q3JC1nOLNfLTFM4I.vfSx4TlMDAoNGjdrLfVOLfr874pfGhTLgEwvAUV1GBI&amp;dib_tag=se&amp;keywords=independent+publishers&amp;qid=1771398752&amp;s=digital-text&amp;sprefix=independent+publishers%2Cdigital-text%2C394&amp;sr=1-57&amp;xpid=nZfkPBK8vJtdV"
+    ],
+
+    [
+        "id" => "13",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/fundamental.webp",
+        "alt" => "Fundamental Analysis for Beginners",
+        "name" => "Fundamental Analysis for Beginners",
+        "link" => "https://www.amazon.com/Fundamental-Analysis-Beginners-Investment-Statements/dp/B0BGJN17W8/ref=sr_1_1?crid=21YIJYVS3XHJU&dib=eyJ2IjoiMSJ9.ooNGRjSd7qiCe4lX1xc2F6MnOSuAQCjKvZ_5MUetFfwhLLnuCDqvVKr897MnKlEiDj7GdFfcBVRDfpIlUjWcNDypad_ZuVPqEep86JMUld_j9ikV6dT7Pghs3hYxsvrh42ecc-9R3TZ9aAlFo7Vul5my6wCW9CGyS5l2_uMb6NJpnBJ5e5Tbez3K2nF0VbnlZJexPlkeP4YM3sQkjTZ6q6CM7BZpz0IAX0OiJVqKbHc.ZspFjAtMwtGIyYnK-c8RTJ2fvGkG0TDcbUzzP-j39gE&dib_tag=se&keywords=Fundamental+Analysis+for+Beginners&qid=1771314300&s=books&sprefix=fundamental+analysis+for+beginners%2Cstripbooks-intl-ship%2C340&sr=1-1"
+    ],
+
+    [
+        "id" => "14",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/The-Gift-of-the-Magi.webp",
+        "alt" => "The Gift of the Magi",
+        "name" => "The Gift of the Magi",
+        "link" => "https://www.amazon.com.au/Gift-Magi-Henry-ebook/dp/B09T31VK2J/ref=sr_1_138?crid=1D272NKHJFKL4&dib=eyJ2IjoiMSJ9.f4rlvpOEUSpU7WPzvUqOXJC1tlaQdtye2zNFIN2Nhym15e7eGiVrud0atGMraZO5RztshDzpMpjg_hf80ZC6oQDdL8vxhcLuY1SBK_IH1pxwqAD-9r0FDboVVOki_yjN-htR_tFXqKplMjb-T9UAN6wBusuhfyI4ygVHlCuB5NHcAPYMlKck6NwIJcleStIi.GCMMyo4nWBX0Ch0vG1M2kdO9nvYe2H1a8zLsQyfjzJ4&dib_tag=se&keywords=independent+publishers&qid=1771399111&s=digital-text&sprefix=independent+publishers%2Cdigital-text%2C394&sr=1-138&xpid=nZfkPBK8vJtdV"
+    ],
+
+    [
+        "id" => "15",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/keeping-success.webp",
+        "alt" => "Keeping Success Pace",
+        "name" => "Keeping Success Pace",
+        "link" => "https://www.amazon.com/KEEPING-SUCCESS-PACE-Timeless-succeeding-ebook/dp/B0B2RYQCRT/ref=sr_1_1?crid=2T3Y8RRDEDKDU&amp;dib=eyJ2IjoiMSJ9.f3DtMVYCtc5tWDn-CWfNqPtz38pBjI1uZl5j4vCtvoIKZ4I1wBeZIw9KvJ3gfdu7NV0ZjpJpZ_C9vSJxqLpcUF7KWOi82JDWkhA8bijb-sTNOAxQGZpvU4i7LKm5xY72PYDhEjerFqm8aoPPJl3xfL-DKuYJM4hV39g9ykE2sH--f3kVnCdvl7Bxo4rqcnXFcDdAYh6z-TJyUv-JrC9-fYDSvywfmR_g03YcfYGEeGU.MlTnQo4QC8_-sBDIh3lmfvBFOIrz45wAyGxnfdxU_ZM&amp;dib_tag=se&amp;keywords=KEEPING+SUCCESS+PACE&amp;qid=1771313339&amp;s=digital-text&amp;sprefix=keeping+success+pace%2Cdigital-text%2C318&amp;sr=1-1"
+    ],
+
+    [
+        "id" => "16",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/The-Unknown.webp",
+        "alt" => "The Unknown Life of Jesus Christ",
+        "name" => "The Unknown Life of Jesus Christ",
+        "link" => "https://www.amazon.com.au/Life-Jesus-Christ-Notovitchs-Discovery-ebook/dp/B09WJL45WL/ref=sr_1_84?crid=1D272NKHJFKL4&amp;dib=eyJ2IjoiMSJ9.7y3YmAIvNqYL4H5iHcf9ehxlPPdozLK2m8RcXfk3Jma5YE3GoMHUndqlmrhTl1yZKYXKbcHJlA7VI1pbGxeBPXuAJhMw05J2EzrBz5nNx264Az3j_803GomuhizgAUlbXtL1LTemhvEeZqlMbqUz61lF8X4jl07bZT-4i-VOwjI.B_qMEhc2WFGDlDFVLcn6OAWVovR1zsDpWxp7XSHBYmg&amp;dib_tag=se&amp;keywords=independent+publishers&amp;qid=1771399045&amp;s=digital-text&amp;sprefix=independent+publishers%2Cdigital-text%2C394&amp;sr=1-84&amp;xpid=nZfkPBK8vJtdV"
+    ],
+
+    [
+        "id" => "17",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/youre.webp",
+        "alt" => "You’re an Inspiration, Amazing Girl",
+        "name" => "You’re an Inspiration, Amazing Girl",
+        "link" => "https://www.amazon.com/Youre-Inspiration-Amazing-Girl-Motivational/dp/B0F2YK3ZJC/ref=sr_1_1?crid=UP4PQ3XJXDWI&dib=eyJ2IjoiMSJ9.Z9dpqQoWed4u2eEhrAavtk-WWhMRokwVouFFNAR6oZIjptYmnc1UItxpVLj02Wf_Z8L5RVXJmPq7QZ2rZ6sRu9fa8KojJOKyDdc6E6XnWpR7PUL6bEKhffNHKQFDrZiuJq0g0i5iDN1vx9feyOs9dWotck_1xls251VmYeoHyn0edK9FqTZ8_5k3sGrW55_q8_sTrKIYxEl_Mz2Wsi7bV9snJ45bZZCwNmoxyV4dMaI.i9cqRnE4OZUvbpLb3RfWhuEwrZ7hkWpnRqTZw-hoUfg&dib_tag=se&keywords=You%E2%80%99re+an+Inspiration%2C+Amazing+Girl&qid=1771314127&s=books&sprefix=you+re+an+inspiration%2C+amazing+girl%2Cstripbooks-intl-ship%2C524&sr=1-1"
+    ],
+
+    [
+        "id" => "18",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/ocean-facts.webp",
+        "alt" => "The Ultimate Ocean Facts",
+        "name" => "The Ultimate Ocean Facts",
+        "link" => "https://www.amazon.com/Ultimate-Ocean-Facts-Teens-Adults/dp/B0DQGV69FC/ref=sr_1_1?crid=3Q43QRNXQN18J&dib=eyJ2IjoiMSJ9.OVb0VdHMiuotZkJZ73pnZVcAR6EscK4STQNR2ExO5EX6Zb-vNnWqpIt2YYjlF3CD7yBo9FeV5iM_VEIQy31EwfRLM0wLQzk6pDLZUUczb8Cpx6mC2x1vg11LdWkttb1_2L8wLhmEYAzlH5cVg5jRD1cEiwyVX8xsLaEPHbvncfxZLyGYK0bWH8cy-IYgmPJkQ6gfWMYXQ7-dcyC0m3x8_Bxq9mLBUgDi6A_aLE_HcGM.K_c9b6ckZW2-bTChVxW2nlTlEZcRkBJWd1V-Vx1s60A&dib_tag=se&keywords=The+Ultimate+Ocean+Facts&qid=1771314584&sprefix=the+ultimate+ocean+facts%2Caps%2C338&sr=8-1"
+    ],
+
+    [
+        "id" => "19",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/the-ultimate.webp",
+        "alt" => "The Ultimate Book of Rare and Unusual Knowledge",
+        "name" => "The Ultimate Book of Rare and Unusual Knowledge",
+        "link" => "https://www.amazon.com/Ultimate-Book-Rare-Unusual-Knowledge/dp/B0DR6S7SHB/ref=sr_1_1?crid=2ZDP1C3KA79KG&dib=eyJ2IjoiMSJ9.KTenSpKm9rb9MTOvalcJcArpddibOz2Ejae2QZm_QUQVT9nDxcnIcoIMzR9njYi4Ad6tLuix2c0ihjKyRZQDiU9mts92h7NnP505AZTWFP1iNYX_u7Qb6GTSWoccGhmo1ea795m6bMtt0BDupZUbhbJR4ct3egfXD83QMrXyjIzMtEl6h0wbE15duiBX8Hynz6bh4fybglZs4Vin8Hxov9T7RyfbZIjc2LYt8MUWW5U.9t3lVrbpX_YnMvLiml_92GIFr7O_3zAR0wuNXK1qWq8&dib_tag=se&keywords=The+Ultimate+Book+of+Rare+and+Unusual+Knowledge&nsdOptOutParam=true&qid=1771314444&s=audible&sprefix=the+ultimate+book+of+rare+and+unusual+knowledge%2Caudible%2C364&sr=1-1"
+    ]
+    ,
+
+    [
+        "id" => "20",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/pondering.webp",
+        "alt" => "Pondering Reflections",
+        "name" => "Pondering Reflections",
+        "link" => "https://www.amazon.com/Pondering-Reflections-Poetry-Christina-Vourcos/dp/B0F99ZGH7G/ref=tmm_pap_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.no7puVpFiZUbcaauJb6YoVx8lTVmEyViK3vxn22PJcS_8doCKrgJFrA5tpSu3M_fuHJC4uAaYhddEWT7PM77EaDuIPzAx5uWQI-_uXQIQ291n98rpmIgp8E4fSfOouUdjudQFa4y-WNAkeCr21M5vGqRUSgWoFBRc71KNdTCpFnSGZdm8I6o9qD2n23c8VrFk6BfEmFUtSCdYEMBIAc9OU-J2XvRzIj2A4b4AoCAEuU.A8fdndEGT-X9qqX4dT9Hrrt_FzjHtaOjExP0sg9rcvg&qid=1771314730&sr=8-1"
+    ],
+
+    [
+        "id" => "21",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/Poetry-for-a-Lifetime.webp",
+        "alt" => "Poetry for a Lifetime",
+        "name" => "Poetry for a Lifetime",
+        "link" => "https://www.amazon.com/Poetry-Lifetime-All-Time-Favorite-Delight-ebook/dp/B089G6R76B/ref=sr_1_1?crid=3MOHGDGYMSJRZ&dib=eyJ2IjoiMSJ9.aynGZXPpznSLW9Ldm69lnClmyHWD3WcrUdYsGKRVlxRC0LNxFwXLsq2gSnT1B_V5kJAN5D2RzcHNh69fyTsrqNIn5KxI_UZ2ZodcYEORA3O7cx18D-hVtwUEUroTgVGuDLSt2bo5yYdd05gcQhnN0XQU-X5cFLpkzsI36w08c2eacGFfS9gw25amLtDRiSNOv5oA-ZCtnZZySzIJj-0aktgh8siRfI8Ok_3v1r24NGY.6DTlPdyIlM1IGo1pWPjctxnMMjn1cIchqndXEFodik0&dib_tag=se&keywords=Poetry+for+a+Lifetime&qid=1771317917&s=digital-text&sprefix=moving+away+will+be+okay+%2Cdigital-text%2C467&sr=1-1"
+    ],
+
+    [
+        "id" => "22",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/howtowrite.webp",
+        "alt" => "How to Write a Book",
+        "name" => "How to Write a Book",
+        "link" => "https://www.amazon.com/How-Write-Book-Non-Fiction-Foundations/dp/B0CV18CFVZ/ref=tmm_pap_swatch_0"
+    ],
+
+    [
+        "id" => "23",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/Call-Me-Trooper.webp",
+        "alt" => "Call Me Trooper",
+        "name" => "Call Me Trooper",
+        "link" => "https://www.amazon.com/Write-Your-Book-Side-Nonfiction-ebook/dp/B01MY6YT2P/ref=sr_1_4?crid=Q31BONU47D1E&dib=eyJ2IjoiMSJ9.UOvhdHOcP6nAON16W3t8EUHkuBH-dvzexALar00Rv8D2r5-bFnyB_Bl4F-LEus2BVmrjnoCCAvFTeL6L6rLRbsKaaNVRz55Aqmr9yDkZSe804-yEhAFFJXZk5NouFg1-OxYfVYyRac8rjiwQJ2bDYmjJmTV6HTXiWizxAAJBV0t0AjH_NWmurs6vQhQCO5s-DA6nZkZup9FIAsVkM62QgiBrhUqH29WJXHjP-dOebb0.EZHShgh3h2X9fqANymXeU2vJ2uCZvg0jbfZysp7lZYo&dib_tag=se&keywords=hassan+osman&qid=1771317087&s=digital-text&sprefix=hassan+osma%2Cdigital-text%2C337&sr=1-4"
+    ],
+
+    [
+        "id" => "24",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/Deer-Hunting.webp",
+        "alt" => "Deer Hunting with Dad",
+        "name" => "Deer Hunting with Dad",
+        "link" => "https://www.amazon.com/Deer-Hunting-Hank-Outdoorsman-Book-ebook/dp/B09RLYT5MB/ref=sr_1_1?crid=XZIXV161MDWH&dib=eyJ2IjoiMSJ9.OPCouR5myqQeWPsSozvXW8J77Pla2i3KhaWgxutuo7PK8EqggCjVdCyBkcF2NN_qDRdKxsjg7scrmqHHGH-tvWaYv0uwyhtQO2XfVb9xOk38spyfkU9dw1gS5kNe5CzFwmQ4kmQT1LhSjOXW86WMUyQsXTVnwuR1FSEd1RrJFUw-S_S2OLJ8Slg69ZrJ8GZ32E9Dbagp_v5lzyjpmJqUHw4Bw0rdTCXVK3gP1cs2QG4.mnFHW4QjWLQg5wDjJicr9QlGlIB8KHbxnXyPgZLTZQI&dib_tag=se&keywords=Deer+Hunting+with+Dad&qid=1771317183&s=digital-text&sprefix=deer+hunting+with+dad%2Cdigital-text%2C358&sr=1-1"
+    ],
+
+    [
+        "id" => "25",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/Safari-Readers-Wolves.webp",
+        "alt" => "Safari Readers: Wolves",
+        "name" => "Safari Readers: Wolves",
+        "link" => "https://www.amazon.com/Wolves-Safari-Readers-Wildlife-Children-ebook/dp/B07X3753KY/ref=sr_1_1?crid=1SHUCWTFCY7DZ&dib=eyJ2IjoiMSJ9.eaf3LO8hYdvuPZ3TfsgLa6RYVcMz2TYGpMx5_CO-uLHhqDLJp7-pbbj7hh12thuzaiuSKvgryOAhvd3SOjM8gA.rJvKHrshbutfPRARwIAjSzCP9odi-6nQ-FenYTetexY&dib_tag=se&keywords=Safari+Readers%3A+Wolves&qid=1771318198&s=digital-text&sprefix=safari+readers+wolves%2Cdigital-text%2C346&sr=1-1"
+    ],
+
+    [
+        "id" => "26",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/Moving-Away.webp",
+        "alt" => "Moving Away Will Be Okay!",
+        "name" => "Moving Away Will Be Okay!",
+        "link" => "https://www.amazon.com/Moving-Away-Will-Moments-Massy-ebook/dp/B086D1KJQR/ref=sr_1_1?crid=29QY2RFNGKO7D&dib=eyJ2IjoiMSJ9.fdP0X0CTzxDeIZmlvdAuR4YdWaJoYSUGfQR2lFTjdU5HdXUsxPlq6JbLk95hMMyi2sgtf6ZALza2g-1UYPcz1pEqKOVgbst7_YHDb5XmqUk.ryY0osmtO56A0qZYCl3XS3YHZ823s7lC9HZYUFhw0wY&dib_tag=se&keywords=Moving+Away+Will+Be+Okay%21&qid=1771317797&s=digital-text&sprefix=moving+away+will+be+okay+%2Cdigital-text%2C358&sr=1-1"
+    ],
+
+    [
+        "id" => "27",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/Between-never.webp",
+        "alt" => "Between never and forever",
+        "name" => "Between never and forever",
+        "link" => "https://www.amazon.com/Between-never-forever-collection-speculative-ebook/dp/B0DYY3VF17/ref=sr_1_4?crid=1D9LLPUMHPS9N&dib=eyJ2IjoiMSJ9.tNLejQsY6i9rf5ZKBg1wZWMBeNK2dhV9dEyy5NyFDErkY7eLRJCB4T6wjLsOEgCYwZqkHesVrdP-f2eDXW5Tq7ypiCA0KaFWqu4-HYMhe5Apd5p71RrzUAljIYqBa-_Z-LuyeS8F5fPLFH-xoHeq0RLME-IkV0rbAMJsDh9rcrPMqZt4BNX6I_WP5en3SpsV0EAvjaEr0Eg1j9eRvEvvMGTRJmAPuRyg9x-qRXWh_Zs.vKliMqwu7dgvCyTi2jEI3p-a8Y2LkZAoSMfyuKE9RQo&dib_tag=se&keywords=Between+never+and+forever&qid=1771316997&s=digital-text&sprefix=between+never+and+forever%2Cdigital-text%2C394&sr=1-4"
+    ],
+
+    [
+        "id" => "28",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/Beneath-5th-City.webp",
+        "alt" => "Beneath 5th City",
+        "name" => "Beneath 5th City",
+        "link" => "https://www.amazon.com/Beneath-5th-City-Science-Chronicles-ebook/dp/B08PCPML6M/ref=sr_1_1?crid=1XAH00WN9X9P6&dib=eyJ2IjoiMSJ9.TDKvVnN6yHLITTwtCfg2-Q.5UhkX1AAKTb8-M6DFl2Y8qiQjoQVRNZ9yEzsVRrCSj0&dib_tag=se&keywords=Beneath+5th+City&qid=1771316926&s=digital-text&sprefix=beneath+5th+city%2Cdigital-text%2C333&sr=1-1"
+    ],
+
+    [
+        "id" => "29",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/The-Consequences.webp",
+        "alt" => "The Consequences of Falling",
+        "name" => "The Consequences of Falling",
+        "link" => "https://www.amazon.com/Consequences-Falling-Small-Romance-Sailor-ebook/dp/B0CSB53749/ref=sr_1_2?crid=DZL3157KO9FC&dib=eyJ2IjoiMSJ9.AGcdbvDhSgdcHHraQtkox5WwcpgWuEh28rQi-9SV7hIDvnQZ-1vNhGqY0iF0MdLeQX9LD8JRj-kPD0Vjxh06VY20wdBSj-cnQQ5M_yCxw_I._oniX99BMkEDOeTHDNf1vJEoN5T_lRwupgAmXEfdkDU&dib_tag=se&keywords=The+Consequences+of+Falling&qid=1771318278&s=digital-text&sprefix=the+consequences+of+falling%2Cdigital-text%2C356&sr=1-2"
+    ],
+
+    [
+        "id" => "30",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/Unveiled.webp",
+        "alt" => "Unveiled",
+        "name" => "Unveiled",
+        "link" => "https://www.amazon.com/Unveiled-Land-Living-Ernest-Cox/dp/B0CNWWXCLG#:~:text=With%20his%20debut%20novel%20Unveiled%2C%20he%20not,belief%20in%20the%20redemptive%20nature%20of%20grace."
+    ],
+
+    [
+        "id" => "31",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/Ransom.webp",
+        "alt" => "Ransom & Ruin",
+        "name" => "Ransom & Ruin",
+        "link" => "https://www.amazon.com/Ransom-Ruin-Jesimae-Book-I-ebook/dp/B0CK7G8XSM/ref=sr_1_1?crid=1HLKV51JDXJ1X&dib=eyJ2IjoiMSJ9.24y8JCfHTG-cy350oned0Xkxb8ietzGdQeZrSvmMLH-SSkamrfoUIiB4Wna1pSZi3w0fGPxSs2OVq3crT3kdnJczVzR3B8gbuEWKEcatV-C_7-84uCAR3lHFc4t9WD9K.LQ39Y0bQXASsEMcC-golgZpqgjayS2S6ZuM8QYX5dIc&dib_tag=se&keywords=Ransom+%26+Ruin&qid=1771318040&s=digital-text&sprefix=ransom+%26+ruin%2Cdigital-text%2C357&sr=1-1"
+    ],
+
+    [
+        "id" => "32",
+        "hidden" => "",
+        "image" => "assets/images/portfolio/Two-Good-Men.webp",
+        "alt" => "Two Good Men",
+        "name" => "Two Good Men",
+        "link" => "https://www.amazon.com/Two-Good-Carmichael-Saga-Book-ebook/dp/B07C94S3T3/ref=sr_1_3?crid=2X9N8TV4NDCNC&dib=eyJ2IjoiMSJ9.RKh23VKgq0LmRmNdoJQZ3EqXC9c0vWFd4YLXr7bKwD-j5OjON2sy0k9usSgjS38DdxSJ6pmbMrTAOT0OXr4R8VWf6Qk-TXreEXM8X0jHhEAz7sBHYJmZP1y4XFZlH-LFizrnwqNG4guuJXAOkYlo2wX8jIOcjlcz4w_-fpWRdmGRFvatiTgIVfvBcoLJE3x5jYbzkzY1Jp-G3DIjNNCZkyqbu9W4ymaBSFH7pIrnLKg.YdYvbpyCk95G_cTrfUGMvyZXvyh768BsbIAPRmNUgYI&dib_tag=se&keywords=Two+Good+Men&qid=1771318376&s=digital-text&sprefix=two+good+men%2Cdigital-text%2C353&sr=1-3"
+    ]
+
+    
+
+];
+?>
