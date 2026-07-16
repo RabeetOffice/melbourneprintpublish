@@ -69,15 +69,15 @@ $assetBaseEsc = htmlspecialchars($assetBase, ENT_QUOTES, 'UTF-8');
                             <a href="<?php echo $assetBaseEsc; ?>/portfolios/">Portfolios</a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="<?php echo $assetBaseEsc; ?>/portfolios/">Book Portfolio</a>
+                                    <a href="<?php echo $assetBaseEsc; ?>/portfolios/">Our Books</a>
                                 </li>
 
                                 <li>
-                                    <a href="<?php echo $assetBaseEsc; ?>/website-portfolio/">Website Portfolio</a>
+                                    <a href="<?php echo $assetBaseEsc; ?>/website-portfolio/">Author Websites</a>
                                 </li>
 
                                 <li>
-                                    <a href="<?php echo $assetBaseEsc; ?>/video-trailers-portfolio/">Video Trailers Portfolio</a>
+                                    <a href="<?php echo $assetBaseEsc; ?>/video-trailers-portfolio/">Book Trailer</a>
                                 </li>
 
                             </ul>
