@@ -113,6 +113,30 @@ function mpp_websites_write(array $items, bool $allowEmpty = false): bool
 }
 
 /* ---------------------------------------------------------------------------
+ * Video trailers ($videoTrailers in data/video_trailers_post.php)
+ * ------------------------------------------------------------------------- */
+
+function mpp_videos_path(): string
+{
+    return ADMIN_SITE_ROOT . '/data/video_trailers_post.php';
+}
+
+function mpp_videos_fields(): array
+{
+    return ['id', 'hidden', 'name', 'description', 'link'];
+}
+
+function mpp_videos_read(): array
+{
+    return mpp_data_file_read(mpp_videos_path(), 'videoTrailers');
+}
+
+function mpp_videos_write(array $items, bool $allowEmpty = false): bool
+{
+    return mpp_data_file_write(mpp_videos_path(), 'videoTrailers', $items, mpp_videos_fields(), $allowEmpty);
+}
+
+/* ---------------------------------------------------------------------------
  * Testimonials ($testimonials in data/testimonials_post.php)
  * ------------------------------------------------------------------------- */
 

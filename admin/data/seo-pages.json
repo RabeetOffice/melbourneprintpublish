@@ -426,5 +426,17 @@
             "keywords": "",
             "schemas": []
         }
+    },
+    "video-trailers-portfolio": {
+        "title": "Video Trailers Portfolio | Book Trailers by Melbourne Print & Publish",
+        "description": "Watch book trailers and video content produced by Melbourne Print & Publish for our authors — a portfolio of promotional video trailers that bring published books to life.",
+        "keywords": "",
+        "schemas": [],
+        "seed": {
+            "title": "Video Trailers Portfolio | Book Trailers by Melbourne Print & Publish",
+            "description": "Watch book trailers and video content produced by Melbourne Print & Publish for our authors — a portfolio of promotional video trailers that bring published books to life.",
+            "keywords": "",
+            "schemas": []
+        }
     }
 }

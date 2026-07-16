@@ -284,3 +284,48 @@ function mpp_website_thumb(array $item, int $w = 720, int $h = 520): string
     }
     return '';
 }
+
+/* ---------------------------------------------------------------------------
+ * YouTube helpers (Video Trailers portfolio).
+ *
+ * The admin only ever pastes a YouTube link in ANY common form and these
+ * turn it into a clean, embeddable URL. Handles watch?v=, youtu.be/,
+ * /shorts/, /embed/, /live/, a bare 11-char id, and even a full <iframe>
+ * embed snippet (the src is extracted). A /shorts/ or /watch URL cannot be
+ * put in an <iframe> directly (X-Frame-Options: SAMEORIGIN) — only the
+ * /embed/ form loads — which is exactly what mpp_youtube_embed() returns.
+ */
+function mpp_youtube_id(string $url): string
+{
+    $url = trim($url);
+    if ($url === '') {
+        return '';
+    }
+    // If an <iframe ... src="..."> snippet was pasted, work from the src.
+    if (stripos($url, '<iframe') !== false && preg_match('~src\s*=\s*["\']([^"\']+)["\']~i', $url, $m)) {
+        $url = trim($m[1]);
+    }
+    // Any of the known YouTube URL shapes.
+    if (preg_match('~(?:youtube(?:-nocookie)?\.com/(?:watch\?(?:[^#]*&)?v=|embed/|shorts/|live/|v/)|youtu\.be/)([A-Za-z0-9_-]{11})~i', $url, $m)) {
+        return $m[1];
+    }
+    // A bare video id.
+    if (preg_match('~^[A-Za-z0-9_-]{11}$~', $url)) {
+        return $url;
+    }
+    return '';
+}
+
+/** Clean, iframe-safe embed URL for a pasted YouTube link (empty if unparseable). */
+function mpp_youtube_embed(string $url): string
+{
+    $id = mpp_youtube_id($url);
+    return $id === '' ? '' : 'https://www.youtube.com/embed/' . $id . '?rel=0';
+}
+
+/** YouTube-hosted poster image for a pasted link (used for admin thumbnails). */
+function mpp_youtube_thumb(string $url): string
+{
+    $id = mpp_youtube_id($url);
+    return $id === '' ? '' : 'https://i.ytimg.com/vi/' . $id . '/hqdefault.jpg';
+}

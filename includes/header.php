@@ -76,6 +76,10 @@ $assetBaseEsc = htmlspecialchars($assetBase, ENT_QUOTES, 'UTF-8');
                                     <a href="<?php echo $assetBaseEsc; ?>/website-portfolio/">Website Portfolio</a>
                                 </li>
 
+                                <li>
+                                    <a href="<?php echo $assetBaseEsc; ?>/video-trailers-portfolio/">Video Trailers Portfolio</a>
+                                </li>
+
                             </ul>
                         </li>
 

@@ -13,6 +13,8 @@ $portfolioItems = mpp_portfolio_read();
 $portfolioVisible = count(array_filter($portfolioItems, fn($i) => ($i['hidden'] ?? '') === ''));
 $testimonialItems = mpp_testimonials_read();
 $testimonialVisible = count(array_filter($testimonialItems, fn($i) => ($i['hidden'] ?? '') === ''));
+$videoItems = mpp_videos_read();
+$videoVisible = count(array_filter($videoItems, fn($i) => ($i['hidden'] ?? '') === ''));
 
 $dbUp = leads_available();
 $leads7 = $dbUp ? leads_count_since(7) : null;
@@ -39,6 +41,7 @@ admin_layout_start($user, 'dashboard', 'Dashboard');
     <div class="adm-stat"><div class="num"><?= $dbUp ? (int) $leads30 : '&ndash;'; ?></div><div class="lbl">Leads &middot; 30 days</div></div>
     <div class="adm-stat"><div class="num"><?= (int) $portfolioVisible; ?><small style="font-size:14px;color:var(--adm-muted)">/<?= count($portfolioItems); ?></small></div><div class="lbl">Portfolio live / total</div></div>
     <div class="adm-stat"><div class="num"><?= (int) $testimonialVisible; ?><small style="font-size:14px;color:var(--adm-muted)">/<?= count($testimonialItems); ?></small></div><div class="lbl">Testimonials live / total</div></div>
+    <div class="adm-stat"><div class="num"><?= (int) $videoVisible; ?><small style="font-size:14px;color:var(--adm-muted)">/<?= count($videoItems); ?></small></div><div class="lbl">Video trailers live / total</div></div>
 </div>
 
 <?php if (!$dbUp): ?>
