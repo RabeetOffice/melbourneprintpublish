@@ -36,7 +36,7 @@
                             <p>Every other platform you publish on belongs to someone else. Amazon can change its algorithm overnight. Social media accounts get suspended without warning. Email providers update their terms and suddenly half your list isn't receiving your newsletters. An author website is the one piece of online real estate that's entirely yours, the only platform where you control the design, the content, the data, and the relationship with your readers without a third party sitting between you. At Melbourne Print and Publish, our author website development in Melbourne builds professional, purpose-built websites for authors across Australia who need more than a social media profile and an Amazon listing to sustain a writing career. Book listings with direct purchase links, integrated blogs, email newsletter signups, event calendars, media kits, review showcases, everything a working author needs in one place, designed around your books and built to actually be found by the readers searching for what you write.</p>
                         </div>
                         <div class="bttn-grp">
-                            <a class="bttn" href="javascript:void(0);" data-toggle="modal"
+                            <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                                 data-target="#exampleModalCenter">Get Your Website Quote</a>
                             <a href="javascript:void(0);" class="bttn1 openChatBtn">Chat With a Developer</a>
                         </div>
@@ -254,7 +254,7 @@
                     </div>
                 </div>
             </div>
-            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Your Website Quote</a>
+            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Your Website Quote</a>
         </div>
     </section>
 
@@ -271,7 +271,7 @@
                         <p>What matters when evaluating cost isn't just the upfront number, it's what the site actually does for your career once it's live. A cheap template site that doesn't rank in search, doesn't convert visitors into email subscribers, and doesn't make buying your books easy is money spent on something that sits there looking vaguely professional without producing any measurable result. A well-built author website pays for itself through book sales, list growth, speaking enquiries, and the compounding visibility that comes from a site that search engines actually surface when readers are looking.</p>
                         <p>We quote every project individually based on what your career needs right now. During your free consultation, we'll discuss your goals, your publishing catalogue, your audience, and your budget, then recommend a site structure and feature set that makes sense without overselling you features you won't use.</p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Your Free Website Quote</a>
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Your Free Website Quote</a>
                 </div>
                 <div class="col-md-6 right-col">
                     <div class="t-b-img">
@@ -384,7 +384,7 @@
                         <p>An author website is the foundation that everything else connects back to. Social media posts link to it. Email campaigns drive traffic to it. Readers who discover you through Amazon, a podcast interview, or a bookshop event google your name and land on it. It's the central hub that persists regardless of which social platform is currently fashionable and which one has just changed its algorithm to bury organic content.</p>
                         <p>Beyond stability, a professional author website does things no other platform can. It ranks in Google for your name and your book titles, sometimes for the topics you write about, bringing in readers who didn't know you existed. It converts casual visitors into email subscribers you can reach directly. It presents your complete body of work, your bio, your media credentials, and your contact information in one professional package. For any author serious about building a career rather than chasing temporary visibility on platforms they don't control, a website isn't optional. It's infrastructure.</p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Start Your Website Today</a>
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Start Your Website Today</a>
                 </div>
             </div>
         </div>
@@ -427,7 +427,7 @@
                         <p>Our tailored website solutions have helped authors across Melbourne and Australia establish professional online platforms that do more than just exist, they attract readers, grow email lists, sell books, and provide the career infrastructure that outlasts every social media trend. From a focused single-title launch site to a comprehensive author platform built for a multi-book career, we handle the design, development, and optimisation that turns a website from an afterthought into one of the hardest-working assets in your publishing toolkit.</p>
                     </div>
                     <div class="bttn-grp">
-                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Schedule A Consultation</a>
+                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Schedule A Consultation</a>
                         <a href="javascript:void(0);" class="bttn3 openChatBtn">Live Chat</a>
                     </div>
                 </div>
@@ -450,7 +450,7 @@
                         <p>Ahead are answers to commonly asked questions. If you have any additional inquiries, feel free to reach out via email, live chat, or phone.</p>
                     </div>
                     <div class="bttn-grp">
-                        <a class="bttn" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Started</a>
+                        <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Started</a>
                         <a href="javascript:void(0);" class="bttn1 openChatBtn">Live Chat</a>
                     </div>
                 </div>

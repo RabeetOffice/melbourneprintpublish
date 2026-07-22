@@ -42,7 +42,7 @@
                                 retain complete ownership and confidentiality.</p>
                         </div>
                         <div class="bttn-grp">
-                            <a class="bttn" href="javascript:void(0);" data-toggle="modal"
+                            <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                                 data-target="#exampleModalCenter">Hire a Ghostwriter for Your Book</a>
                              <a href="javascript:void(0);" class="bttn1 openChatBtn">Chat With a Ghostwriter</a>
                         </div>
@@ -501,7 +501,7 @@
                     </div>
                 </div>
             </div>
-            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Publish
+            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Publish
                 Your Book Today</a>
         </div>
     </section>
@@ -529,7 +529,7 @@
                             provide clear pricing that reflects the actual work involved. No hidden fees, no surprises,
                             just straightforward costs you can plan around.</p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal"
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                         data-target="#exampleModalCenter">Get Your Free Ghostwriting Quote</a>
                 </div>
                 <div class="col-md-6 right-col">
@@ -730,7 +730,7 @@
                             years learning to write professionally. The book is still yours, your name is on the cover,
                             and nobody except you and your ghostwriter ever needs to know you had writing help.</p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal"
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                         data-target="#exampleModalCenter">Hire a Ghostwriter Today</a>
                 </div>
             </div>
@@ -777,7 +777,7 @@
                             for success in today’s publishing landscape.</p>
                     </div>
                     <div class="bttn-grp">
-                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal"
+                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                             data-target="#exampleModalCenter">Schedule A Consultation</a>
                          <a href="javascript:void(0);" class="bttn3 openChatBtn">Live Chat</a>
                     </div>
@@ -802,7 +802,7 @@
                             free to reach out via email, live chat, or phone.</p>
                     </div>
                     <div class="bttn-grp">
-                        <a class="bttn" href="javascript:void(0);" data-toggle="modal"
+                        <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                             data-target="#exampleModalCenter">Get Started</a>
                         <a class="bttn1" href="javascript:void(0);">Live Chat</a>
                     </div>

@@ -36,7 +36,7 @@
                             <p>Readers scroll past thousands of posts every day. A static cover image and a paragraph of blurb aren't stopping anyone anymore, not when every other author is doing the exact same thing. A book trailer video changes the equation entirely. It gives your book movement, sound, atmosphere, and emotional pull in a format that social media algorithms actively favour over still images and text. At Melbourne Print and Publish, our book trailer video production in Melbourne creates cinematic, visually compelling trailers that make readers stop scrolling and start paying attention. Whether you're launching a thriller that needs tension, a romance that needs warmth, a business book that needs authority, or a children's title that needs charm, we produce video book trailer services that match your genre, speak to your audience, and give your book the kind of first impression that a cover alone simply can't deliver.</p>
                         </div>
                         <div class="bttn-grp">
-                            <a class="bttn" href="javascript:void(0);" data-toggle="modal"
+                            <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                                 data-target="#exampleModalCenter">Get Your Trailer Quote</a>
                             <a href="javascript:void(0);" class="bttn1 openChatBtn">Chat With a Producer</a>
                         </div>
@@ -254,7 +254,7 @@
                     </div>
                 </div>
             </div>
-            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Your Trailer Quote</a>
+            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Your Trailer Quote</a>
         </div>
     </section>
 
@@ -271,7 +271,7 @@
                         <p>What separates professional book trailer video production from cheap alternatives is the same thing that separates a professional cover from a DIY one, craft, intentionality, and an understanding of what actually works in book marketing. A poorly produced trailer doesn't just fail to help your book. It actively hurts it by making the book look amateur before anyone has read a single word.</p>
                         <p>We provide transparent quotes based on what your specific trailer needs. During your free consultation, we'll discuss your book, your genre, your promotional goals, and your budget, then recommend a trailer style and production scope that makes sense. No hidden fees, no inflated packages, no stock-footage-and-a-font trailers dressed up as premium production.</p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Your Free Trailer Quote</a>
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Your Free Trailer Quote</a>
                 </div>
                 <div class="col-md-6 right-col">
                     <div class="t-b-img">
@@ -384,7 +384,7 @@
                         <p>A professional book trailer video does something a cover image and a blurb physically cannot, it creates an experience. Thirty seconds of atmosphere, music, and carefully chosen words can communicate the feel of a book in a way that a product listing never will. It builds emotional investment before the reader has opened the first page. It gives browsers a reason to stop, watch, and click through to learn more.</p>
                         <p>The difference between a professional book trailer and a self-made one is the same difference readers feel between a professionally designed cover and a homemade one. Production quality signals to potential readers that the book behind the trailer is worth their time and money. In a market where readers make split-second decisions about what to engage with, that signal matters more than most authors realise until they see the results.</p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Start Your Trailer Today</a>
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Start Your Trailer Today</a>
                 </div>
             </div>
         </div>
@@ -427,7 +427,7 @@
                         <p>Our tailored video production solutions have helped authors across Melbourne and Australia promote their books with trailers that actually get watched, shared, and clicked. From a single social media teaser to a complete multi-format launch package, we give your book the visual presence it needs to compete in a market where video isn't optional anymore, it's where the attention is.</p>
                     </div>
                     <div class="bttn-grp">
-                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Schedule A Consultation</a>
+                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Schedule A Consultation</a>
                         <a href="javascript:void(0);" class="bttn3 openChatBtn">Live Chat</a>
                     </div>
                 </div>
@@ -450,7 +450,7 @@
                         <p>Ahead are answers to commonly asked questions. If you have any additional inquiries, feel free to reach out via email, live chat, or phone.</p>
                     </div>
                     <div class="bttn-grp">
-                        <a class="bttn" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Started</a>
+                        <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Started</a>
                         <a href="javascript:void(0);" class="bttn1 openChatBtn">Live Chat</a>
                     </div>
                 </div>

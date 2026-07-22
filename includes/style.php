@@ -9,25 +9,45 @@ if ($siteRoot && $docRoot && strpos($siteRoot, $docRoot) === 0) {
     }
 }
 $assetBaseEsc = htmlspecialchars($assetBase, ENT_QUOTES, 'UTF-8');
+
+if (!function_exists('mpp_asset_v')) {
+    /**
+     * Cache-busted URL for a local static asset. The .htaccess file serves
+     * CSS/JS with a 1-year "immutable" Cache-Control header (correct for
+     * performance), which means a returning visitor's browser will keep
+     * using its cached copy of e.g. style.css for up to a year even after
+     * this file changes on the server, unless the URL itself changes.
+     * Appending the file's own last-modified time as a query string gives
+     * every edit a fresh URL automatically, with no manual version bump.
+     */
+    function mpp_asset_v(string $assetBase, string $relPath): string
+    {
+        $escBase = htmlspecialchars($assetBase, ENT_QUOTES, 'UTF-8');
+        $diskPath = __DIR__ . '/../' . ltrim($relPath, '/');
+        $v = is_file($diskPath) ? (string) @filemtime($diskPath) : '';
+        $qs = $v !== '' ? ('?v=' . $v) : '';
+        return $escBase . '/' . ltrim($relPath, '/') . $qs;
+    }
+}
 ?>
 <?php include __DIR__ . '/favicon.php'; ?>
 <!-- Framework first -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
 <!-- Icons -->
-<link rel="stylesheet" type="text/css" href="<?php echo $assetBaseEsc; ?>/assets/fontawesome/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="<?php echo mpp_asset_v($assetBase, '/assets/fontawesome/css/all.min.css'); ?>">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 <!-- Plugin CSS -->
-<link rel="stylesheet" type="text/css" href="<?php echo $assetBaseEsc; ?>/assets/css/slick.css">
-<link rel="stylesheet" type="text/css" href="<?php echo $assetBaseEsc; ?>/assets/css/slick-theme.css">
+<link rel="stylesheet" type="text/css" href="<?php echo mpp_asset_v($assetBase, '/assets/css/slick.css'); ?>">
+<link rel="stylesheet" type="text/css" href="<?php echo mpp_asset_v($assetBase, '/assets/css/slick-theme.css'); ?>">
 
 <!-- Fonts -->
-<link rel="stylesheet" type="text/css" href="<?php echo $assetBaseEsc; ?>/assets/fonts/poppins/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="<?php echo mpp_asset_v($assetBase, '/assets/fonts/poppins/stylesheet.css'); ?>">
 
 <!-- Custom CSS LAST -->
-<link rel="stylesheet" type="text/css" href="<?php echo $assetBaseEsc; ?>/assets/css/style.css">
-<link rel="stylesheet" type="text/css" href="<?php echo $assetBaseEsc; ?>/assets/css/responsive.css">
+<link rel="stylesheet" type="text/css" href="<?php echo mpp_asset_v($assetBase, '/assets/css/style.css'); ?>">
+<link rel="stylesheet" type="text/css" href="<?php echo mpp_asset_v($assetBase, '/assets/css/responsive.css'); ?>">
 
 
 

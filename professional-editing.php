@@ -41,7 +41,7 @@
                                 or proofreading, we provide the expertise your manuscript deserves.</p>
                         </div>
                         <div class="bttn-grp">
-                            <a class="bttn" href="javascript:void(0);" data-toggle="modal"
+                            <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                                 data-target="#exampleModalCenter">Get Your Manuscript Edited</a>
                             <a href="javascript:void(0);" class="bttn1 openChatBtn">Chat With an Editor</a>
                         </div>
@@ -495,7 +495,7 @@
                     </div>
                 </div>
             </div>
-            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Your
+            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Your
                 Genre Edited Professionally</a>
         </div>
     </section>
@@ -522,7 +522,7 @@
                             your manuscript's specific needs and provide a detailed quote with no hidden fees. You'll
                             know exactly what you're paying for and why, with no surprises.</p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal"
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                         data-target="#exampleModalCenter">Get Your Free Editing Quote</a>
                 </div>
                 <div class="col-md-6 right-col">
@@ -719,7 +719,7 @@
                             better reviews, stronger reader engagement, and a polished product you're genuinely proud
                             of.</p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal"
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                         data-target="#exampleModalCenter">Get Professional Editing for Your Book</a>
                 </div>
             </div>
@@ -767,7 +767,7 @@
                             publishing.</p>
                     </div>
                     <div class="bttn-grp">
-                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal"
+                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                             data-target="#exampleModalCenter">Schedule A Consultation</a>
                         <a href="javascript:void(0);" class="bttn3 openChatBtn">Live Chat</a>
 
@@ -793,7 +793,7 @@
                             free to reach out via email, live chat, or phone.</p>
                     </div>
                     <div class="bttn-grp">
-                        <a class="bttn" href="javascript:void(0);" data-toggle="modal"
+                        <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                             data-target="#exampleModalCenter">Get Started</a>
                         <a href="javascript:void(0);" class="bttn1 openChatBtn">Live Chat</a>
 

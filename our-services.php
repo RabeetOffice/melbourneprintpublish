@@ -5,9 +5,8 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+      <meta name="robots" content="follow, index">
       <?php require_once __DIR__ . '/includes/seo-meta.php'; mpp_seo_head('our-services'); ?>      <?php include("includes/style.php"); ?>
-      
-    <link rel="canonical" href="<?php echo e(brand_canonical()); ?>" />
            </head>
    <body class="<?php echo basename($_SERVER['PHP_SELF'], '.php'); ?>">
       <?php include("includes/disclaimer.php"); ?>
@@ -309,7 +308,7 @@
       <!--               <p>Speak with our Melbourne publishing experts today.</p>-->
       <!--            </div>-->
       <!--            <div class="bttn-grp">-->
-      <!--               <a class="bttn2" href="javascript:void(0);" data-toggle="modal"-->
+      <!--               <a class="bttn2" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"-->
       <!--                  data-target="#exampleModalCenter">Get Started</a>-->
       <!--               <a class="bttn3 openChatBtn" href="javascript:void(0);">Live Chat</a>-->
       <!--            </div>-->

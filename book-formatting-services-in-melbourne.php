@@ -36,7 +36,7 @@
                             <p>A finished manuscript isn't a finished book, not yet. Right now it's a Word document with inconsistent margins, default fonts, and chapter headings that would look completely out of place on a bookshelf or a Kindle screen. Upload it to Amazon as it is and it'll read like a university assignment squeezed into a paperback template. That gap between manuscript and published book? That's formatting. At Melbourne Print and Publish, our book formatting services in Melbourne handle the technical craft that turns your completed text into a professionally typeset, platform-ready book. Interior book formatting services for print, eBook, Amazon KDP, and every major publishing platform, across every genre, every trim size, and every format. Whether you're self-publishing your first novel or preparing a children's picture book with complex image-text layouts, we make sure your book looks exactly the way readers expect a published book to look.</p>
                         </div>
                         <div class="bttn-grp">
-                            <a class="bttn" href="javascript:void(0);" data-toggle="modal"
+                            <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                                 data-target="#exampleModalCenter">Get Your Formatting Quote</a>
                             <a href="javascript:void(0);" class="bttn1 openChatBtn">Chat With a Formatter</a>
                         </div>
@@ -254,7 +254,7 @@
                     </div>
                 </div>
             </div>
-            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Your Formatting Quote</a>
+            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Your Formatting Quote</a>
         </div>
     </section>
 
@@ -271,7 +271,7 @@
                         <p>What you're paying for is formatting that actually works, files that pass platform review on the first upload, pages that look professionally typeset, and a reading experience that doesn't distract from your content. Bargain formatting services often produce files that display incorrectly, get rejected by platforms, or look obviously amateur to anyone who's spent time reading properly published books.</p>
                         <p>We provide transparent quotes based on your manuscript's specific requirements. During your free consultation, we'll review your manuscript, discuss your publishing platforms and formats, and give you honest pricing with no hidden fees. You'll know exactly what's included, how many formats you'll receive, and what the turnaround will be before you commit.</p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Your Free Formatting Quote</a>
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Your Free Formatting Quote</a>
                 </div>
                 <div class="col-md-6 right-col">
                     <div class="t-b-img">
@@ -384,7 +384,7 @@
                         <p>For self-published authors especially, formatting is one of the most common places where books fall short of professional standards. Not because the writing isn't good, but because formatting requires a completely different set of skills from writing, and most authors simply haven't spent years learning typesetting conventions, platform specifications, and the technical requirements of every eBook retailer.</p>
                         <p>Professional book formatting services exist because this work requires genuine expertise. A properly formatted book displays correctly across every device and platform, passes every file review without rejection, and gives readers the invisible, comfortable reading experience they expect from any published book. It's the difference between a book that looks self-published and one that looks published, and readers can tell within seconds.</p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Start Your Formatting Today</a>
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Start Your Formatting Today</a>
                 </div>
             </div>
         </div>
@@ -427,7 +427,7 @@
                         <p>Our tailored formatting solutions have helped authors across Melbourne and Australia publish books that look every bit as professional as traditionally published titles. From a single Kindle file to a complete multi-format package covering print, eBook, and every platform in between, we support you at the stage where your manuscript stops being a document and starts being a book.</p>
                     </div>
                     <div class="bttn-grp">
-                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Schedule A Consultation</a>
+                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Schedule A Consultation</a>
                         <a href="javascript:void(0);" class="bttn3 openChatBtn">Live Chat</a>
                     </div>
                 </div>
@@ -450,7 +450,7 @@
                         <p>Ahead are answers to commonly asked questions. If you have any additional inquiries, feel free to reach out via email, live chat, or phone.</p>
                     </div>
                     <div class="bttn-grp">
-                        <a class="bttn" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Started</a>
+                        <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Started</a>
                         <a href="javascript:void(0);" class="bttn1 openChatBtn">Live Chat</a>
                     </div>
                 </div>

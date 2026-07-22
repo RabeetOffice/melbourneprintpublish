@@ -93,7 +93,7 @@
                     <div class="tag-date">Posted on: 15-04-2026</div>
 
                     <div class="s-banner">
-                        <img src="<?= e(brand_asset('/assets/images/How-to-Get-an-ISBN-1-scaled.webp')); ?>" alt="Endorse vs Approve">
+                        <img src="<?= e(brand_asset('/assets/images/How-to-Get-an-ISBN-1-scaled.webp')); ?>" alt="How to get an ISBN for self-published books in Australia">
                     </div>
 
                     <div class="s-content">

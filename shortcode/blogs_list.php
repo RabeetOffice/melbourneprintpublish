@@ -10,7 +10,7 @@ include __DIR__ . '/../data/blogs_post.php';
         <div class="col-md-4 post-item <?= $item['hidden'] ?? ''; ?>">
             <div class="blogs-wrapper">
                 <div class="blog-img">
-                    <img src="<?= e(brand_asset($item['image'])); ?>" alt="<?= e($item['alt'] ?? ''); ?>">
+                    <img src="<?= e(brand_asset($item['image'])); ?>" alt="<?= e($item['alt'] ?? ''); ?>" loading="lazy">
                 </div>
                 <div class="blog-info">
                     <div class="blog-title">

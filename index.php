@@ -786,7 +786,7 @@ if ($page == 'index') {
                     </p>
 
                     <div class="bttn-grp">
-                        <a class="bttn" href="javascript:void(0);" data-toggle="modal"
+                        <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                            data-target="#exampleModalCenter">Get Started</a>
 
                         <a href="javascript:void(0);" class="bttn1 openChatBtn">Live Chat</a>
@@ -813,7 +813,7 @@ if ($page == 'index') {
                 <div class="banner-visual">
                     <div class="circle-glow"></div>
 
-                    <img class="main-book" src="assets/images/new-hero.webp" alt="Book Publishing Melbourne">
+                    <img class="main-book" src="assets/images/new-hero.webp" alt="Book Publishing Melbourne" width="1085" height="1450" loading="eager" fetchpriority="high">
 
                     <div class="floating-card card-one">
                         <i class="fas fa-book-open"></i>
@@ -852,7 +852,7 @@ if ($page == 'index') {
                                 your first sale, we’re with you.</p>
                         </div>
                         <div class="bttn-grp">
-                            <a class="bttn" href="javascript:void(0);" data-toggle="modal"
+                            <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                                 data-target="#exampleModalCenter">Get Started</a>
                              <a href="javascript:void(0);" class="bttn1 openChatBtn">Live Chat</a>
                         </div>
@@ -1205,7 +1205,7 @@ if ($page == 'index') {
                     </div>
                 </div>
             </div>
-            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Publish
+            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Publish
                 Your Genre Today</a>
         </div>
     </section>
@@ -1236,7 +1236,7 @@ if ($page == 'index') {
                 <div class="col-md-2">
                     <div class="cate-img">
                         <div class="img-box mb20">
-                            <img src="assets/images/icons/Romance.png" alt="Romance genre book icon for Melbourne Print & Publish">
+                            <img src="assets/images/icons/Romance.png" alt="Romance genre book icon for Melbourne Print & Publish" loading="lazy">
                         </div>
                         <div class="head18">
                             <h3>Romance</h3>
@@ -1247,7 +1247,7 @@ if ($page == 'index') {
                 <div class="col-md-2">
                     <div class="cate-img">
                         <div class="img-box mb20">
-                            <img src="assets/images/icons/Thriller.png" alt="Thriller genre book icon for Melbourne Print & Publish">
+                            <img src="assets/images/icons/Thriller.png" alt="Thriller genre book icon for Melbourne Print & Publish" loading="lazy">
                         </div>
                         <div class="head18">
                             <h3>Memoirs and Autobiography</h3>
@@ -1258,7 +1258,7 @@ if ($page == 'index') {
                 <div class="col-md-2">
                     <div class="cate-img">
                         <div class="img-box mb20">
-                            <img src="assets/images/icons/fantasy.png" alt="Fantasy genre book icon for Melbourne Print & Publish">
+                            <img src="assets/images/icons/fantasy.png" alt="Fantasy genre book icon for Melbourne Print & Publish" loading="lazy">
                         </div>
                         <div class="head18">
                             <h3>Fantasy</h3>
@@ -1269,7 +1269,7 @@ if ($page == 'index') {
                 <div class="col-md-2">
                     <div class="cate-img">
                         <div class="img-box mb20">
-                            <img src="assets/images/icons/Since-Fiction.png" alt="Science fiction genre book icon for Melbourne Print & Publish">
+                            <img src="assets/images/icons/Since-Fiction.png" alt="Science fiction genre book icon for Melbourne Print & Publish" loading="lazy">
                         </div>
                         <div class="head18">
                             <h3>Science fiction</h3>
@@ -1280,7 +1280,7 @@ if ($page == 'index') {
                 <div class="col-md-2">
                     <div class="cate-img">
                         <div class="img-box mb20">
-                            <img src="assets/images/icons/Since.png" alt="General publishing icon for Melbourne Print & Publish">
+                            <img src="assets/images/icons/Since.png" alt="General publishing icon for Melbourne Print & Publish" loading="lazy">
                         </div>
                         <div class="head18">
                             <h3>Business and Leadership</h3>
@@ -1291,7 +1291,7 @@ if ($page == 'index') {
                 <div class="col-md-2">
                     <div class="cate-img">
                         <div class="img-box mb20">
-                            <img src="assets/images/icons/Adventure.png" alt="Adventure genre book icon for Melbourne Print & Publish">
+                            <img src="assets/images/icons/Adventure.png" alt="Adventure genre book icon for Melbourne Print & Publish" loading="lazy">
                         </div>
                         <div class="head18">
                             <h3>Self-Help</h3>
@@ -1320,12 +1320,12 @@ if ($page == 'index') {
                             what you actually need. No pressure to buy services you don’t want, no hidden fees appearing
                             later. Just honest pricing based on your book’s real requirements and your budget.</p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal"
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                         data-target="#exampleModalCenter">Get Your Free Publishing Quote</a>
                 </div>
                 <div class="col-md-6 right-col">
                     <div class="t-b-img">
-                        <img src="assets/images/Melbourne-Book-Mockup-01-1.webp" alt="Custom Melbourne book mockup showcasing professional design">
+                        <img src="assets/images/Melbourne-Book-Mockup-01-1.webp" alt="Custom Melbourne book mockup showcasing professional design" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -1377,7 +1377,7 @@ if ($page == 'index') {
                 </div>
                 <div class="col-md-4 mid-col">
                     <div class="proceimg">
-                        <img src="assets/images/Melbourne-Book-log.png" alt="Melbourne Book logo with modern typography">
+                        <img src="assets/images/Melbourne-Book-log.png" alt="Melbourne Book logo with modern typography" loading="lazy">
                     </div>
                 </div>
                 <div class="col-md-4 right-col">
@@ -1435,12 +1435,12 @@ if ($page == 'index') {
                             like it matters, because it does.
                         </p>
                     </div>
-                    <a class="bttn" href="javascript:void(0);" data-toggle="modal"
+                    <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                         data-target="#exampleModalCenter">Work With Us</a>
                 </div>
                 <div class="col-md-6 right-col">
                     <div class="about-img">
-                        <img src="assets/images/partner.webp" alt="Melbourne Print & Publish business partner collaboration">
+                        <img src="assets/images/partner.webp" alt="Melbourne Print & Publish business partner collaboration" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -1465,7 +1465,7 @@ if ($page == 'index') {
             <div class="row">
                 <div class="col-md-6 left-col">
                     <div class="about-img">
-                        <img src="assets/images/company.webp" alt="Melbourne Print & Publish company office">
+                        <img src="assets/images/company.webp" alt="Melbourne Print & Publish company office" loading="lazy">
                     </div>
                 </div>
 
@@ -1485,7 +1485,7 @@ if ($page == 'index') {
                             we’re probably the one that’ll actually care about your book’s success as much as you do.
                         </p>
                     </div>
-                    <a class="bttn" href="javascript:void(0);" data-toggle="modal"
+                    <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                         data-target="#exampleModalCenter">Learn More About Us</a>
                 </div>
             </div>
@@ -1540,7 +1540,7 @@ if ($page == 'index') {
                     <div class="head18 headbox mb20">
                         <h2>Testimonials</h2>
                     </div>
-                    <div class="head45">
+                    <div class="head45 mb20">
                         <h2>What Our Authors Say</h2>
                     </div>
 
@@ -1567,7 +1567,7 @@ if ($page == 'index') {
                         </p>
                     </div>
                     <div class="bttn-grp">
-                        <a class="bttn" href="javascript:void(0);" data-toggle="modal"
+                        <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                             data-target="#exampleModalCenter">Get Started</a>
                          <a href="javascript:void(0);" class="bttn1 openChatBtn">Live Chat</a>
                     </div>
@@ -1581,7 +1581,7 @@ if ($page == 'index') {
                             <!-- Item 1 -->
                             <div class="card">
                                 <div id="heading1" class="card-header bg-white border-0">
-                                    <div class="collapsible-link" data-target="#collapse1">
+                                    <div class="collapsible-link" data-target="#collapse1" role="button" tabindex="0" aria-expanded="true" aria-controls="collapse1">
                                         <span><strong>Q1:</strong> Which Melbourne print and publish companies offer
                                             design assistance?</span>
                                     </div>
@@ -1606,7 +1606,7 @@ if ($page == 'index') {
                             <!-- Item 2 -->
                             <div class="card">
                                 <div id="heading2" class="card-header bg-white border-0">
-                                    <div class="collapsible-link" data-target="#collapse2">
+                                    <div class="collapsible-link" data-target="#collapse2" role="button" tabindex="0" aria-expanded="false" aria-controls="collapse2">
                                         <span><strong>Q2:</strong> How long does it take to print and publish books in
                                             Melbourne?</span>
                                     </div>
@@ -1632,7 +1632,7 @@ if ($page == 'index') {
                             <!-- Item 3 -->
                             <div class="card">
                                 <div id="heading3" class="card-header bg-white border-0">
-                                    <div class="collapsible-link" data-target="#collapse3">
+                                    <div class="collapsible-link" data-target="#collapse3" role="button" tabindex="0" aria-expanded="false" aria-controls="collapse3">
                                         <span><strong>Q3:</strong> What are the usual turnaround times for print and
                                             publish companies in Melbourne?</span>
                                     </div>
@@ -1659,14 +1659,14 @@ if ($page == 'index') {
 
                             <!-- Item 4 -->
                             <div class="card">
-                                <div id="heading3" class="card-header bg-white border-0">
-                                    <div class="collapsible-link" data-target="#collapse3">
+                                <div id="heading4" class="card-header bg-white border-0">
+                                    <div class="collapsible-link" data-target="#collapse4" role="button" tabindex="0" aria-expanded="false" aria-controls="collapse4">
                                         <span><strong>Q4:</strong> Can I get same-day print and publish services in
                                             Melbourne?</span>
                                     </div>
                                 </div>
 
-                                <div id="collapse3" class="collapse">
+                                <div id="collapse4" class="collapse">
                                     <div class="card-body text">
                                         <p>
                                             Same-day publishing isn’t realistic if you want professional quality.
@@ -1687,14 +1687,14 @@ if ($page == 'index') {
 
                             <!-- Item 5 -->
                             <div class="card">
-                                <div id="heading3" class="card-header bg-white border-0">
-                                    <div class="collapsible-link" data-target="#collapse3">
+                                <div id="heading5" class="card-header bg-white border-0">
+                                    <div class="collapsible-link" data-target="#collapse5" role="button" tabindex="0" aria-expanded="false" aria-controls="collapse5">
                                         <span><strong>Q5:</strong> Are there print and publish companies in Melbourne
                                             that offer online ordering?</span>
                                     </div>
                                 </div>
 
-                                <div id="collapse3" class="collapse">
+                                <div id="collapse5" class="collapse">
                                     <div class="card-body text">
                                         <p>
                                             Yes, our entire publishing process can be managed online. You can submit
@@ -1716,14 +1716,14 @@ if ($page == 'index') {
 
                             <!-- Item 6 -->
                             <div class="card">
-                                <div id="heading3" class="card-header bg-white border-0">
-                                    <div class="collapsible-link" data-target="#collapse3">
+                                <div id="heading6" class="card-header bg-white border-0">
+                                    <div class="collapsible-link" data-target="#collapse6" role="button" tabindex="0" aria-expanded="false" aria-controls="collapse6">
                                         <span><strong>Q6:</strong> What printing formats and publishing options are
                                             offered by Melbourne companies?</span>
                                     </div>
                                 </div>
 
-                                <div id="collapse3" class="collapse">
+                                <div id="collapse6" class="collapse">
                                     <div class="card-body text">
                                         <p>
                                             We publish books in all major formats including Kindle eBooks for Amazon,
@@ -1762,7 +1762,7 @@ if ($page == 'index') {
                         <p>Don’t let your story stay trapped in your head.<br>It deserves more than a ‘someday.’</p>
                     </div>
                     <div class="start-img">
-                        <img src="assets/images/contimage.webp" alt="High-quality print and publishing services in Melbourne">
+                        <img src="assets/images/contimage.webp" alt="High-quality print and publishing services in Melbourne" loading="lazy">
                     </div>
                 </div>
                 <div class="col-md-6 right-col">

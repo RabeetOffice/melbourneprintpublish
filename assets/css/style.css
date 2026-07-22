@@ -765,6 +765,16 @@ header#masthead .row .right-col {
 
 .navigation .hamburger {
   display: none;
+  /* Reset default <button> chrome (and the site's global `button{}` rule
+     further down this file) so it renders identically to the div it replaced */
+  width: auto !important;
+  border: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+  appearance: none;
+  -webkit-appearance: none;
 }
 
 /* Submenu styling */
@@ -772,11 +782,12 @@ header#masthead .row .right-col {
   position: absolute;
   top: 100%;
   left: 0;
-  background: #fff6e9;
+  background: #fff;
   list-style: none;
   padding: 0px 0;
   width: 200px;
-  border-radius: 5px;
+  border-top: 4px solid #ff7f3e;
+  border-radius: 0 0 5px 5px;
   display: none;
   box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.15);
   transition: all 0.5s ease-in-out;
@@ -845,6 +856,28 @@ header#masthead .row .right-col {
   display: block;
 }
 
+/* Two-column services dropdown */
+.nav-links li .sub-menu.sub-menu-columns {
+  width: 540px;
+  padding: 5px 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-links li:hover>.sub-menu.sub-menu-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+}
+
+.nav-links li .sub-menu.sub-menu-columns li a {
+  padding: 5px 5px;
+}
+
+.nav-links li .sub-menu.sub-menu-columns li:last-child a {
+  border-bottom: 1px solid #eee;
+}
+
 /*Stying for small screens*/
 @media screen and (max-width: 1199px) {
   .header-section {
@@ -862,6 +895,9 @@ header#masthead .row .right-col {
     transform: translate(-5%, -50%);
     z-index: 2;
     transition: all 0.7s ease;
+    /* Grow the tap target toward the 44px touch-target guideline without
+       changing the visible icon's size — padding adds hit-area only. */
+    padding: 8px !important;
   }
 
   .navigation .nav-links {
@@ -939,6 +975,17 @@ header#masthead .row .right-col {
 
   .nav-links li.active .sub-menu {
     display: block !important;
+  }
+
+  .nav-links li .sub-menu.sub-menu-columns {
+    width: 100%;
+    left: 0;
+    transform: none;
+    padding: 0;
+  }
+
+  .nav-links li:hover>.sub-menu.sub-menu-columns {
+    display: none;
   }
 
 }
@@ -1067,7 +1114,9 @@ header#masthead .row .right-col {
 
 .footer3 ul {
   display: grid;
-  grid: auto-flow / 150px 1fr;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 4px;
 }
 
 .footer .cont-info li {
@@ -1271,6 +1320,28 @@ header#masthead .row .right-col {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px 0px 50px 0px;
+  overflow: hidden;
+}
+
+/* Decorative fading dot-grid, applied consistently across the service-page
+   hero and a few other flat homepage sections. Charcoal dots only (no new
+   colours), masked so they fade out from one corner instead of tiling
+   uniformly across the whole section. */
+.banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(57, 57, 57, 0.16) 1.5px, transparent 1.5px);
+  background-size: 20px 20px;
+  -webkit-mask-image: radial-gradient(ellipse 60% 65% at 88% 12%, #000 40%, transparent 90%);
+  mask-image: radial-gradient(ellipse 60% 65% at 88% 12%, #000 40%, transparent 90%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.banner > .container {
+  position: relative;
+  z-index: 1;
 }
 
 .h-banner {
@@ -1546,6 +1617,7 @@ header#masthead .row .right-col {
   border: 2px solid transparent;
   box-shadow: 10px 15px 25px rgba(80, 122, 165, .06);
   padding: 10px;
+  transition: border-color 0.3s ease-in-out;
 }
 
 .portfolio_box-img {
@@ -1676,10 +1748,50 @@ header#masthead .row .right-col {
 
 /* Cost Start */
 
+.services-sec1 {
+  position: relative;
+  overflow: hidden;
+}
+
+.services-sec1::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(57, 57, 57, 0.16) 1.5px, transparent 1.5px);
+  background-size: 20px 20px;
+  -webkit-mask-image: radial-gradient(ellipse 55% 60% at 90% 10%, #000 40%, transparent 90%);
+  mask-image: radial-gradient(ellipse 55% 60% at 90% 10%, #000 40%, transparent 90%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.services-sec1 > .container {
+  position: relative;
+  z-index: 1;
+}
+
 .cost-sec {
   position: relative;
+  overflow: hidden;
   background-color: #F9F9F9;
   padding: 50px 0px 50px 0px;
+}
+
+.cost-sec::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(57, 57, 57, 0.14) 1.5px, transparent 1.5px);
+  background-size: 20px 20px;
+  -webkit-mask-image: radial-gradient(ellipse 55% 65% at 88% 85%, #000 40%, transparent 90%);
+  mask-image: radial-gradient(ellipse 55% 65% at 88% 85%, #000 40%, transparent 90%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.cost-sec > .container {
+  position: relative;
+  z-index: 1;
 }
 
 .cost-sec .left-col,
@@ -1776,7 +1888,25 @@ header#masthead .row .right-col {
 /* Sercice Start */
 .service-sec {
   position: relative;
+  overflow: hidden;
   padding: 50px 0 50px;
+}
+
+.service-sec::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(57, 57, 57, 0.16) 1.5px, transparent 1.5px);
+  background-size: 20px 20px;
+  -webkit-mask-image: radial-gradient(ellipse 55% 60% at 12% 15%, #000 40%, transparent 90%);
+  mask-image: radial-gradient(ellipse 55% 60% at 12% 15%, #000 40%, transparent 90%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.service-sec > .container {
+  position: relative;
+  z-index: 1;
 }
 
 .service-sec .head45 {
@@ -3452,6 +3582,48 @@ button:hover {
 
 
 /****** About Page End ******/
+
+/* ==============================
+   Accessibility: keyboard focus
+   The rules above suppress the default outline on :focus/:hover for a
+   cleaner mouse experience. This restores a clear, brand-coloured focus
+   ring for keyboard users only (:focus-visible), without affecting the
+   mouse-click experience the rest of the stylesheet already establishes.
+================================= */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible,
+.collapsible-link:focus-visible,
+.hamburger:focus-visible {
+  outline: 2px solid #ff7f3e !important;
+  outline-offset: 2px;
+}
+
+/* ==============================
+   Accessibility: reduced motion
+   Respects the OS-level "reduce motion" preference for the CSS-driven
+   animations on the site (the disclaimer marquee and smooth-scroll).
+   Slick's JS-driven slider transitions are outside the scope of a pure
+   CSS override and are left as-is.
+================================= */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .top-disclaimer-track {
+    animation: none !important;
+  }
+
+  * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
 
 @media (min-width: 1250px) {
 

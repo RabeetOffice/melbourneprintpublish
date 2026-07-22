@@ -47,7 +47,7 @@
                             <div class="card post-item ">
                                 <div id="heading1" class="card-header bg-white border-0" aria-expanded="true">
                                     <div data-toggle="collapse" data-target="#collapse1" aria-expanded="true"
-                                        aria-controls="collapse1" class="collapsible-link">
+                                        aria-controls="collapse1" class="collapsible-link" role="button" tabindex="0">
                                         <span><strong>Q1:</strong> Who is the best book publisher in Australia?</span>
                                     </div>
                                 </div>
@@ -75,7 +75,7 @@
                             <div class="card post-item ">
                                 <div id="heading2" class="card-header bg-white border-0">
                                     <div data-toggle="collapse" data-target="#collapse2" aria-expanded="false"
-                                        aria-controls="collapse2" class="collapsible-link">
+                                        aria-controls="collapse2" class="collapsible-link" role="button" tabindex="0">
                                         <span><strong>Q2:</strong> Who are the top 5 book publishers?</span>
                                     </div>
                                 </div>
@@ -103,7 +103,7 @@
                             <div class="card post-item ">
                                 <div id="heading3" class="card-header bg-white border-0">
                                     <div data-toggle="collapse" data-target="#collapse3" aria-expanded="false"
-                                        aria-controls="collapse3" class="collapsible-link">
+                                        aria-controls="collapse3" class="collapsible-link" role="button" tabindex="0">
                                         <span><strong>Q3:</strong> How much does it cost to publish a book in
                                             Australia?</span>
                                     </div>
@@ -130,7 +130,7 @@
                             <div class="card post-item ">
                                 <div id="heading4" class="card-header bg-white border-0">
                                     <div data-toggle="collapse" data-target="#collapse4" aria-expanded="false"
-                                        aria-controls="collapse4" class="collapsible-link">
+                                        aria-controls="collapse4" class="collapsible-link" role="button" tabindex="0">
                                         <span><strong>Q4:</strong> How much is it to publish a book in Australia?</span>
                                     </div>
                                 </div>
@@ -155,7 +155,7 @@
                             <div class="card post-item ">
                                 <div id="heading5" class="card-header bg-white border-0">
                                     <div data-toggle="collapse" data-target="#collapse5" aria-expanded="false"
-                                        aria-controls="collapse5" class="collapsible-link">
+                                        aria-controls="collapse5" class="collapsible-link" role="button" tabindex="0">
                                         <span><strong>Q5:</strong> What is the average cost to edit a book?</span>
                                     </div>
                                 </div>
@@ -179,7 +179,7 @@
                             <div class="card post-item ">
                                 <div id="heading6" class="card-header bg-white border-0">
                                     <div data-toggle="collapse" data-target="#collapse6" aria-expanded="false"
-                                        aria-controls="collapse6" class="collapsible-link">
+                                        aria-controls="collapse6" class="collapsible-link" role="button" tabindex="0">
                                         <span><strong>Q6:</strong> How much does it cost to get an editor to edit your
                                             book?</span>
                                     </div>
@@ -204,7 +204,7 @@
                             <div class="card post-item">
                                 <div id="heading7" class="card-header bg-white border-0">
                                     <div data-toggle="collapse" data-target="#collapse7" aria-expanded="false"
-                                        aria-controls="collapse7" class="collapsible-link">
+                                        aria-controls="collapse7" class="collapsible-link" role="button" tabindex="0">
                                         <span><strong>Q7:</strong> Is it worth paying for an editor?</span>
                                     </div>
                                 </div>
@@ -228,7 +228,7 @@
                             <div class="card post-item">
                                 <div id="heading8" class="card-header bg-white border-0">
                                     <div data-toggle="collapse" data-target="#collapse8" aria-expanded="false"
-                                        aria-controls="collapse8" class="collapsible-link">
+                                        aria-controls="collapse8" class="collapsible-link" role="button" tabindex="0">
                                         <span><strong>Q8:</strong> How much does an editor charge to edit a book?</span>
                                     </div>
                                 </div>
@@ -252,7 +252,7 @@
                             <div class="card post-item">
                                 <div id="heading9" class="card-header bg-white border-0">
                                     <div data-toggle="collapse" data-target="#collapse9" aria-expanded="false"
-                                        aria-controls="collapse9" class="collapsible-link">
+                                        aria-controls="collapse9" class="collapsible-link" role="button" tabindex="0">
                                         <span><strong>Q9:</strong> How much does a ghostwriter cost in Australia?</span>
                                     </div>
                                 </div>
@@ -275,7 +275,7 @@
                             <div class="card post-item">
                                 <div id="heading10" class="card-header bg-white border-0">
                                     <div data-toggle="collapse" data-target="#collapse10" aria-expanded="false"
-                                        aria-controls="collapse10" class="collapsible-link">
+                                        aria-controls="collapse10" class="collapsible-link" role="button" tabindex="0">
                                         <span><strong>Q10:</strong> Is it worth getting a ghost writer?</span>
                                     </div>
                                 </div>
@@ -298,7 +298,7 @@
                             <div class="card post-item hidden-post" style="">
                                 <div id="heading11" class="card-header bg-white border-0">
                                     <div data-toggle="collapse" data-target="#collapse11" aria-expanded="false"
-                                        aria-controls="collapse11" class="collapsible-link">
+                                        aria-controls="collapse11" class="collapsible-link" role="button" tabindex="0">
                                         <span><strong>Q11:</strong> What is the average cost of a ghost writer?</span>
                                     </div>
                                 </div>
@@ -321,7 +321,7 @@
                             <div class="card post-item hidden-post" style="">
                                 <div id="heading12" class="card-header bg-white border-0">
                                     <div data-toggle="collapse" data-target="#collapse12" aria-expanded="false"
-                                        aria-controls="collapse12" class="collapsible-link">
+                                        aria-controls="collapse12" class="collapsible-link" role="button" tabindex="0">
                                         <span><strong>Q12:</strong> How to tell if a book was written by a ghost
                                             writer?</span>
                                     </div>
@@ -344,7 +344,7 @@
                             <div class="card post-item hidden-post" style="">
                                 <div id="heading13" class="card-header bg-white border-0">
                                     <div data-toggle="collapse" data-target="#collapse13" aria-expanded="false"
-                                        aria-controls="collapse13" class="collapsible-link">
+                                        aria-controls="collapse13" class="collapsible-link" role="button" tabindex="0">
                                         <span><strong>Q13:</strong> How much does it cost to hire a book
                                             marketer?</span>
                                     </div>
@@ -368,7 +368,7 @@
                             <div class="card post-item hidden-post" style="">
                                 <div id="heading14" class="card-header bg-white border-0">
                                     <div data-toggle="collapse" data-target="#collapse14" aria-expanded="false"
-                                        aria-controls="collapse14" class="collapsible-link">
+                                        aria-controls="collapse14" class="collapsible-link" role="button" tabindex="0">
                                         <span><strong>Q14:</strong> How many books do you have to sell to make
                                             $100K?</span>
                                     </div>
@@ -390,7 +390,7 @@
                             <div class="card post-item hidden-post" style="">
                                 <div id="heading15" class="card-header bg-white border-0">
                                     <div data-toggle="collapse" data-target="#collapse15" aria-expanded="false"
-                                        aria-controls="collapse15" class="collapsible-link">
+                                        aria-controls="collapse15" class="collapsible-link" role="button" tabindex="0">
                                         <span><strong>Q15:</strong> What's the best way to market your book?</span>
                                     </div>
                                 </div>
@@ -412,7 +412,7 @@
                             <div class="card post-item hidden-post" style="">
                                 <div id="heading16" class="card-header bg-white border-0">
                                     <div data-toggle="collapse" data-target="#collapse16" aria-expanded="false"
-                                        aria-controls="collapse16" class="collapsible-link">
+                                        aria-controls="collapse16" class="collapsible-link" role="button" tabindex="0">
                                         <span><strong>Q16:</strong> What is the most effective way to promote a
                                             book?</span>
                                     </div>
@@ -434,7 +434,7 @@
                             <div class="card post-item hidden-post" style="">
                                 <div id="heading17" class="card-header bg-white border-0">
                                     <div data-toggle="collapse" data-target="#collapse17" aria-expanded="false"
-                                        aria-controls="collapse17" class="collapsible-link">
+                                        aria-controls="collapse17" class="collapsible-link" role="button" tabindex="0">
                                         <span><strong>Q17:</strong> How to make a book go viral?</span>
                                     </div>
                                 </div>
@@ -455,7 +455,7 @@
                             <div class="card post-item hidden-post" style="">
                                 <div id="heading18" class="card-header bg-white border-0">
                                     <div data-toggle="collapse" data-target="#collapse18" aria-expanded="false"
-                                        aria-controls="collapse18" class="collapsible-link">
+                                        aria-controls="collapse18" class="collapsible-link" role="button" tabindex="0">
                                         <span><strong>Q18:</strong> Can I hire someone to promote my book?</span>
                                     </div>
                                 </div>
@@ -476,7 +476,7 @@
                             <div class="card post-item hidden-post" style="">
                                 <div id="heading19" class="card-header bg-white border-0">
                                     <div data-toggle="collapse" data-target="#collapse19" aria-expanded="false"
-                                        aria-controls="collapse19" class="collapsible-link">
+                                        aria-controls="collapse19" class="collapsible-link" role="button" tabindex="0">
                                         <span><strong>Q19:</strong> Is the book market oversaturated?</span>
                                     </div>
                                 </div>

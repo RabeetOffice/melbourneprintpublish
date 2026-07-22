@@ -36,7 +36,7 @@
                             <p>Words tell the story. Illustrations make it unforgettable. For children's books, the artwork isn't supporting the text, it is the text, carrying narrative weight that words alone can't shoulder for a four-year-old who hasn't learned to read yet. For comics, graphic novels, educational titles, and illustrated non-fiction, the visuals aren't decoration, they're doing half the communicative work on every single page. Getting illustration wrong doesn't just weaken a book. It fundamentally changes what the book is. At Melbourne Print and Publish, our book illustration services in Melbourne connect authors with professional illustrators who bring stories, characters, and concepts to life across every visual style and every publishing format. Children's book illustration, comic book illustration, educational diagrams, cover art, character design, custom artwork created specifically for your book, your audience, and your vision. Not clip art. Not AI-generated images dressed up as illustration. Actual artwork, by actual illustrators, built around the story you're telling.</p>
                         </div>
                         <div class="bttn-grp">
-                            <a class="bttn" href="javascript:void(0);" data-toggle="modal"
+                            <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                                 data-target="#exampleModalCenter">Get Your Illustration Quote</a>
                             <a href="javascript:void(0);" class="bttn1 openChatBtn">Chat With an Illustrator</a>
                         </div>
@@ -249,7 +249,7 @@
                     </div>
                 </div>
             </div>
-            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Your Illustration Quote</a>
+            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Your Illustration Quote</a>
         </div>
     </section>
 
@@ -266,7 +266,7 @@
                         <p>Illustration is one of the most significant investments in any visual book project, and it should be. Original artwork created by a skilled illustrator is what gives your book its identity, its emotional pull, and its visual distinction in a crowded market. The benefits of book illustration service extend well beyond decoration, for children's books especially, the quality of illustration directly determines whether the book sells, gets reviewed positively, and earns the kind of word-of-mouth that sustains sales long after launch.</p>
                         <p>We quote every illustration project individually based on scope, style, and complexity. During your free consultation, we'll review your manuscript, discuss your visual direction and artistic preferences, and give you transparent pricing that accounts for exactly what your book needs. No vague estimates, no surprise invoices halfway through production.</p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Your Free Illustration Quote</a>
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Your Free Illustration Quote</a>
                 </div>
                 <div class="col-md-6 right-col">
                     <div class="t-b-img">
@@ -379,7 +379,7 @@
                         <p>That reality extends beyond children's books. Comic readers judge artwork on the first page. Educational publishers evaluate illustration clarity before they assess content. Even adult non-fiction readers respond to visual presentation, a well-illustrated cookbook outsells an identical recipe collection with stock photography every time.</p>
                         <p>The benefits of book illustration service go deeper than making pages look attractive. Professional illustration creates the visual identity that defines how a book is perceived, marketed, remembered, and recommended. It's the difference between a children's book that gets read once and returned to the library, and one that becomes a bedtime favourite requested every night for six months. For authors investing in illustration, the question isn't whether professional artwork is worth the cost, it's whether anything less than professional artwork is worth publishing at all.</p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Start Your Illustration Today</a>
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Start Your Illustration Today</a>
                 </div>
             </div>
         </div>
@@ -422,7 +422,7 @@
                         <p>Our tailored illustration solutions have helped authors across Melbourne and Australia bring their visual books to life with original, professionally produced artwork. From a full picture book to a set of chapter illustrations, from character design to complete graphic novel production, we handle the creative and technical process that turns your story into something readers can see as vividly as you've always imagined it.</p>
                     </div>
                     <div class="bttn-grp">
-                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Schedule A Consultation</a>
+                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Schedule A Consultation</a>
                         <a href="javascript:void(0);" class="bttn3 openChatBtn">Live Chat</a>
                     </div>
                 </div>
@@ -445,7 +445,7 @@
                         <p>Ahead are answers to commonly asked questions. If you have any additional inquiries, feel free to reach out via email, live chat, or phone.</p>
                     </div>
                     <div class="bttn-grp">
-                        <a class="bttn" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Started</a>
+                        <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Started</a>
                         <a href="javascript:void(0);" class="bttn1 openChatBtn">Live Chat</a>
                     </div>
                 </div>

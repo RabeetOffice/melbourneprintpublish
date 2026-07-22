@@ -15,7 +15,7 @@
         <a href="<?= $link; ?>" <?= $target ? 'target="'.$target.'"' : ''; ?> rel="nofollow">
             <div class="portfolio_box">
                 <div class="portfolio_box-img">
-                    <img src="<?= $item['image']; ?>" alt="<?= $item['alt'] ?? ''; ?>">
+                    <img data-lazy="<?= $item['image']; ?>" alt="<?= $item['alt'] ?? ''; ?>">
                 </div>
 
                 <div class="portfolio_box-name">

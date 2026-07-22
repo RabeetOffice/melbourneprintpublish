@@ -43,7 +43,7 @@
                                 picture once the book is done.</p>
                         </div>
                         <div class="bttn-grp">
-                            <a class="bttn" href="javascript:void(0);" data-toggle="modal"
+                            <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                                 data-target="#exampleModalCenter">Hire a Ghostwriter for Your Book</a>
                             <a href="javascript:void(0);" class="bttn1 openChatBtn">Chat With a Ghostwriter</a>
                         </div>
@@ -395,7 +395,7 @@
                     </div>
                 </div>
             </div>
-            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Your
+            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Your
                 Genre Fiction Ghostwriting</a>
         </div>
     </section>
@@ -413,7 +413,7 @@
                         <p>What you’re really paying for is expertise, a ghostwriter who understands your genre from the inside, can execute your vision with genuine craft, and delivers a manuscript that reads like it was written by someone who cared about the story. Cheap fiction ghostwriting often means generic writing that doesn’t capture your voice or understand your genre’s conventions. Overpriced doesn’t guarantee quality either.</p>
                         <p>We provide honest quotes based on what your specific novel needs. During your free consultation, we’ll discuss your genre, story complexity, length, and timeline, then recommend appropriate services with transparent pricing. You’ll know exactly what’s included, how many revision rounds you’ll receive, and what the finished manuscript will look like. No hidden fees, no surprises.</p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal"
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                         data-target="#exampleModalCenter">Get Your Free Ghostwriting Quote</a>
                 </div>
                 <div class="col-md-6 right-col">
@@ -583,7 +583,7 @@
                         <p>That’s not a failing. It’s just reality. And it’s why fiction ghostwriting exists.</p>
                         <p>The authors who use ghostwriting services aren’t people who can’t write, they’re people who have stories worth telling and are smart enough to work with professionals who can tell them properly. A ghostwriter who understands your genre, gets inside your vision, and has the craft to execute it will produce a novel that reads authentically and competes in the market. A novel you’d be proud to put your name on, because the story, the characters, and the vision are genuinely yours.</p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal"
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                         data-target="#exampleModalCenter">Start Ghostwriting Your Book Today</a>
                 </div>
             </div>
@@ -628,7 +628,7 @@
                         </p>
                     </div>
                     <div class="bttn-grp">
-                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal"
+                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                             data-target="#exampleModalCenter">Schedule A Consultation</a>
                         <a href="javascript:void(0);" class="bttn3 openChatBtn">Live Chat</a>
                     </div>
@@ -652,7 +652,7 @@
                             free to reach out via email, live chat, or phone.</p>
                     </div>
                     <div class="bttn-grp">
-                        <a class="bttn" href="javascript:void(0);" data-toggle="modal"
+                        <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                             data-target="#exampleModalCenter">Get Started</a>
                         <a href="javascript:void(0);" class="bttn1 openChatBtn">Live Chat</a>
                     </div>
