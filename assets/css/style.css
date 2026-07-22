@@ -772,11 +772,12 @@ header#masthead .row .right-col {
   position: absolute;
   top: 100%;
   left: 0;
-  background: #fff6e9;
+  background: #fff;
   list-style: none;
   padding: 0px 0;
   width: 200px;
-  border-radius: 5px;
+  border-top: 4px solid #ff7f3e;
+  border-radius: 0 0 5px 5px;
   display: none;
   box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.15);
   transition: all 0.5s ease-in-out;
@@ -843,6 +844,28 @@ header#masthead .row .right-col {
 /* Hover for desktop */
 .nav-links li:hover>.sub-menu {
   display: block;
+}
+
+/* Two-column services dropdown */
+.nav-links li .sub-menu.sub-menu-columns {
+  width: 540px;
+  padding: 5px 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-links li:hover>.sub-menu.sub-menu-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+}
+
+.nav-links li .sub-menu.sub-menu-columns li a {
+  padding: 5px 5px;
+}
+
+.nav-links li .sub-menu.sub-menu-columns li:last-child a {
+  border-bottom: 1px solid #eee;
 }
 
 /*Stying for small screens*/
@@ -939,6 +962,17 @@ header#masthead .row .right-col {
 
   .nav-links li.active .sub-menu {
     display: block !important;
+  }
+
+  .nav-links li .sub-menu.sub-menu-columns {
+    width: 100%;
+    left: 0;
+    transform: none;
+    padding: 0;
+  }
+
+  .nav-links li:hover>.sub-menu.sub-menu-columns {
+    display: none;
   }
 
 }

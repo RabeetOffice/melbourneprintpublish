@@ -38,7 +38,7 @@ $assetBaseEsc = htmlspecialchars($assetBase, ENT_QUOTES, 'UTF-8');
 
                         <li class="menu-item-has-children">
                             <a href="<?php echo $assetBaseEsc; ?>/our-services/">Services</a>
-                            <ul class="sub-menu">
+                            <ul class="sub-menu sub-menu-columns">
                                 <li>
                                     <a href="<?php echo $assetBaseEsc; ?>/publishing/">Publishing</a>
                                 </li>
@@ -57,6 +57,46 @@ $assetBaseEsc = htmlspecialchars($assetBase, ENT_QUOTES, 'UTF-8');
 
                                 <li>
                                     <a href="<?php echo $assetBaseEsc; ?>/marketing/">Marketing</a>
+                                </li>
+
+                                <li>
+                                    <a href="<?php echo $assetBaseEsc; ?>/author-website-development-services-in-melbourne/">Author Website Development</a>
+                                </li>
+
+                                <li>
+                                    <a href="<?php echo $assetBaseEsc; ?>/book-illustration-services-in-melbourne/">Book Illustration</a>
+                                </li>
+
+                                <li>
+                                    <a href="<?php echo $assetBaseEsc; ?>/book-trailer-video-services-in-melbourne/">Book Trailer Videos</a>
+                                </li>
+
+                                <li>
+                                    <a href="<?php echo $assetBaseEsc; ?>/book-printing-services-in-melbourne/">Book Printing</a>
+                                </li>
+
+                                <li>
+                                    <a href="<?php echo $assetBaseEsc; ?>/book-formatting-services-in-melbourne/">Book Formatting</a>
+                                </li>
+
+                                <li>
+                                    <a href="<?php echo $assetBaseEsc; ?>/e-book-writing-services-in-melbourne/">E-Book Writing</a>
+                                </li>
+
+                                <li>
+                                    <a href="<?php echo $assetBaseEsc; ?>/fiction-ghostwriting-services-in-melbourne/">Fiction Ghostwriting</a>
+                                </li>
+
+                                <li>
+                                    <a href="<?php echo $assetBaseEsc; ?>/non-fiction-ghostwriting-service-in-melbourne/">Non-Fiction Ghostwriting</a>
+                                </li>
+
+                                <li>
+                                    <a href="<?php echo $assetBaseEsc; ?>/book-proofreading-services-in-melbourne/">Book Proofreading</a>
+                                </li>
+
+                                <li>
+                                    <a href="<?php echo $assetBaseEsc; ?>/academic-proofreading-services-in-melbourne/">Academic Proofreading</a>
                                 </li>
 
                             </ul>
