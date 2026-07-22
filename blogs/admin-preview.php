@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-    <meta name="robots" content="follow, index">
+    <meta name="robots" content="noindex, nofollow">
     <title>asdsdafsd</title>
     <meta name="description" content="" />
     <meta name="DC.title" content="Melbourne Print and Publish" />

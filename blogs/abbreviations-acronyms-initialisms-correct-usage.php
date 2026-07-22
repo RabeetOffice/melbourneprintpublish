@@ -92,7 +92,7 @@
                     <div class="tag-date">Posted on: 20-04-2026</div>
 
                     <div class="s-banner">
-                        <img src="<?= e(brand_asset('/assets/images/abbreviations-acronyms.webp')); ?>" alt="Endorse vs Approve">
+                        <img src="<?= e(brand_asset('/assets/images/abbreviations-acronyms.webp')); ?>" alt="Abbreviations, acronyms and initialisms usage guide">
                     </div>
 
                     <div class="s-content">

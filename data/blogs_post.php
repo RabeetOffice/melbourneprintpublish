@@ -112,6 +112,17 @@ $blogs = [
     ],
 
     [
+        "id" => "14",
+        "hidden" => "",
+        "image" => "/assets/images/temt.png",
+        "alt" => "Antihero definition explained with traits and examples",
+        "name" => "The Definition of an Antihero Explained Simply",
+        "text" => "Explore the antihero definition, defining traits, and iconic examples, and discover how these morally grey protagonists differ from heroes and villains.",
+        "date" => "15-04-2026",
+        "link" => "/blogs/definition-of-an-antihero/"
+    ],
+
+    [
         "id" => "3",
         "hidden" => "",
         "image" => "/assets/images/How-to-Get-an-ISBN-1-scaled.webp",

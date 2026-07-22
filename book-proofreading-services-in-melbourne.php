@@ -47,7 +47,7 @@
                             <p>There's a typo on page forty-seven. A character's eye colour changes somewhere between chapters six and eleven. A comma is missing in a line of dialogue that you've read so many times it might as well be wallpaper. None of these will ruin a book on their own, but stack enough of them together and readers start questioning everything else about the quality of what they're holding. After months of writing, revising, and living inside the same manuscript, catching these errors yourself is close to impossible. Your brain has memorised the text and fills in what it expects to see rather than what's actually there. At Melbourne Print and Publish, our book proofreading services are the final professional pass that stands between your finished manuscript and publication. We work across every genre and every format, fiction, non-fiction, memoirs, business books, children's books, academic titles, reading your book the way your readers will, and catching everything that needs catching before it reaches them.</p>
                         </div>
                         <div class="bttn-grp">
-                            <a class="bttn" href="javascript:void(0);" data-toggle="modal"
+                            <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                                 data-target="#exampleModalCenter">Get Your Proofreading Quote</a>
                             <a href="javascript:void(0);" class="bttn1 openChatBtn">Chat With a Proofreader</a>
                         </div>
@@ -265,7 +265,7 @@
                     </div>
                 </div> -->
             </div>
-            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Your Proofreading Quote</a>
+            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Your Proofreading Quote</a>
         </div>
     </section>
 
@@ -282,7 +282,7 @@
                         <p>What you're paying for is an experienced proofreader who understands your genre, reads your manuscript with genuine care, and delivers a clean, tracked document that shows you exactly what was corrected. Book proofreading services that charge very little tend to produce results that reflect that, rushed passes that miss more than they catch.</p>
                         <p>We provide honest quotes based on your manuscript's specific details. During your free consultation, we'll discuss your genre, length, deadline, and any particular concerns about your text, then give you transparent pricing with no hidden fees and no surprises.</p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Your Free Proofreading Quote</a>
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Your Free Proofreading Quote</a>
                 </div>
                 <div class="col-md-6 right-col">
                     <div class="t-b-img">
@@ -395,7 +395,7 @@
                         <p>Professional book proofreading exists because fresh eyes catch what familiar ones miss. A proofreader reading your manuscript for the first time reads it the way your readers will, and they notice things you genuinely cannot see anymore, no matter how carefully you try.</p>
                         <p>For self-published authors especially, proofreading isn't optional. Readers leave reviews, and a one-star review about typos and errors is one of the most damaging things that can happen to a book's long-term sales. A professionally proofread book signals to readers that you take your work seriously, and readers respond to that in the way that matters most.</p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Start Your Proofreading Today</a>
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Start Your Proofreading Today</a>
                 </div>
             </div>
         </div>
@@ -438,7 +438,7 @@
                         <p>Our tailored proofreading solutions have helped authors across Melbourne and Australia publish books that are clean, consistent, and professionally polished. From a debut novel to a full academic manuscript, we support you at the final and most critical stage, ensuring your book reaches readers without a single avoidable error undermining the work you've put into it.</p>
                     </div>
                     <div class="bttn-grp">
-                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Schedule A Consultation</a>
+                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Schedule A Consultation</a>
                         <a href="javascript:void(0);" class="bttn3 openChatBtn">Live Chat</a>
                     </div>
                 </div>
@@ -461,7 +461,7 @@
                         <p>Ahead are answers to commonly asked questions. If you have any additional inquiries, feel free to reach out via email, live chat, or phone.</p>
                     </div>
                     <div class="bttn-grp">
-                        <a class="bttn" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Started</a>
+                        <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Started</a>
                         <a href="javascript:void(0);" class="bttn1 openChatBtn">Live Chat</a>
                     </div>
                 </div>

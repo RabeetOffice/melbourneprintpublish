@@ -125,7 +125,7 @@
 
                 <div class="col-md-6 right-col">
                     <div class="abt-img">
-                        <img src="assets/images/aboutimg.webp" alt="About Melbourne Print & Publish company and services">
+                        <img src="assets/images/aboutimg.webp" alt="About Melbourne Print & Publish company and services" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -284,7 +284,7 @@
                     </div>
 
                     <div class="bttn-grp">
-                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal"
+                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                             data-target="#exampleModalCenter">Get Started</a>
                         <a href="javascript:void(0);" class="bttn3 openChatBtn">Live Chat</a>
                     </div>
@@ -297,7 +297,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="head45">
+                    <div class="head45 mb20">
                         <h2>Our<span> Blogs</span></h2>
                     </div>
                     <?php include("shortcode/recent_blogs.php"); ?>
@@ -317,7 +317,7 @@
                         <p>Don’t let your story stay trapped in your head.<br>It deserves more than a ‘someday.’</p>
                     </div>
                     <div class="start-img">
-                        <img src="assets/images/contimage.webp" alt="High-quality print and publishing services in Melbourne">
+                        <img src="assets/images/contimage.webp" alt="High-quality print and publishing services in Melbourne" loading="lazy">
                     </div>
                 </div>
                 <div class="col-md-6 right-col">

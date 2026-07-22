@@ -17,8 +17,9 @@ const links = document.querySelectorAll(".nav-links li");
 
 // Toggle Menu
 hamburger.addEventListener("click", () => {
-  navLinks.classList.toggle("open");
+  const isOpen = navLinks.classList.toggle("open");
   hamburger.classList.toggle("toggle");
+  hamburger.setAttribute("aria-expanded", isOpen ? "true" : "false");
 
   links.forEach((link) => {
     link.classList.toggle("fade");
@@ -36,7 +37,8 @@ document.querySelectorAll(".menu-item-has-children > a").forEach((link) => {
         e.preventDefault();
 
         // toggle active class
-        parent.classList.toggle("active");
+        const isActive = parent.classList.toggle("active");
+        this.setAttribute("aria-expanded", isActive ? "true" : "false");
       }
     }
   });
@@ -397,6 +399,7 @@ jQuery(document).ready(function ($) {
   });
 
   jQuery(".portfolio-sliders").slick({
+    lazyLoad: "ondemand",
     slidesToShow: 4,
     slidesToScroll: 1,
     infinite: true,
@@ -581,6 +584,17 @@ jQuery(document).ready(function ($) {
   });
 
   // End Accordions
+
+  // Keyboard support: the FAQ toggles are `<div role="button">` elements
+  // (needed to match the existing card-header click wiring above / the
+  // Bootstrap data-toggle="collapse" wiring on the /faqs/ page), so Enter
+  // and Space need to be translated into the same click each already handles.
+  $(document).on("keydown", ".collapsible-link", function (e) {
+    if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") {
+      e.preventDefault();
+      $(this).trigger("click");
+    }
+  });
 });
 
 // Load More

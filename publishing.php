@@ -42,7 +42,7 @@
                             </p>
                         </div>
                         <div class="bttn-grp">
-                            <a class="bttn" href="javascript:void(0);" data-toggle="modal"
+                            <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                                 data-target="#exampleModalCenter">Start Publishing Your Book</a>
                             <a href="javascript:void(0);" class="bttn1 openChatBtn">Chat With Publishing Expert</a>
                         </div>
@@ -99,7 +99,7 @@
                             devices.
                         </p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal"
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                         data-target="#exampleModalCenter">Discuss Your Distribution Strategy</a>
                 </div>
 
@@ -548,7 +548,7 @@
                     </div>
                 </div>
             </div>
-            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Publish
+            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Publish
                 Your Book Today</a>
         </div>
     </section>
@@ -580,7 +580,7 @@
                             customised publishing package that fits your goals and budget.
                         </p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal"
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                         data-target="#exampleModalCenter">Get Your Free Publishing Quote</a>
                 </div>
                 <div class="col-md-6 right-col">
@@ -837,7 +837,7 @@
                             it reaches the right audience professionally.
                         </p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal"
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                         data-target="#exampleModalCenter">Start Publishing Your Book</a>
                 </div>
 
@@ -885,7 +885,7 @@
                     </div>
 
                     <div class="bttn-grp">
-                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal"
+                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                             data-target="#exampleModalCenter">Schedule A Consultation</a>
                         <a class="bttn3" href="javascript:void(0);">Live Chat</a>
                     </div>
@@ -911,7 +911,7 @@
                         </p>
                     </div>
                     <div class="bttn-grp">
-                        <a class="bttn" href="javascript:void(0);" data-toggle="modal"
+                        <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                             data-target="#exampleModalCenter">Get Started</a>
                         <a class="bttn1" href="javascript:void(0);">Live Chat</a>
                     </div>

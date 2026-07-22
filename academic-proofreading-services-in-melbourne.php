@@ -36,7 +36,7 @@
                             <p>Months of research, weeks of writing, and countless revisions, all of it can be undermined by a misplaced comma in the abstract or an inconsistent citation format that your examiner notices before they've reached page five. After spending that long inside your own work, your brain stops reading what's actually on the page and starts reading what it expects to see. That's not carelessness. That's just how familiarity works, and it happens to every researcher at every level. At Melbourne Print and Publish, our academic proofreading services give students, researchers, and academics across Australia the thorough, expert final read that catches everything familiarity has buried. Theses, journal articles, research papers, academic books, we correct the errors without touching the argument, the structure, or the academic voice you've spent months developing. The intellectual work is entirely yours. We just make sure nothing on the surface gets between your research and the people reading it.</p>
                         </div>
                         <div class="bttn-grp">
-                            <a class="bttn" href="javascript:void(0);" data-toggle="modal"
+                            <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                                 data-target="#exampleModalCenter">Get Your Proofreading Quote</a>
                             <a href="javascript:void(0);" class="bttn1 openChatBtn">Chat With an Editor</a>
                         </div>
@@ -250,7 +250,7 @@
                     </div>
                 </div>
             </div>
-            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Your Proofreading Quote</a>
+            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Your Proofreading Quote</a>
         </div>
     </section>
 
@@ -267,7 +267,7 @@
                         <p>The real question isn't just cost, it's what poor proofreading actually costs you. For students, errors can directly affect marks. For researchers, sloppy formatting and inconsistent citations can influence whether an editor takes the submission seriously before peer review even begins. Professional proofreading is one of the most cost-effective investments you can make in work you've already spent significant time producing.</p>
                         <p>We offer transparent pricing with no hidden fees. During your free consultation, we'll review your document and give you a clear, honest quote based on your specific project, not a generic rate that may not reflect what your manuscript actually needs.</p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Your Free Proofreading Quote</a>
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Your Free Proofreading Quote</a>
                 </div>
                 <div class="col-md-6 right-col">
                     <div class="t-b-img">
@@ -380,7 +380,7 @@
                         <p>Professional academic proofreading exists because a fresh, expert pair of eyes reads your work the way your examiner, editor, or reviewer will. They see the typo in the abstract you've read forty times. They catch the citation formatted differently in chapter three. They notice the sentence that made complete sense to you but reads as ambiguous on the page.</p>
                         <p>For students, errors can directly affect marks. For researchers submitting to journals, they can influence whether an editor takes the work seriously before peer review even begins. For academics publishing books, they can affect how the work is received by the scholarly community. Professional proofreading is one of the most cost-effective investments you can make in work you've already spent significant time producing.</p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Start Your Proofreading Today</a>
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Start Your Proofreading Today</a>
                 </div>
             </div>
         </div>
@@ -423,7 +423,7 @@
                         <p>Our tailored proofreading solutions have helped students, researchers, and academics across Australia submit work that's clean, consistent, and professionally polished. From a single essay to a full doctoral thesis, we support you at every stage, ensuring your academic writing meets the standards your institution, journal, or publisher expects.</p>
                     </div>
                     <div class="bttn-grp">
-                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Schedule A Consultation</a>
+                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Schedule A Consultation</a>
                         <a href="javascript:void(0);" class="bttn3 openChatBtn">Live Chat</a>
                     </div>
                 </div>
@@ -446,7 +446,7 @@
                         <p>Ahead are answers to commonly asked questions. If you have any additional inquiries, feel free to reach out via email, live chat, or phone.</p>
                     </div>
                     <div class="bttn-grp">
-                        <a class="bttn" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Started</a>
+                        <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Started</a>
                         <a href="javascript:void(0);" class="bttn1 openChatBtn">Live Chat</a>
                     </div>
                 </div>

@@ -36,7 +36,7 @@
                             <p>A book isn't really a book until someone can hold it. Digital publishing has its place, but there's a reason authors still want a physical copy in their hands, and a reason readers still buy millions of printed books every year despite having a Kindle in the drawer. The challenge for most authors, especially self-published ones, isn't wanting a printed book. It's navigating the maze of file specifications, paper stocks, binding options, trim sizes, and platform requirements that stand between a finished manuscript and a professionally printed copy that doesn't look like it came out of an office printer. At Melbourne Print and Publish, our book printing services in Melbourne handle that entire process. Paperback, hardcover, spiral-bound, photo books, short runs, bulk orders, print-on-demand, whatever your book needs, in whatever quantity makes sense, printed to the standard that belongs on a bookshop shelf rather than a self-publishing apology.</p>
                         </div>
                         <div class="bttn-grp">
-                            <a class="bttn" href="javascript:void(0);" data-toggle="modal"
+                            <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                                 data-target="#exampleModalCenter">Get Your Printing Quote</a>
                             <a href="javascript:void(0);" class="bttn1 openChatBtn">Chat With a Printer</a>
                         </div>
@@ -254,7 +254,7 @@
                     </div>
                 </div>
             </div>
-            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Your Printing Quote</a>
+            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Your Printing Quote</a>
         </div>
     </section>
 
@@ -271,7 +271,7 @@
                         <p>Cheap book printing services in Melbourne exist, and some of them produce acceptable results for simple projects. Where they tend to fall short is in the details that readers notice without being able to name, paper that feels flimsy, covers that curl after a week, colour reproduction that looks washed out compared to the original files, and binding that starts separating before the book has been read twice. Professional printing costs more because the materials are better and the quality control is tighter. That's the trade-off, and for most authors it's not even close to a difficult decision.</p>
                         <p>We quote every project individually based on your book's specific requirements. During your free consultation, we'll walk through your format options, recommend the production specifications that make sense for your genre and budget, and give you transparent pricing that includes everything, no surprise fees for file setup, proofing, or delivery.</p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Your Free Printing Quote</a>
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Your Free Printing Quote</a>
                 </div>
                 <div class="col-md-6 right-col">
                     <div class="t-b-img">
@@ -384,7 +384,7 @@
                         <p>This matters more for self-published authors than anyone else. Traditional publishers have decades of production experience baked into every title they release. The paper choice, the binding method, the cover lamination, none of it is accidental. When a self-published book sits alongside those titles, whether on a bookshop shelf, at a market stall, or in a reader's online order, it's being compared against that production standard whether the author realises it or not.</p>
                         <p>Professional book printing services exist to close that gap. The right paper stock for your genre. Binding that survives being read, lent, and read again. Cover printing that reproduces your designer's work faithfully instead of washing it out or oversaturating it. These are production decisions that affect how readers perceive your book before they've processed a single word, and in a market where first impressions drive purchasing decisions, perception is everything.</p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Start Your Printing Today</a>
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Start Your Printing Today</a>
                 </div>
             </div>
         </div>
@@ -427,7 +427,7 @@
                         <p>Our tailored printing solutions have helped authors across Melbourne and Australia produce physical books that stand alongside traditionally published titles without apology. From a single proof copy to a full warehouse run, from paperback novels to hardcover photo books, we handle the production side of publishing so you can focus on the part that matters most, getting your book into readers' hands.</p>
                     </div>
                     <div class="bttn-grp">
-                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Schedule A Consultation</a>
+                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Schedule A Consultation</a>
                         <a href="javascript:void(0);" class="bttn3 openChatBtn">Live Chat</a>
                     </div>
                 </div>
@@ -450,7 +450,7 @@
                         <p>Ahead are answers to commonly asked questions. If you have any additional inquiries, feel free to reach out via email, live chat, or phone.</p>
                     </div>
                     <div class="bttn-grp">
-                        <a class="bttn" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Started</a>
+                        <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Started</a>
                         <a href="javascript:void(0);" class="bttn1 openChatBtn">Live Chat</a>
                     </div>
                 </div>

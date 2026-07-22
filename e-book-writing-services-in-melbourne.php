@@ -36,7 +36,7 @@
                             <p>That eBook has been living in your head long enough. The concept is solid, the expertise is real, the audience exists, but somehow it’s still just an idea rather than a published book generating income or building your authority. The gap between knowing what you want to write and actually writing it is wider than most people expect, and it’s where the majority of eBook projects quietly die. Melbourne Print and Publish exists to make sure yours doesn’t. Our eBook writing services give authors, entrepreneurs, coaches, and professionals across Melbourne and Australia a direct path from concept to completed, publish-ready manuscript, without spending months staring at a blank document wondering where to start. Writing an eBook for Amazon, creating a lead magnet that builds credibility, turning years of professional knowledge into a digital product that earns while you sleep, our eBook writing experts handle every stage from initial brief to a finished file you can upload and sell the same week you receive it. Your name goes on the cover. You keep every right and every dollar of royalties. We’re out of the picture the moment the manuscript lands in your inbox.</p>
                         </div>
                         <div class="bttn-grp">
-                            <a class="bttn" href="javascript:void(0);" data-toggle="modal"
+                            <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog"
                                 data-target="#exampleModalCenter">Hire an eBook Writer</a>
                             <a href="javascript:void(0);" class="bttn1 openChatBtn">Chat With a Writer</a>
                         </div>
@@ -254,7 +254,7 @@
                     </div>
                 </div>
             </div>
-            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Your eBook Written Today</a>
+            <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Your eBook Written Today</a>
         </div>
     </section>
 
@@ -271,7 +271,7 @@
                         <p>Professional eBook writing services aren’t the cheapest option available, but the cheapest option rarely produces something worth publishing. What you’re paying for is a writer who understands your category, structures your content properly, writes in a way that holds attention, and delivers a manuscript that’s ready to upload to Amazon or any other platform without embarrassing you. Cut-rate eBook writing services tend to produce generic, forgettable content that doesn’t convert readers or build credibility.</p>
                         <p>We provide transparent quotes based on what your specific eBook actually needs. During your free consultation, we’ll discuss your category, length, complexity, and timeline, then give you honest pricing with no hidden fees. Some projects start with a detailed brief and existing notes. Others start with nothing more than a concept. That starting point affects scope and cost, and we’ll be upfront about both.</p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Your Free eBook Quote</a>
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Your Free eBook Quote</a>
                 </div>
                 <div class="col-md-6 right-col">
                     <div class="t-b-img">
@@ -385,7 +385,7 @@
                         <p>Writing an eBook that works commercially isn’t the same as writing a long blog post or stitching together a few articles. It requires proper structure, an understanding of how digital readers consume content, pacing that keeps people reading on screens, and writing that respects the reader’s time and money. Most people with great ideas or genuine expertise simply don’t have the writing experience to execute all of that, and that’s not a failing, it’s just a different skill set.</p>
                         <p>That’s exactly what a professional eBook writing service provides. A writer who understands your category, gets inside your vision, and produces a manuscript that reads like it was written by someone who cared about getting it right. Whether you’re writing an eBook for Amazon to build a passive income stream, creating a business eBook to position yourself as an authority, or finally getting that fiction idea out of your head and onto the page, professional writing is the difference between an eBook that competes and one that disappears.</p>
                     </div>
-                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Start Writing Your eBook Today</a>
+                    <a class="bttn1" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Start Writing Your eBook Today</a>
                 </div>
             </div>
         </div>
@@ -428,7 +428,7 @@
                         <p>Our tailored eBook writing solutions have helped authors, entrepreneurs, and professionals across Melbourne and Australia turn their ideas into professionally written, platform-ready eBooks. From a short lead magnet to a full-length fiction or non-fiction title, we support you at every stage, ensuring your eBook is crafted with the quality, structure, and commercial awareness it needs to succeed in a competitive digital market.</p>
                     </div>
                     <div class="bttn-grp">
-                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Schedule A Consultation</a>
+                        <a class="bttn2" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Schedule A Consultation</a>
                         <a href="javascript:void(0);" class="bttn3 openChatBtn">Live Chat</a>
                     </div>
                 </div>
@@ -451,7 +451,7 @@
                         <p>Ahead are answers to commonly asked questions. If you have any additional inquiries, feel free to reach out via email, live chat, or phone.</p>
                     </div>
                     <div class="bttn-grp">
-                        <a class="bttn" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Get Started</a>
+                        <a class="bttn" href="javascript:void(0);" data-toggle="modal" aria-haspopup="dialog" data-target="#exampleModalCenter">Get Started</a>
                         <a href="javascript:void(0);" class="bttn1 openChatBtn">Live Chat</a>
                     </div>
                 </div>
