@@ -2,11 +2,19 @@
 $videoTrailers = [
 
     [
+        "id" => "2",
+        "hidden" => "",
+        "name" => "Corinne Mesana - Video Book Trailer",
+        "description" => "",
+        "link" => "https://www.youtube.com/watch?v=dxTw50NRWc4"
+    ],
+
+    [
         "id" => "1",
         "hidden" => "",
-        "name" => "Wayne Farquhar — Client Testimonial",
-        "description" => "A short trailer from one of our published authors.",
-        "link" => "https://www.youtube.com/watch?v=0fky3jcVTRg"
+        "name" => "Forby Konnan - Video Book Trailer",
+        "description" => "",
+        "link" => "https://www.youtube.com/watch?v=AqYp-smvy_I"
     ]
 
 ];

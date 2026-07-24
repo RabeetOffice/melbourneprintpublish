@@ -2,6 +2,50 @@
 $blogs = [
 
     [
+        "id" => "17",
+        "hidden" => "",
+        "image" => "/assets/images/protagonist-vs-antagonist-2.webp",
+        "alt" => "",
+        "name" => "Protagonist vs Antagonist | What's the Difference?",
+        "text" => "You've built a protagonist with a clear goal. You've built an antagonist who wants to stop them. So why does the conflict still feel flat, the hero passive,",
+        "date" => "21-07-2026",
+        "link" => "/blogs/protagonist-vs-antagonist/"
+    ],
+
+    [
+        "id" => "16",
+        "hidden" => "",
+        "image" => "/assets/images/how-much-does-it-really-cost-to-publish-a-book-in-australia.webp",
+        "alt" => "",
+        "name" => "How Much Does Book Publishing Cost in Australia?",
+        "text" => "",
+        "date" => "15-07-2026",
+        "link" => "/blogs/how-much-does-book-publishing-cost-in-australia/"
+    ],
+
+    [
+        "id" => "15",
+        "hidden" => "",
+        "image" => "/assets/images/how-many-words-in-a-novel-in-australia.webp",
+        "alt" => "How Many Words in a Novel",
+        "name" => "Ideal Novel Word Count for Australian Writers",
+        "text" => "",
+        "date" => "13-07-2026",
+        "link" => "/blogs/how-many-words-in-a-novel-in-australia/"
+    ],
+
+    [
+        "id" => "14",
+        "hidden" => "",
+        "image" => "/assets/images/different-types-of-poems-to-explore-2.webp",
+        "alt" => "Different Types of Poems",
+        "name" => "Different Types of Poems That Inspire Better Writing",
+        "text" => "",
+        "date" => "07-07-2026",
+        "link" => "/blogs/different-types-of-poems-to-explore/"
+    ],
+
+    [
         "id" => "13",
         "hidden" => "",
         "image" => "/assets/images/How to Write a Short Story.png",
@@ -109,17 +153,6 @@ $blogs = [
         "text" => "Let’s be honest. You’ve probably used the word “acronym” to describe something that wasn’t actually an acronym. Most people have. And nobody corrected you because, frankly, most...",
         "date" => "20-04-2026",
         "link" => "/blogs/abbreviations-acronyms-initialisms-correct-usage/"
-    ],
-
-    [
-        "id" => "14",
-        "hidden" => "",
-        "image" => "/assets/images/temt.png",
-        "alt" => "Antihero definition explained with traits and examples",
-        "name" => "The Definition of an Antihero Explained Simply",
-        "text" => "Explore the antihero definition, defining traits, and iconic examples, and discover how these morally grey protagonists differ from heroes and villains.",
-        "date" => "15-04-2026",
-        "link" => "/blogs/definition-of-an-antihero/"
     ],
 
     [
