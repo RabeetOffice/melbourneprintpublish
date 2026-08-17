@@ -435,8 +435,7 @@ if ($page == 'index') {
 <body class="<?php echo $page; ?> site-page">
 
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFZRKR97" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+    <?php echo mpp_seo_gtm_noscript(); ?>
     <!-- End Google Tag Manager (noscript) -->
 
     <?php include("includes/disclaimer.php"); ?>
@@ -889,8 +888,15 @@ if ($page == 'index') {
                     </div>
                     <div class="m-video">
                         <div>
-                            <video class="elementor-video" src="assets/videos/melbourne-video.mp4" poster="assets/videos/video-poster.webp" autoplay="" loop=""
-                                muted="muted" playsinline="" controlslist="nodownload"></video>
+                            <!-- Deferred on purpose. This section sits well below the fold, but
+                                 the old markup used src+autoplay, so every visitor downloaded a
+                                 23 MB 1080p file (with an audio track, on a muted video) before
+                                 the page finished loading. It is now a 3.4 MB 720p audio-less
+                                 encode held in data-src; custom.js swaps it into src and starts
+                                 playback only once the section is near the viewport. The poster
+                                 shows until then, so the section never looks empty. -->
+                            <video class="elementor-video js-lazy-video" data-src="assets/videos/melbourne-video-opt.mp4" poster="assets/videos/video-poster.webp" loop=""
+                                muted="muted" playsinline="" preload="none" controlslist="nodownload"></video>
                             <!-- <iframe width="100%" height="100%" src="https://www.youtube.com/embed/UJaXzUVMaKE"-->
                             <!--    frameborder="0"-->
                             <!--    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"-->
@@ -1236,7 +1242,7 @@ if ($page == 'index') {
                 <div class="col-md-2">
                     <div class="cate-img">
                         <div class="img-box mb20">
-                            <img src="assets/images/icons/Romance.png" alt="Romance genre book icon for Melbourne Print & Publish" loading="lazy">
+                            <img src="assets/images/icons/Romance.png" alt="Romance genre book icon for Melbourne Print & Publish" loading="lazy" width="73" height="73">
                         </div>
                         <div class="head18">
                             <h3>Romance</h3>
@@ -1247,7 +1253,7 @@ if ($page == 'index') {
                 <div class="col-md-2">
                     <div class="cate-img">
                         <div class="img-box mb20">
-                            <img src="assets/images/icons/Thriller.png" alt="Thriller genre book icon for Melbourne Print & Publish" loading="lazy">
+                            <img src="assets/images/icons/Thriller.png" alt="Thriller genre book icon for Melbourne Print & Publish" loading="lazy" width="73" height="73">
                         </div>
                         <div class="head18">
                             <h3>Memoirs and Autobiography</h3>
@@ -1258,7 +1264,7 @@ if ($page == 'index') {
                 <div class="col-md-2">
                     <div class="cate-img">
                         <div class="img-box mb20">
-                            <img src="assets/images/icons/fantasy.png" alt="Fantasy genre book icon for Melbourne Print & Publish" loading="lazy">
+                            <img src="assets/images/icons/fantasy.png" alt="Fantasy genre book icon for Melbourne Print & Publish" loading="lazy" width="73" height="73">
                         </div>
                         <div class="head18">
                             <h3>Fantasy</h3>
@@ -1269,7 +1275,7 @@ if ($page == 'index') {
                 <div class="col-md-2">
                     <div class="cate-img">
                         <div class="img-box mb20">
-                            <img src="assets/images/icons/Since-Fiction.png" alt="Science fiction genre book icon for Melbourne Print & Publish" loading="lazy">
+                            <img src="assets/images/icons/Since-Fiction.png" alt="Science fiction genre book icon for Melbourne Print & Publish" loading="lazy" width="73" height="73">
                         </div>
                         <div class="head18">
                             <h3>Science fiction</h3>
@@ -1280,7 +1286,7 @@ if ($page == 'index') {
                 <div class="col-md-2">
                     <div class="cate-img">
                         <div class="img-box mb20">
-                            <img src="assets/images/icons/Since.png" alt="General publishing icon for Melbourne Print & Publish" loading="lazy">
+                            <img src="assets/images/icons/Since.png" alt="General publishing icon for Melbourne Print & Publish" loading="lazy" width="73" height="73">
                         </div>
                         <div class="head18">
                             <h3>Business and Leadership</h3>
@@ -1291,7 +1297,7 @@ if ($page == 'index') {
                 <div class="col-md-2">
                     <div class="cate-img">
                         <div class="img-box mb20">
-                            <img src="assets/images/icons/Adventure.png" alt="Adventure genre book icon for Melbourne Print & Publish" loading="lazy">
+                            <img src="assets/images/icons/Adventure.png" alt="Adventure genre book icon for Melbourne Print & Publish" loading="lazy" width="145" height="145">
                         </div>
                         <div class="head18">
                             <h3>Self-Help</h3>
@@ -1325,7 +1331,7 @@ if ($page == 'index') {
                 </div>
                 <div class="col-md-6 right-col">
                     <div class="t-b-img">
-                        <img src="assets/images/Melbourne-Book-Mockup-01-1.webp" alt="Custom Melbourne book mockup showcasing professional design" loading="lazy">
+                        <img src="assets/images/Melbourne-Book-Mockup-01-1.webp" alt="Custom Melbourne book mockup showcasing professional design" loading="lazy" width="493" height="520">
                     </div>
                 </div>
             </div>
@@ -1377,7 +1383,7 @@ if ($page == 'index') {
                 </div>
                 <div class="col-md-4 mid-col">
                     <div class="proceimg">
-                        <img src="assets/images/Melbourne-Book-log.png" alt="Melbourne Book logo with modern typography" loading="lazy">
+                        <img src="assets/images/Melbourne-Book-log.png" alt="Melbourne Book logo with modern typography" loading="lazy" width="1093" height="1093">
                     </div>
                 </div>
                 <div class="col-md-4 right-col">
@@ -1440,7 +1446,7 @@ if ($page == 'index') {
                 </div>
                 <div class="col-md-6 right-col">
                     <div class="about-img">
-                        <img src="assets/images/partner.webp" alt="Melbourne Print & Publish business partner collaboration" loading="lazy">
+                        <img src="assets/images/partner.webp" alt="Melbourne Print & Publish business partner collaboration" loading="lazy" width="874" height="1093">
                     </div>
                 </div>
             </div>
@@ -1465,7 +1471,7 @@ if ($page == 'index') {
             <div class="row">
                 <div class="col-md-6 left-col">
                     <div class="about-img">
-                        <img src="assets/images/company.webp" alt="Melbourne Print & Publish company office" loading="lazy">
+                        <img src="assets/images/company.webp" alt="Melbourne Print & Publish company office" loading="lazy" width="1080" height="1350">
                     </div>
                 </div>
 
@@ -1526,7 +1532,7 @@ if ($page == 'index') {
                 </div>
                 <div class="col-md-6 right-col">
                     <div class="store-img">
-                       <img src="assets/images/Melbourne-Book-Mockup.webp" alt="Melbourne book mockup showcasing custom book design" loading="lazy" decoding="async">
+                       <img src="assets/images/Melbourne-Book-Mockup.webp" alt="Melbourne book mockup showcasing custom book design" loading="lazy" decoding="async" width="493" height="520">
                     </div>
                 </div>
             </div>
@@ -1762,7 +1768,7 @@ if ($page == 'index') {
                         <p>Don’t let your story stay trapped in your head.<br>It deserves more than a ‘someday.’</p>
                     </div>
                     <div class="start-img">
-                        <img src="assets/images/contimage.webp" alt="High-quality print and publishing services in Melbourne" loading="lazy">
+                        <img src="assets/images/contimage.webp" alt="High-quality print and publishing services in Melbourne" loading="lazy" width="565" height="350">
                     </div>
                 </div>
                 <div class="col-md-6 right-col">

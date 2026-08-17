@@ -19,7 +19,7 @@ $assetBaseEsc = htmlspecialchars($assetBase, ENT_QUOTES, 'UTF-8');
                     <div class="footer1">
 
                         <a href="<?php echo $assetBaseEsc; ?>/">
-                            <img src="<?php echo $assetBaseEsc; ?>/assets/images/footer-logo.png" alt="Melbourne Print & Publish footer logo" />
+                            <img src="<?php echo $assetBaseEsc; ?>/assets/images/footer-logo.png" alt="Melbourne Print & Publish footer logo" width="843" height="240">
                         </a>
 
                         <div class="para16">
@@ -281,29 +281,66 @@ $assetBaseEsc = htmlspecialchars($assetBase, ENT_QUOTES, 'UTF-8');
 var Tawk_API = Tawk_API || {},
     Tawk_LoadStart = new Date();
 
+/* The chat widget pulls in a large third-party bundle. It used to load on
+   every page view, competing with the page's own content for main-thread
+   time before the visitor had shown any interest in chatting.
+   It is now loaded on the first real sign of engagement -- a scroll, pointer,
+   touch or key press -- or immediately if a "Live Chat" button is pressed.
+   Anyone who wants the chat still gets it; visitors who never interact never
+   pay for it. */
 (function() {
-    var s1 = document.createElement("script"),
-        s0 = document.getElementsByTagName("script")[0];
+    var loaded = false;
 
-    s1.async = true;
-    s1.src = '<?= mpp_val('chat.tawk_src', 'https://embed.tawk.to/698e24f485e35c1c3911db06/1jh9k0nl3'); ?>';
-    s1.charset = 'UTF-8';
-    s1.setAttribute('crossorigin', '*');
-    s0.parentNode.insertBefore(s1, s0);
-})();
+    function loadTawk(cb) {
+        if (loaded) { if (cb) { cb(); } return; }
+        loaded = true;
+        detach();
 
-/* Open Chat on Button Click */
-document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll(".openChatBtn").forEach(function(btn) {
-        btn.addEventListener("click", function(e) {
-            e.preventDefault();
+        var s1 = document.createElement("script"),
+            s0 = document.getElementsByTagName("script")[0];
 
-            if (typeof Tawk_API !== "undefined" && Tawk_API.maximize) {
-                Tawk_API.maximize();
-            }
+        s1.async = true;
+        s1.src = '<?= mpp_val('chat.tawk_src', 'https://embed.tawk.to/698e24f485e35c1c3911db06/1jh9k0nl3'); ?>';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        if (cb) { s1.addEventListener('load', cb); }
+        s0.parentNode.insertBefore(s1, s0);
+    }
+
+    var EVENTS = ['scroll', 'pointerdown', 'touchstart', 'keydown', 'mousemove'];
+    function onFirstInteraction() { loadTawk(); }
+    function detach() {
+        EVENTS.forEach(function (ev) {
+            window.removeEventListener(ev, onFirstInteraction);
+        });
+    }
+    EVENTS.forEach(function (ev) {
+        window.addEventListener(ev, onFirstInteraction, { passive: true, once: true });
+    });
+
+    /* Open Chat on Button Click. The button must work even before the first
+       passive interaction has triggered the load, so it loads on demand and
+       maximises once the widget is ready. */
+    function openChat() {
+        if (typeof Tawk_API !== "undefined" && Tawk_API.maximize) {
+            try { Tawk_API.maximize(); return; } catch (e) {}
+        }
+        // not ready yet -- maximise as soon as it is
+        Tawk_API.onLoad = function () {
+            try { Tawk_API.maximize(); } catch (e) {}
+        };
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        document.querySelectorAll(".openChatBtn").forEach(function(btn) {
+            btn.addEventListener("click", function(e) {
+                e.preventDefault();
+                loadTawk(openChat);
+                openChat();
+            });
         });
     });
-});
+})();
 </script>
 <!--End of Tawk.to Script-->
 <?php if (function_exists('mpp_custom_script')) { mpp_custom_script('footer'); } ?>

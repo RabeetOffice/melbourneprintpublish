@@ -16,7 +16,7 @@ $assetBaseEsc = htmlspecialchars($assetBase, ENT_QUOTES, 'UTF-8');
             <div class="col-md-3 left-col">
                 <div class="site-branding logo">
                     <a href="<?php echo $assetBaseEsc; ?>/">
-                        <img src="<?php echo $assetBaseEsc; ?>/assets/images/logo.png" alt="Primary logo of Melbourne Print & Publish">
+                        <img src="<?php echo $assetBaseEsc; ?>/assets/images/logo.png" alt="Primary logo of Melbourne Print & Publish" width="843" height="240">
                     </a>
                 </div>
             </div>

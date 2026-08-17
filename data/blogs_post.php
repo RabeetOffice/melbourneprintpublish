@@ -70,7 +70,7 @@ $blogs = [
     [
         "id" => "13",
         "hidden" => "",
-        "image" => "/assets/images/How to Write a Short Story.png",
+        "image" => "/assets/images/How to Write a Short Story.webp",
         "alt" => "How to Write a Short Story | Melbourne P&P ",
         "name" => "How to Write a Short Story | Melbourne P&P",
         "text" => "Learn how to write a short story that lands. A practical 2026 guide to structure, compression and getting published, from Melbourne Print & Publish......",
@@ -103,7 +103,7 @@ $blogs = [
     [
         "id" => "10",
         "hidden" => "",
-        "image" => "/assets/images/blog3.png",
+        "image" => "/assets/images/blog3.webp",
         "alt" => "Magical Realism: A Framework for Writers and Readers",
         "name" => "Title Capitalisation Rules: AP, Chicago, APA & MLA",
         "text" => "Which words do you capitalise in a title? Learn the AP, Chicago, APA and MLA rules, then format any heading with confidence using this clear, full guide.....",
@@ -114,7 +114,7 @@ $blogs = [
     [
         "id" => "9",
         "hidden" => "",
-        "image" => "/assets/images/antique.jpg",
+        "image" => "/assets/images/antique.webp",
         "alt" => "Magical Realism: A Framework for Writers and Readers",
         "name" => "Magical Realism: A Framework for Writers and Readers",
         "text" => "Discover magical realism through a clear diagnostic framework. Learn its key traits, narrative techniques, and how to identify it across global fiction.....",
@@ -125,7 +125,7 @@ $blogs = [
     [
         "id" => "8",
         "hidden" => "",
-        "image" => "/assets/images/what-is-foreshadowing.png",
+        "image" => "/assets/images/what-is-foreshadowing.webp",
         "alt" => "What Is Foreshadowing?",
         "name" => "What Is Foreshadowing? Meaning, Types & Examples Explained",
         "text" => "Think about the last time a story genuinely stunned you. The moment a reveal landed so cleanly that you sat back and thought, how did I not see that coming?....",

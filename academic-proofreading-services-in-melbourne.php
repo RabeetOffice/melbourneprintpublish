@@ -13,8 +13,7 @@
 <body class="<?php echo basename($_SERVER['PHP_SELF'], '.php'); ?> service-page">
 
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFZRKR97" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+    <?php echo mpp_seo_gtm_noscript(); ?>
     <!-- End Google Tag Manager (noscript) -->
 
     <?php include("includes/disclaimer.php"); ?>
@@ -44,7 +43,7 @@
                 </div>
                 <div class="col-md-6 right-col">
                     <div class="banner-img">
-                        <img src="assets/images/portrait-focus-man.webp" alt="Academic proofreading expert in Melbourne">
+                        <img src="assets/images/portrait-focus-man.webp" alt="Academic proofreading expert in Melbourne" width="768" height="512" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -69,7 +68,7 @@
                 <div class="col-md-6 right-col">
                     <div class="store-img">
                         <img src="assets/images/Melbourne-Book-Mockup.webp"
-                            alt="Academic proofreading standards Melbourne">
+                            alt="Academic proofreading standards Melbourne" width="493" height="520" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-md-6 left-col">
@@ -271,7 +270,7 @@
                 </div>
                 <div class="col-md-6 right-col">
                     <div class="t-b-img">
-                        <img src="assets/images/Melbourne-Book-Mockup-01-1.webp" alt="Academic proofreading cost Melbourne">
+                        <img src="assets/images/Melbourne-Book-Mockup-01-1.webp" alt="Academic proofreading cost Melbourne" width="493" height="520" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -314,7 +313,7 @@
                 </div>
                 <div class="col-md-4 mid-col">
                     <div class="proceimg">
-                        <img src="assets/images/Melbourne-Book-log.png" alt="Academic proofreading process Melbourne">
+                        <img src="assets/images/Melbourne-Book-log.png" alt="Academic proofreading process Melbourne" width="1093" height="1093" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-md-4 right-col">
@@ -352,12 +351,12 @@
                 </div>
             </div>
             <div class="row row2 mb20">
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Romance.png" alt="Thesis icon"></div><div class="head18"><h3>Theses & Dissertations</h3></div></div></div>
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Thriller.png" alt="Research papers icon"></div><div class="head18"><h3>Research Papers</h3></div></div></div>
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/fantasy.png" alt="Essays icon"></div><div class="head18"><h3>Essays & Assignments</h3></div></div></div>
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Adventure.png" alt="Journal articles icon"></div><div class="head18"><h3>Journal Articles</h3></div></div></div>
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Since-Fiction.png" alt="Academic books icon"></div><div class="head18"><h3>Academic Books</h3></div></div></div>
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Since.png" alt="Citations icon"></div><div class="head18"><h3>Citations & References</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Romance.png" alt="Thesis icon" width="73" height="73" loading="lazy" decoding="async"></div><div class="head18"><h3>Theses & Dissertations</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Thriller.png" alt="Research papers icon" width="73" height="73" loading="lazy" decoding="async"></div><div class="head18"><h3>Research Papers</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/fantasy.png" alt="Essays icon" width="73" height="73" loading="lazy" decoding="async"></div><div class="head18"><h3>Essays & Assignments</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Adventure.png" alt="Journal articles icon" width="145" height="145" loading="lazy" decoding="async"></div><div class="head18"><h3>Journal Articles</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Since-Fiction.png" alt="Academic books icon" width="73" height="73" loading="lazy" decoding="async"></div><div class="head18"><h3>Academic Books</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Since.png" alt="Citations icon" width="73" height="73" loading="lazy" decoding="async"></div><div class="head18"><h3>Citations & References</h3></div></div></div>
             </div>
         </div>
     </section>
@@ -368,7 +367,7 @@
             <div class="row">
                 <div class="col-md-6 right-col">
                     <div class="store-img">
-                        <img src="assets/images/Melbourne-Book-Mockup-03.webp" alt="Why professional academic proofreading matters">
+                        <img src="assets/images/Melbourne-Book-Mockup-03.webp" alt="Why professional academic proofreading matters" width="1000" height="614" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-md-6 left-col">

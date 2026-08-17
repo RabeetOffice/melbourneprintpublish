@@ -13,8 +13,7 @@
 <body class="<?php echo basename($_SERVER['PHP_SELF'], '.php'); ?> service-page">
 
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFZRKR97" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+    <?php echo mpp_seo_gtm_noscript(); ?>
     <!-- End Google Tag Manager (noscript) -->
 
     <?php include("includes/disclaimer.php"); ?>
@@ -44,7 +43,7 @@
                 </div>
                 <div class="col-md-6 right-col">
                     <div class="banner-img">
-                        <img src="assets/images/MP&P_Services_Book Formatting_01.webp" alt="Book formatting expert in Melbourne">
+                        <img src="assets/images/MP&P_Services_Book Formatting_01.webp" alt="Book formatting expert in Melbourne" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -69,7 +68,7 @@
                 <div class="col-md-6 right-col">
                     <div class="store-img">
                         <img src="assets/images/MP&P_Services_Book Formatting_02.webp"
-                            alt="Melbourne book mockup showcasing professional formatting">
+                            alt="Melbourne book mockup showcasing professional formatting" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-md-6 left-col">
@@ -275,7 +274,7 @@
                 </div>
                 <div class="col-md-6 right-col">
                     <div class="t-b-img">
-                        <img src="assets/images/MP&P_Services_Book Formatting_03.webp" alt="Custom Melbourne book mockup showcasing professional formatting">
+                        <img src="assets/images/MP&P_Services_Book Formatting_03.webp" alt="Custom Melbourne book mockup showcasing professional formatting" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -318,7 +317,7 @@
                 </div>
                 <div class="col-md-4 mid-col">
                     <div class="proceimg">
-                        <img src="assets/images/Melbourne-Book-log.png" alt="Melbourne Book logo with modern typography">
+                        <img src="assets/images/Melbourne-Book-log.png" alt="Melbourne Book logo with modern typography" width="1093" height="1093">
                     </div>
                 </div>
                 <div class="col-md-4 right-col">
@@ -356,12 +355,12 @@
                 </div>
             </div>
             <div class="row row2 mb20">
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Romance.png" alt="Print icon"></div><div class="head18"><h3>Print Book Formatting</h3></div></div></div>
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Thriller.png" alt="Amazon icon"></div><div class="head18"><h3>Amazon KDP Formatting</h3></div></div></div>
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/fantasy.png" alt="eBook icon"></div><div class="head18"><h3>eBook & Kindle Formatting</h3></div></div></div>
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Adventure.png" alt="Children icon"></div><div class="head18"><h3>Children's Book Formatting</h3></div></div></div>
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Since-Fiction.png" alt="Non-Fiction icon"></div><div class="head18"><h3>Non-Fiction & Academic</h3></div></div></div>
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Since.png" alt="Self-Publishing icon"></div><div class="head18"><h3>Self-Publishing Formatting</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Romance.png" alt="Print icon" width="73" height="73" loading="lazy" decoding="async"></div><div class="head18"><h3>Print Book Formatting</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Thriller.png" alt="Amazon icon" width="73" height="73" loading="lazy" decoding="async"></div><div class="head18"><h3>Amazon KDP Formatting</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/fantasy.png" alt="eBook icon" width="73" height="73" loading="lazy" decoding="async"></div><div class="head18"><h3>eBook & Kindle Formatting</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Adventure.png" alt="Children icon" width="145" height="145" loading="lazy" decoding="async"></div><div class="head18"><h3>Children's Book Formatting</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Since-Fiction.png" alt="Non-Fiction icon" width="73" height="73" loading="lazy" decoding="async"></div><div class="head18"><h3>Non-Fiction & Academic</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Since.png" alt="Self-Publishing icon" width="73" height="73" loading="lazy" decoding="async"></div><div class="head18"><h3>Self-Publishing Formatting</h3></div></div></div>
             </div>
         </div>
     </section>
@@ -372,7 +371,7 @@
             <div class="row">
                 <div class="col-md-6 right-col">
                     <div class="store-img">
-                        <img src="assets/images/Melbourne-Book-Mockup-03.webp" alt="Why professional book formatting matters">
+                        <img src="assets/images/Melbourne-Book-Mockup-03.webp" alt="Why professional book formatting matters" width="1000" height="614" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-md-6 left-col">

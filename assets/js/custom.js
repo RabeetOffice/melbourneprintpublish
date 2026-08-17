@@ -967,3 +967,113 @@ jQuery(document).ready(function ($) {
 // })();
 
 // Scroll.init();
+
+/* ---------------------------------------------------------------------------
+ * Lazy background video
+ * ---------------------------------------------------------------------------
+ * Videos marked .js-lazy-video keep their source in data-src and carry
+ * preload="none", so nothing is fetched during initial page load. The file is
+ * only requested once the section is close to the viewport. Without this a
+ * decorative, muted, below-the-fold clip competes for bandwidth with the
+ * content the visitor is actually looking at.
+ *
+ * Falls back to loading immediately where IntersectionObserver is missing, so
+ * the video still works on older browsers.
+ */
+(function () {
+    var vids = document.querySelectorAll('video.js-lazy-video[data-src]');
+    if (!vids.length) { return; }
+
+    function load(v) {
+        if (v.dataset.loaded) { return; }
+        v.dataset.loaded = '1';
+        v.src = v.dataset.src;
+        v.load();
+        // autoplay is applied here rather than in the markup so the browser
+        // has no reason to pre-fetch the file before it is visible
+        var p = v.play();
+        if (p && typeof p.catch === 'function') {
+            // autoplay can be refused (e.g. battery saver); the poster stays
+            p.catch(function () {});
+        }
+    }
+
+    /* Start loading this many px before the video scrolls in. Kept modest on
+       purpose: a larger margin pulls a decorative clip into the initial page
+       load on tall desktop viewports, which is exactly the cost this loader
+       exists to avoid. Small enough to stay out of the first paint, large
+       enough that the clip is ready by the time it is actually on screen. */
+    var MARGIN = 150;
+
+    /* Locate the element's position on the page. A <video> with no source
+       yet can measure 0x0, so fall back to the nearest ancestor that does
+       have a box -- otherwise a visible-but-unsized video would fail the
+       proximity test forever and never load. */
+    function box(v) {
+        var r = v.getBoundingClientRect();
+        if (r.width || r.height) { return r; }
+        for (var el = v.parentElement; el; el = el.parentElement) {
+            var pr = el.getBoundingClientRect();
+            if (pr.width || pr.height) { return pr; }
+        }
+        return r;
+    }
+
+    function nearViewport(v) {
+        // offsetParent is null when the element (or an ancestor) is
+        // display:none -- e.g. this section is hidden at mobile widths, and
+        // there is no point spending a visitor's data on a hidden video.
+        if (v.offsetParent === null && getComputedStyle(v).position !== 'fixed') {
+            return false;
+        }
+        var r = box(v);
+        if (!r.width && !r.height) { return false; }
+        return r.top < (window.innerHeight + MARGIN) && r.bottom > -MARGIN;
+    }
+
+    function sweep() {
+        var pending = false;
+        Array.prototype.forEach.call(vids, function (v) {
+            if (v.dataset.loaded) { return; }
+            if (nearViewport(v)) { load(v); } else { pending = true; }
+        });
+        if (!pending) { teardown(); }
+    }
+
+    /* Throttled with a timer rather than requestAnimationFrame: rAF is paused
+       in background tabs and in non-compositing contexts, which would stall
+       the fallback exactly when it is needed. 100ms is well below human
+       scroll perception and costs nothing. */
+    var timer = null;
+    function onScroll() {
+        if (timer) { return; }
+        timer = setTimeout(function () { timer = null; sweep(); }, 100);
+    }
+
+    function teardown() {
+        window.removeEventListener('scroll', onScroll);
+        window.removeEventListener('resize', onScroll);
+        window.removeEventListener('orientationchange', onScroll);
+    }
+
+    // IntersectionObserver is the efficient path, but it is not used alone:
+    // a plain scroll/resize check runs alongside it so the video still loads
+    // if IO never delivers an entry. Both funnel through load(), which is
+    // guarded by dataset.loaded, so a video can never be started twice.
+    if ('IntersectionObserver' in window) {
+        var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (e) {
+                if (e.isIntersecting) {
+                    load(e.target);
+                    io.unobserve(e.target);
+                }
+            });
+        }, { rootMargin: MARGIN + 'px 0px' });
+        Array.prototype.forEach.call(vids, function (v) { io.observe(v); });
+    }
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll, { passive: true });
+    window.addEventListener('orientationchange', onScroll, { passive: true });
+    sweep(); // handles a video that is already in view on first paint
+})();

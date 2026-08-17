@@ -13,8 +13,7 @@
 <body class="<?php echo basename($_SERVER['PHP_SELF'], '.php'); ?> service-page">
 
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFZRKR97" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+    <?php echo mpp_seo_gtm_noscript(); ?>
     <!-- End Google Tag Manager (noscript) -->
 
     <?php include("includes/disclaimer.php"); ?>
@@ -51,7 +50,7 @@
                 </div>
                 <div class="col-md-6 right-col">
                     <div class="banner-img">
-                        <img src="assets/images/MP&P_Services_nonFictionGhostWriting_01.webp" alt="Book marketing expert in Melbourne">
+                        <img src="assets/images/MP&P_Services_nonFictionGhostWriting_01.webp" alt="Book marketing expert in Melbourne" width="1100" height="732" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -76,7 +75,7 @@
                 <div class="col-md-6 right-col">
                     <div class="store-img">
                         <img src="assets/images/MP&P_Services_nonFictionGhostWriting_02.webp"
-                            alt="Melbourne book mockup showcasing custom book design">
+                            alt="Melbourne book mockup showcasing custom book design" width="1100" height="1097" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-md-6 left-col">
@@ -506,7 +505,7 @@
                 <div class="col-md-6 right-col">
                     <div class="t-b-img">
                         <img src="assets/images/Melbourne-Book-Mockup-01-1.webp"
-                            alt="Custom Melbourne book mockup showcasing professional design">
+                            alt="Custom Melbourne book mockup showcasing professional design" width="493" height="520" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -566,7 +565,7 @@
                 <div class="col-md-4 mid-col">
                     <div class="proceimg">
                         <img src="assets/images/Melbourne-Book-log.png"
-                            alt="Melbourne Book logo with modern typography">
+                            alt="Melbourne Book logo with modern typography" width="1093" height="1093">
                     </div>
                 </div>
                 <div class="col-md-4 right-col">
@@ -619,7 +618,7 @@
                 <div class="col-md-2">
                     <div class="cate-img">
                         <div class="img-box mb20"><img src="assets/images/icons/Romance.png"
-                                alt="Romance genre book icon for Melbourne Print & Publish"></div>
+                                alt="Romance genre book icon for Melbourne Print & Publish" width="73" height="73" loading="lazy" decoding="async"></div>
                         <div class="head18">
                             <h3>Business & Entrepreneurship</h3>
                         </div>
@@ -628,7 +627,7 @@
                 <div class="col-md-2">
                     <div class="cate-img">
                         <div class="img-box mb20"><img src="assets/images/icons/Thriller.png"
-                                alt="Thriller genre book icon for Melbourne Print & Publish"></div>
+                                alt="Thriller genre book icon for Melbourne Print & Publish" width="73" height="73" loading="lazy" decoding="async"></div>
                         <div class="head18">
                             <h3>Memoirs & Autobiography</h3>
                         </div>
@@ -637,7 +636,7 @@
                 <div class="col-md-2">
                     <div class="cate-img">
                         <div class="img-box mb20"><img src="assets/images/icons/fantasy.png"
-                                alt="Fantasy genre book icon for Melbourne Print & Publish"></div>
+                                alt="Fantasy genre book icon for Melbourne Print & Publish" width="73" height="73" loading="lazy" decoding="async"></div>
                         <div class="head18">
                             <h3>Self-Help & Personal Development</h3>
                         </div>
@@ -646,7 +645,7 @@
                 <div class="col-md-2">
                     <div class="cate-img">
                         <div class="img-box mb20"><img src="assets/images/icons/Since-Fiction.png"
-                                alt="Science fiction genre book icon for Melbourne Print & Publish"></div>
+                                alt="Science fiction genre book icon for Melbourne Print & Publish" width="73" height="73" loading="lazy" decoding="async"></div>
                         <div class="head18">
                             <h3>Health & Wellness</h3>
                         </div>
@@ -655,7 +654,7 @@
                 <div class="col-md-2">
                     <div class="cate-img">
                         <div class="img-box mb20"><img src="assets/images/icons/Since.png"
-                                alt="General publishing icon for Melbourne Print & Publish"></div>
+                                alt="General publishing icon for Melbourne Print & Publish" width="73" height="73" loading="lazy" decoding="async"></div>
                         <div class="head18">
                             <h3>Academic & Research</h3>
                         </div>
@@ -664,7 +663,7 @@
                 <div class="col-md-2">
                     <div class="cate-img">
                         <div class="img-box mb20"><img src="assets/images/icons/Adventure.png"
-                                alt="Adventure genre book icon for Melbourne Print & Publish"></div>
+                                alt="Adventure genre book icon for Melbourne Print & Publish" width="145" height="145" loading="lazy" decoding="async"></div>
                         <div class="head18">
                             <h3>True Crime & Investigative</h3>
                         </div>
@@ -686,7 +685,7 @@
             <div class="row">
                 <div class="col-md-6 right-col">
                     <div class="store-img">
-                        <img src="assets/images/MP&P_Services_nonFictionGhostWriting_03.webp" alt="Why book marketing matters">
+                        <img src="assets/images/MP&P_Services_nonFictionGhostWriting_03.webp" alt="Why book marketing matters" width="1100" height="733" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-md-6 left-col">

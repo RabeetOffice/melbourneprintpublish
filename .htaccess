@@ -5,14 +5,16 @@
 Options -Indexes
 ServerSignature Off
 
-# Do NOT use ErrorDocument 404 / because URL change nahi hota
-# Wrong URLs ko rewrite block ke end me homepage redirect karenge
+# Unknown URLs must return a real 404 (Google treats a redirect-to-home
+# as a "soft 404" and it burns crawl budget). 404.php also sends the
+# 404 status itself, so the code is correct either way.
+ErrorDocument 404 /404.php
 
 <FilesMatch "^\.">
     Require all denied
 </FilesMatch>
 
-<FilesMatch "(?i)\.(env|ini|log|sql|sh|bak|swp|conf|json|lock)$">
+<FilesMatch "(?i)\.(env|ini|log|sql|sh|bak|swp|conf|json|lock|md|zip|tar|gz|tgz|bz2|xz|rar|7z|old|orig|dist|backup|sqlite|db)$">
     Require all denied
 </FilesMatch>
 
@@ -161,10 +163,7 @@ FileETag None
     RewriteCond %{DOCUMENT_ROOT}/$1.php -f
     RewriteRule ^(.+?)/?$ $1.php [L]
 
-    # Wrong/unknown URLs redirect to homepage AND URL changes to /
-    RewriteCond %{HTTP_HOST} ^(?:www\.)?melbourneprintpublish\.com\.au$ [NC]
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^.+$ / [R=302,L]
+    # Unknown URLs fall through to Apache's ErrorDocument 404 (set at the top
+    # of this file). Do not redirect them to "/" — that is a soft 404.
 
 </IfModule>

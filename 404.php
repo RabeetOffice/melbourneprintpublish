@@ -1,4 +1,10 @@
-<?php require_once __DIR__ . '/includes/config.php'; ?>
+<?php
+/* Always answer with a real 404 status. Apache sets this when the page is
+   served via ErrorDocument, but setting it here too means a direct hit on
+   /404/ is never a soft 404 (a 200 on an error page misleads Google). */
+http_response_code(404);
+require_once __DIR__ . '/includes/config.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,7 +28,7 @@
         <div class="not_found_inner">
             <div class="logo">
                 <a href="/" class="custom-logo-link" rel="home">
-                    <img src="<?= e(brand_asset('/assets/images/logo.png')); ?>" alt="Primary logo of Melbourne Print & Publish">
+                    <img src="<?= e(brand_asset('/assets/images/logo.png')); ?>" alt="Primary logo of Melbourne Print & Publish" width="843" height="240">
                 </a>
             </div>
             <header class="page-header">

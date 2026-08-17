@@ -13,8 +13,7 @@
 <body class="<?php echo basename($_SERVER['PHP_SELF'], '.php'); ?>">
 
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFZRKR97" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+    <?php echo mpp_seo_gtm_noscript(); ?>
     <!-- End Google Tag Manager (noscript) -->
 
     <?php include("includes/disclaimer.php"); ?>

@@ -13,8 +13,7 @@
 <body class="<?php echo basename($_SERVER['PHP_SELF'], '.php'); ?> service-page">
 
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFZRKR97" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+    <?php echo mpp_seo_gtm_noscript(); ?>
     <!-- End Google Tag Manager (noscript) -->
 
     <?php include("includes/disclaimer.php"); ?>
@@ -44,7 +43,7 @@
                 </div>
                 <div class="col-md-6 right-col">
                     <div class="banner-img">
-                        <img src="assets/images/portrait-focus-man.webp" alt="Book trailer video production expert in Melbourne">
+                        <img src="assets/images/portrait-focus-man.webp" alt="Book trailer video production expert in Melbourne" width="768" height="512" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -69,7 +68,7 @@
                 <div class="col-md-6 right-col">
                     <div class="store-img">
                         <img src="assets/images/Melbourne-Book-Mockup.webp"
-                            alt="Melbourne book trailer production showcase">
+                            alt="Melbourne book trailer production showcase" width="493" height="520" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-md-6 left-col">
@@ -275,7 +274,7 @@
                 </div>
                 <div class="col-md-6 right-col">
                     <div class="t-b-img">
-                        <img src="assets/images/Melbourne-Book-Mockup-01-1.webp" alt="Book trailer video production pricing Melbourne">
+                        <img src="assets/images/Melbourne-Book-Mockup-01-1.webp" alt="Book trailer video production pricing Melbourne" width="493" height="520" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -318,7 +317,7 @@
                 </div>
                 <div class="col-md-4 mid-col">
                     <div class="proceimg">
-                        <img src="assets/images/Melbourne-Book-log.png" alt="Melbourne Book trailer production logo">
+                        <img src="assets/images/Melbourne-Book-log.png" alt="Melbourne Book trailer production logo" width="1093" height="1093">
                     </div>
                 </div>
                 <div class="col-md-4 right-col">
@@ -356,12 +355,12 @@
                 </div>
             </div>
             <div class="row row2 mb20">
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Romance.png" alt="Cinematic icon"></div><div class="head18"><h3>Cinematic Trailers</h3></div></div></div>
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Thriller.png" alt="Animated icon"></div><div class="head18"><h3>Animated Trailers</h3></div></div></div>
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/fantasy.png" alt="Social media icon"></div><div class="head18"><h3>Social Media Trailers</h3></div></div></div>
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Adventure.png" alt="Launch package icon"></div><div class="head18"><h3>Book Launch Packages</h3></div></div></div>
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Since-Fiction.png" alt="Author brand icon"></div><div class="head18"><h3>Author Brand Videos</h3></div></div></div>
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Since.png" alt="Non-fiction icon"></div><div class="head18"><h3>Non-Fiction Trailers</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Romance.png" alt="Cinematic icon" width="73" height="73" loading="lazy" decoding="async"></div><div class="head18"><h3>Cinematic Trailers</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Thriller.png" alt="Animated icon" width="73" height="73" loading="lazy" decoding="async"></div><div class="head18"><h3>Animated Trailers</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/fantasy.png" alt="Social media icon" width="73" height="73" loading="lazy" decoding="async"></div><div class="head18"><h3>Social Media Trailers</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Adventure.png" alt="Launch package icon" width="145" height="145" loading="lazy" decoding="async"></div><div class="head18"><h3>Book Launch Packages</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Since-Fiction.png" alt="Author brand icon" width="73" height="73" loading="lazy" decoding="async"></div><div class="head18"><h3>Author Brand Videos</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Since.png" alt="Non-fiction icon" width="73" height="73" loading="lazy" decoding="async"></div><div class="head18"><h3>Non-Fiction Trailers</h3></div></div></div>
             </div>
         </div>
     </section>
@@ -372,7 +371,7 @@
             <div class="row">
                 <div class="col-md-6 right-col">
                     <div class="store-img">
-                        <img src="assets/images/Melbourne-Book-Mockup-03.webp" alt="Why professional book trailer videos matter">
+                        <img src="assets/images/Melbourne-Book-Mockup-03.webp" alt="Why professional book trailer videos matter" width="1000" height="614" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-md-6 left-col">

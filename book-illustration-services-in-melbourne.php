@@ -13,8 +13,7 @@
 <body class="<?php echo basename($_SERVER['PHP_SELF'], '.php'); ?> service-page">
 
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFZRKR97" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+    <?php echo mpp_seo_gtm_noscript(); ?>
     <!-- End Google Tag Manager (noscript) -->
 
     <?php include("includes/disclaimer.php"); ?>
@@ -44,7 +43,7 @@
                 </div>
                 <div class="col-md-6 right-col">
                     <div class="banner-img">
-                        <img src="assets/images/portrait-focus-man.webp" alt="Book illustration expert in Melbourne">
+                        <img src="assets/images/portrait-focus-man.webp" alt="Book illustration expert in Melbourne" width="768" height="512" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -69,7 +68,7 @@
                 <div class="col-md-6 right-col">
                     <div class="store-img">
                         <img src="assets/images/Melbourne-Book-Mockup.webp"
-                            alt="Melbourne book illustration showcase">
+                            alt="Melbourne book illustration showcase" width="493" height="520" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-md-6 left-col">
@@ -270,7 +269,7 @@
                 </div>
                 <div class="col-md-6 right-col">
                     <div class="t-b-img">
-                        <img src="assets/images/Melbourne-Book-Mockup-01-1.webp" alt="Book illustration cost Melbourne">
+                        <img src="assets/images/Melbourne-Book-Mockup-01-1.webp" alt="Book illustration cost Melbourne" width="493" height="520" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -313,7 +312,7 @@
                 </div>
                 <div class="col-md-4 mid-col">
                     <div class="proceimg">
-                        <img src="assets/images/Melbourne-Book-log.png" alt="Melbourne book illustration process">
+                        <img src="assets/images/Melbourne-Book-log.png" alt="Melbourne book illustration process" width="1093" height="1093" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-md-4 right-col">
@@ -351,12 +350,12 @@
                 </div>
             </div>
             <div class="row row2 mb20">
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Romance.png" alt="Picture books icon"></div><div class="head18"><h3>Children's Picture Books</h3></div></div></div>
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Thriller.png" alt="Comics icon"></div><div class="head18"><h3>Comic Books & Graphic Novels</h3></div></div></div>
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/fantasy.png" alt="Educational icon"></div><div class="head18"><h3>Educational & Non-Fiction</h3></div></div></div>
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Adventure.png" alt="Cover art icon"></div><div class="head18"><h3>Cover Illustration & Artwork</h3></div></div></div>
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Since-Fiction.png" alt="Character design icon"></div><div class="head18"><h3>Character Design</h3></div></div></div>
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Since.png" alt="Storyboard icon"></div><div class="head18"><h3>Storyboard & Layout</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Romance.png" alt="Picture books icon" width="73" height="73" loading="lazy" decoding="async"></div><div class="head18"><h3>Children's Picture Books</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Thriller.png" alt="Comics icon" width="73" height="73" loading="lazy" decoding="async"></div><div class="head18"><h3>Comic Books & Graphic Novels</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/fantasy.png" alt="Educational icon" width="73" height="73" loading="lazy" decoding="async"></div><div class="head18"><h3>Educational & Non-Fiction</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Adventure.png" alt="Cover art icon" width="145" height="145" loading="lazy" decoding="async"></div><div class="head18"><h3>Cover Illustration & Artwork</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Since-Fiction.png" alt="Character design icon" width="73" height="73" loading="lazy" decoding="async"></div><div class="head18"><h3>Character Design</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Since.png" alt="Storyboard icon" width="73" height="73" loading="lazy" decoding="async"></div><div class="head18"><h3>Storyboard & Layout</h3></div></div></div>
             </div>
         </div>
     </section>
@@ -367,7 +366,7 @@
             <div class="row">
                 <div class="col-md-6 right-col">
                     <div class="store-img">
-                        <img src="assets/images/Melbourne-Book-Mockup-03.webp" alt="Why professional book illustration matters">
+                        <img src="assets/images/Melbourne-Book-Mockup-03.webp" alt="Why professional book illustration matters" width="1000" height="614" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-md-6 left-col">

@@ -13,8 +13,7 @@
 <body class="<?php echo basename($_SERVER['PHP_SELF'], '.php'); ?>">
 
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFZRKR97" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+    <?php echo mpp_seo_gtm_noscript(); ?>
     <!-- End Google Tag Manager (noscript) -->
 
     <?php include("includes/disclaimer.php"); ?>
@@ -125,7 +124,7 @@
 
                 <div class="col-md-6 right-col">
                     <div class="abt-img">
-                        <img src="assets/images/aboutimg.webp" alt="About Melbourne Print & Publish company and services" loading="lazy">
+                        <img src="assets/images/aboutimg.webp" alt="About Melbourne Print & Publish company and services" loading="lazy" width="2916" height="2430">
                     </div>
                 </div>
             </div>
@@ -317,7 +316,7 @@
                         <p>Don’t let your story stay trapped in your head.<br>It deserves more than a ‘someday.’</p>
                     </div>
                     <div class="start-img">
-                        <img src="assets/images/contimage.webp" alt="High-quality print and publishing services in Melbourne" loading="lazy">
+                        <img src="assets/images/contimage.webp" alt="High-quality print and publishing services in Melbourne" loading="lazy" width="565" height="350">
                     </div>
                 </div>
                 <div class="col-md-6 right-col">

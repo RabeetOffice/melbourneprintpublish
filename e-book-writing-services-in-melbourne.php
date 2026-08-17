@@ -13,8 +13,7 @@
 <body class="<?php echo basename($_SERVER['PHP_SELF'], '.php'); ?> service-page">
 
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFZRKR97" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+    <?php echo mpp_seo_gtm_noscript(); ?>
     <!-- End Google Tag Manager (noscript) -->
 
     <?php include("includes/disclaimer.php"); ?>
@@ -44,7 +43,7 @@
                 </div>
                 <div class="col-md-6 right-col">
                     <div class="banner-img">
-                        <img src="assets/images/MP&P_Services_eBookWriting_01.webp" alt="eBook writing expert in Melbourne">
+                        <img src="assets/images/MP&P_Services_eBookWriting_01.webp" alt="eBook writing expert in Melbourne" width="800" height="1000" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -69,7 +68,7 @@
                 <div class="col-md-6 right-col">
                     <div class="store-img">
                         <img src="assets/images/MP&P_Services_eBookWriting_02.webp"
-                            alt="Melbourne book mockup showcasing custom eBook design">
+                            alt="Melbourne book mockup showcasing custom eBook design" width="1000" height="717" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-md-6 left-col">
@@ -275,7 +274,7 @@
                 </div>
                 <div class="col-md-6 right-col">
                     <div class="t-b-img">
-                        <img src="assets/images/MP&P_Services_eBookWriting_03.webp" alt="Custom Melbourne book mockup showcasing professional design">
+                        <img src="assets/images/MP&P_Services_eBookWriting_03.webp" alt="Custom Melbourne book mockup showcasing professional design" width="1000" height="812" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -318,7 +317,7 @@
                 </div>
                 <div class="col-md-4 mid-col">
                     <div class="proceimg">
-                        <img src="assets/images/Melbourne-Book-log.png" alt="Melbourne Book logo with modern typography">
+                        <img src="assets/images/Melbourne-Book-log.png" alt="Melbourne Book logo with modern typography" width="1093" height="1093">
                     </div>
                 </div>
                 <div class="col-md-4 right-col">
@@ -357,12 +356,12 @@
                 </div>
             </div>
             <div class="row row2 mb20">
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Romance.png" alt="Fiction genre icon"></div><div class="head18"><h3>Fiction & Genre eBooks</h3></div></div></div>
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Thriller.png" alt="Business icon"></div><div class="head18"><h3>Business & Authority eBooks</h3></div></div></div>
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/fantasy.png" alt="Self-help icon"></div><div class="head18"><h3>Self-Help & Personal Development</h3></div></div></div>
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Since-Fiction.png" alt="How-to icon"></div><div class="head18"><h3>How-To & Instructional Guides</h3></div></div></div>
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Since.png" alt="Memoir icon"></div><div class="head18"><h3>Memoir & Personal Stories</h3></div></div></div>
-                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Adventure.png" alt="Lead magnet icon"></div><div class="head18"><h3>Lead Magnets & Freebie eBooks</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Romance.png" alt="Fiction genre icon" width="73" height="73" loading="lazy" decoding="async"></div><div class="head18"><h3>Fiction & Genre eBooks</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Thriller.png" alt="Business icon" width="73" height="73" loading="lazy" decoding="async"></div><div class="head18"><h3>Business & Authority eBooks</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/fantasy.png" alt="Self-help icon" width="73" height="73" loading="lazy" decoding="async"></div><div class="head18"><h3>Self-Help & Personal Development</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Since-Fiction.png" alt="How-to icon" width="73" height="73" loading="lazy" decoding="async"></div><div class="head18"><h3>How-To & Instructional Guides</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Since.png" alt="Memoir icon" width="73" height="73" loading="lazy" decoding="async"></div><div class="head18"><h3>Memoir & Personal Stories</h3></div></div></div>
+                <div class="col-md-2"><div class="cate-img"><div class="img-box mb20"><img src="assets/images/icons/Adventure.png" alt="Lead magnet icon" width="145" height="145" loading="lazy" decoding="async"></div><div class="head18"><h3>Lead Magnets & Freebie eBooks</h3></div></div></div>
             </div>
         </div>
     </section>
@@ -373,7 +372,7 @@
             <div class="row">
                 <div class="col-md-6 right-col">
                     <div class="store-img">
-                        <img src="assets/images/MP&P_Services_eBookWriting_04.webp" alt="Why professional eBook writing works">
+                        <img src="assets/images/MP&P_Services_eBookWriting_04.webp" alt="Why professional eBook writing works" width="1000" height="1145" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="col-md-6 left-col">

@@ -31,12 +31,27 @@ if (!function_exists('mpp_asset_v')) {
 }
 ?>
 <?php include __DIR__ . '/favicon.php'; ?>
+<!-- Warm up the third-party origins the <head> is about to block on. Each
+     saves a DNS + TCP + TLS round trip on the critical path. -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="preconnect" href="https://code.jquery.com" crossorigin>
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<link rel="dns-prefetch" href="https://analytics.ahrefs.com">
+
 <!-- Framework first -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
-<!-- Icons -->
-<link rel="stylesheet" type="text/css" href="<?php echo mpp_asset_v($assetBase, '/assets/fontawesome/css/all.min.css'); ?>">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<!-- Icons. The local copy is the only one: this used to also pull the same
+     library again from cdnjs, which downloaded a second full Font Awesome
+     (CSS + webfonts) for no benefit and blocked rendering on a second host.
+
+     Loaded off the critical path via the media="print" swap: the browser
+     fetches it at low priority without blocking first paint, then onload
+     flips it to media="all" and it applies. 58 KB of icon CSS should not
+     stand between the visitor and the page text. Icons settle a moment
+     after paint; the <noscript> copy keeps them working without JS. -->
+<link rel="stylesheet" type="text/css" href="<?php echo mpp_asset_v($assetBase, '/assets/fontawesome/css/all.min.css'); ?>" media="print" onload="this.media='all';this.onload=null;">
+<noscript><link rel="stylesheet" type="text/css" href="<?php echo mpp_asset_v($assetBase, '/assets/fontawesome/css/all.min.css'); ?>"></noscript>
 
 <!-- Plugin CSS -->
 <link rel="stylesheet" type="text/css" href="<?php echo mpp_asset_v($assetBase, '/assets/css/slick.css'); ?>">

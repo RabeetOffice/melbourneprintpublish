@@ -9,29 +9,13 @@
     <meta name="robots" content="follow, index">
     <title>Omniscient Point of View: A Writer's Full Guide</title>
     <meta name="description" content="Master the omniscient point of view with this practical guide for Australian authors. Learn variations, examples, techniques, and common mistakes." />
-    <meta name="DC.title" content="Melbourne Print and Publish" />
-    <meta name="geo.region" content="AU-VIC" />
-    <meta name="geo.placename" content="Melbourne" />
-    <meta name="geo.position" content="-37.841303;144.97652" />
-    <meta name="ICBM" content="-37.841303, 144.97652" />
-    <link rel="canonical" href="<?php echo e(brand_canonical()); ?>" />
-            <meta name="google-site-verification" content="fmX4SQHeIHlfWDv3FiuLtWRDGStxBIfdRWPTQGQ8Vxs" />
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V7PVJBXYL9"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-V7PVJBXYL9');
-    </script>
-    <script>
-    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PFZRKR97');
-    </script>
-    <?php include("../includes/style.php"); ?>
+    <?php require_once __DIR__ . '/../includes/seo-meta.php'; echo mpp_seo_shared_block(); ?>
+<?php include("../includes/style.php"); ?>
 </head>
 
 <body class="omniscient-point-of-view">
 
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFZRKR97" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <?php echo mpp_seo_gtm_noscript(); ?>
 
     <?php include("../includes/disclaimer.php"); ?>
 
@@ -59,7 +43,7 @@
                     <div class="tag-date">Posted on: 15-04-2026</div>
 
                     <div class="s-banner">
-                        <img src="<?= e(brand_asset('/assets/images/omni.webp')); ?>" alt="Omniscient Point of View Guide for Writers">
+                        <img src="<?= e(brand_asset('/assets/images/omni.webp')); ?>" alt="Omniscient Point of View Guide for Writers" width="891" height="545" loading="lazy" decoding="async">
                     </div>
 
                     <div class="s-content">
@@ -347,7 +331,7 @@
 
                     <div class="author-box">
                         <div class="author-avatar">
-                            <img src="<?= e(brand_asset('/assets/images/avatar.jpg')); ?>" alt="avatar">
+                            <img src="<?= e(brand_asset('/assets/images/avatar.jpg')); ?>" alt="avatar" width="80" height="80" loading="lazy" decoding="async">
                         </div>
                         <div class="author-info">
                             <div class="author-user">
@@ -363,7 +347,7 @@
                 <div class="col-md-4 right-col">
                     <div class="sidebar-sticky">
                         <div class="blog-logo">
-                            <img src="<?= e(brand_asset('/assets/images/logo.png')); ?>" alt="Primary logo of Melbourne Print & Publish">
+                            <img src="<?= e(brand_asset('/assets/images/logo.png')); ?>" alt="Primary logo of Melbourne Print & Publish" width="843" height="240">
                         </div>
                         <div class="share-box">
                             <span class="share-title">Share this article</span>
