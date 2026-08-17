@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   overflow-x: hidden;
   font-size: 14px;
   line-height: 1;
@@ -18,7 +18,7 @@ h5,
 h6 {
   display: block;
   font-weight: normal;
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
 }
 
 *:hover,
@@ -51,7 +51,7 @@ button {
 
 p,
 a {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   color: #000000;
@@ -61,7 +61,7 @@ a {
 p {
   line-height: 26px;
   display: block;
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
 }
 
 span {
@@ -135,7 +135,7 @@ a:hover {
 }
 
 .error-404.not-found h1 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-size: 200px;
   line-height: 1;
   color: #393939;
@@ -149,7 +149,7 @@ a:hover {
 }
 
 .page-header h3 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   color: #000;
   font-weight: 700;
   margin-bottom: 10px;
@@ -157,7 +157,7 @@ a:hover {
 }
 
 .page-header p {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-size: 22px !important;
   color: #000;
   margin-bottom: 20px;
@@ -288,7 +288,7 @@ a:hover {
 /* General Css Start */
 
 :is(.head45) :is(h1, h2, h3, h4, h5, h6) {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 45px;
@@ -301,7 +301,7 @@ a:hover {
 }
 
 :is(.head38) :is(h1, h2, h3, h4, h5, h6) {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 38px;
@@ -314,7 +314,7 @@ a:hover {
 }
 
 :is(.head30) :is(h1, h2, h3, h4, h5, h6) {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
@@ -327,7 +327,7 @@ a:hover {
 }
 
 :is(.head26) :is(h1, h2, h3, h4, h5, h6) {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 26px;
@@ -340,7 +340,7 @@ a:hover {
 }
 
 :is(.head22) :is(h1, h2, h3, h4, h5, h6) {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
@@ -353,7 +353,7 @@ a:hover {
 }
 
 :is(.head18) :is(h1, h2, h3, h4, h5, h6) {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -378,7 +378,7 @@ a:hover {
 .para16 p,
 .para16 li {
   position: relative;
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -387,7 +387,7 @@ a:hover {
 }
 
 a.bttn {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -412,7 +412,7 @@ a.bttn:hover {
 }
 
 a.bttn1 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -427,7 +427,8 @@ a.bttn1 {
   /*animation: pulse 1.5s ease-in-out infinite;*/
 }
 
-a.bttn1 i {
+a.bttn1 i,
+a.bttn1 .mpp-icon {
   margin-left: 5px;
 }
 
@@ -437,7 +438,7 @@ a.bttn1:hover {
 }
 
 a.bttn2 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -452,7 +453,8 @@ a.bttn2 {
   /*animation: pulse 1.5s ease-in-out infinite;*/
 }
 
-a.bttn2 i {
+a.bttn2 i,
+a.bttn2 .mpp-icon {
   margin-right: 5px;
 }
 
@@ -462,7 +464,7 @@ a.bttn2:hover {
 }
 
 a.bttn3 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -477,7 +479,8 @@ a.bttn3 {
   /*animation: pulse 1.5s ease-in-out infinite;*/
 }
 
-a.bttn3 i {
+a.bttn3 i,
+a.bttn3 .mpp-icon {
   margin-right: 5px;
 }
 
@@ -739,7 +742,7 @@ header#masthead .row .right-col {
 
 .navigation .nav-links li a {
   text-decoration: none;
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -803,7 +806,7 @@ header#masthead .row .right-col {
 }
 
 .nav-links li .sub-menu li a {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   color: #393939;
   display: block;
   text-align: left;
@@ -1570,7 +1573,7 @@ header#masthead .row .right-col {
 
 .genre-card li {
   position: relative;
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 12px;
@@ -1633,7 +1636,7 @@ header#masthead .row .right-col {
 }
 
 .portfolio_box-name h4 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -1666,7 +1669,7 @@ header#masthead .row .right-col {
 }
 
 .website-portf .portf-desc {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.55;
@@ -1697,7 +1700,7 @@ header#masthead .row .right-col {
 }
 
 .video-portf .portf-desc {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.55;
@@ -1926,7 +1929,7 @@ header#masthead .row .right-col {
 }
 
 .service_card_bx {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   height: 350px;
   width: 100%;
   position: relative;
@@ -1997,7 +2000,7 @@ header#masthead .row .right-col {
 }
 
 .service_card_bx .service_card_data h3 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -2006,7 +2009,7 @@ header#masthead .row .right-col {
 }
 
 .service_card_bx .service_card_data p {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -2123,7 +2126,7 @@ header#masthead .row .right-col {
 }
 
 .proj-counter .counter-no {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -2135,7 +2138,7 @@ header#masthead .row .right-col {
 }
 
 .proj-counter h3 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -2261,7 +2264,8 @@ header#masthead .row .right-col {
   padding: 10px 0;
 }
 
-.testimonial_box_icon i {
+.testimonial_box_icon i,
+.testimonial_box_icon .mpp-icon {
   font-size: 25px;
   color: #393939;
 }
@@ -2275,7 +2279,7 @@ header#masthead .row .right-col {
 }
 
 .testimonial_box_text p {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   color: #000;
   font-size: 14px;
   line-height: 20px;
@@ -2301,7 +2305,7 @@ header#masthead .row .right-col {
 }
 
 .testimonial_box_name h4 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-size: 20px !important;
   line-height: 25px;
   color: #393939;
@@ -2310,7 +2314,7 @@ header#masthead .row .right-col {
 }
 
 .testimonial_box-job span {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   color: #ff7f3e;
   font-size: 14px;
   text-transform: uppercase;
@@ -2332,7 +2336,8 @@ header#masthead .row .right-col {
   opacity: 1;
 }
 
-.slick-current.slick-center .testimonial_box_icon i {
+.slick-current.slick-center .testimonial_box_icon i,
+.slick-current.slick-center .testimonial_box_icon .mpp-icon {
   color: #393939;
 }
 
@@ -2571,7 +2576,7 @@ header#masthead .row .right-col {
 .contact-form input,
 .contact-form select,
 .contact-form textarea {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -2885,7 +2890,7 @@ button:hover {
 }
 
 .blog-title h4 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -2907,7 +2912,7 @@ button:hover {
 }
 
 .blog_excerpt p {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-weight: 300;
   font-size: 14px;
   margin: 0;
@@ -2935,7 +2940,7 @@ button:hover {
 }
 
 .blog-footer .get_data {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-weight: 300;
   font-size: 14px;
   color: #fff;
@@ -3216,7 +3221,7 @@ button:hover {
 }
 
 .author-user h3 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-size: 20px;
   color: #fff;
   text-transform: capitalize;
@@ -3227,7 +3232,7 @@ button:hover {
 }
 
 .author-bio p {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-size: 16px;
   color: #fff;
 }
@@ -3289,7 +3294,7 @@ button:hover {
 
 .share-title {
   display: block;
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -3393,7 +3398,7 @@ button:hover {
 }
 
 .toc-list a {
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   color: #393939;
 }
 
@@ -3654,4 +3659,83 @@ textarea:focus-visible,
 
 
 
-  /******************** Responsive End **********************/
+  /******************** Responsive End **********************/
+
+/* YouTube facade: fills the slot the real player used to occupy, so swapping
+   the thumbnail for the iframe on click does not move anything around it. */
+.testimonial-video .yt-facade {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  background: #000;
+  overflow: hidden;
+}
+.testimonial-video .yt-facade img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.testimonial-video .yt-facade-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 68px;
+  height: 48px;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.65);
+}
+.testimonial-video .yt-facade-play::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  border-style: solid;
+  border-width: 10px 0 10px 17px;
+  border-color: transparent transparent transparent #fff;
+}
+.testimonial-video .yt-facade:hover .yt-facade-play,
+.testimonial-video .yt-facade:focus-visible .yt-facade-play {
+  background: #f00;
+}
+
+/* Ported from slick-theme.css, which is no longer loaded.
+   The theme file was 100% unused except for this one container rule: the
+   site already restyles .slick-dots li / button / .slick-active below, but
+   never defined the <ul> itself. Dropping the theme also drops its 261 KB
+   ajax-loader.gif and the four slick icon-font files, none of which this
+   site uses (every carousel sets arrows:false, and the dots glyph is
+   overridden by the site's own .slick-dots li button::before). */
+.slick-dots {
+  position: absolute;
+  bottom: -25px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+/* Inline SVG icons, replacing Font Awesome 5.15.1.
+   The library cost 58 KB of CSS (99% of it unused for the 16 icons this site
+   shows) plus the solid and brands webfonts. Sizing mirrors what Font Awesome
+   did: 1em square, inheriting the surrounding text colour, with the same
+   optical baseline nudge, so existing layout rules keep working.
+   This also fixed six icons that never rendered: they used Font Awesome 6
+   class names (fa-solid / fa-brands / fa-location-dot) that do not exist in
+   the installed v5. */
+.mpp-icon {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  vertical-align: -0.125em;
+  fill: currentColor;
+  flex-shrink: 0;
+}

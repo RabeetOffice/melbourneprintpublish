@@ -38,33 +38,56 @@ if (!function_exists('mpp_asset_v')) {
 <link rel="preconnect" href="https://www.googletagmanager.com">
 <link rel="dns-prefetch" href="https://analytics.ahrefs.com">
 
-<!-- Framework first -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<!-- Preload the two Poppins weights that carry almost all visible text
+     (400 body, 600 headings). PageSpeed measured CLS 1.088 on mobile and
+     named these fonts, with the hero <section class="banner"> alone shifting
+     0.961: the page painted in a fallback face, then reflowed when Poppins
+     arrived and pushed everything below it down. Fetching them at highest
+     priority means the real face is usually ready for the first paint. -->
+<link rel="preload" as="font" type="font/woff2" crossorigin href="<?php echo mpp_asset_v($assetBase, '/assets/fonts/poppins/Poppins-Regular.woff2'); ?>">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="<?php echo mpp_asset_v($assetBase, '/assets/fonts/poppins/Poppins-SemiBold.woff2'); ?>">
 
-<!-- Icons. The local copy is the only one: this used to also pull the same
-     library again from cdnjs, which downloaded a second full Font Awesome
-     (CSS + webfonts) for no benefit and blocked rendering on a second host.
+<?php
+/* Critical CSS inlined, full stylesheets loaded asynchronously.
+ *
+ * PageSpeed measured 900 ms of render-blocking requests on mobile. The five
+ * stylesheets are no longer on the critical path: the above-the-fold rules
+ * (header + hero, plus the @font-face declarations) are inlined below, and
+ * the complete sheets load via the media="print" swap, applying as soon as
+ * they arrive. The <noscript> block keeps the site fully styled without JS.
+ *
+ * critical.css is generated - see the note at the top of that file. If the
+ * header or hero styling changes, regenerate it or the first paint will be
+ * missing those rules.
+ */
+$mppCritical = __DIR__ . '/../assets/css/critical.css';
+if (is_file($mppCritical)) {
+    $css = (string) @file_get_contents($mppCritical);
+    // font url()s are stored root-relative against a placeholder because
+    // inlined CSS resolves relative URLs against the page, not the stylesheet
+    $css = str_replace('%%ASSET_BASE%%', $assetBase, $css);
+    echo "<style id=\"mpp-critical\">" . $css . "</style>\n";
+}
 
-     Loaded off the critical path via the media="print" swap: the browser
-     fetches it at low priority without blocking first paint, then onload
-     flips it to media="all" and it applies. 58 KB of icon CSS should not
-     stand between the visitor and the page text. Icons settle a moment
-     after paint; the <noscript> copy keeps them working without JS. -->
-<link rel="stylesheet" type="text/css" href="<?php echo mpp_asset_v($assetBase, '/assets/fontawesome/css/all.min.css'); ?>" media="print" onload="this.media='all';this.onload=null;">
-<noscript><link rel="stylesheet" type="text/css" href="<?php echo mpp_asset_v($assetBase, '/assets/fontawesome/css/all.min.css'); ?>"></noscript>
-
-<!-- Plugin CSS -->
-<link rel="stylesheet" type="text/css" href="<?php echo mpp_asset_v($assetBase, '/assets/css/slick.css'); ?>">
-<link rel="stylesheet" type="text/css" href="<?php echo mpp_asset_v($assetBase, '/assets/css/slick-theme.css'); ?>">
-
-<!-- Fonts -->
-<link rel="stylesheet" type="text/css" href="<?php echo mpp_asset_v($assetBase, '/assets/fonts/poppins/stylesheet.css'); ?>">
-
-<!-- Custom CSS LAST -->
-<link rel="stylesheet" type="text/css" href="<?php echo mpp_asset_v($assetBase, '/assets/css/style.css'); ?>">
-<link rel="stylesheet" type="text/css" href="<?php echo mpp_asset_v($assetBase, '/assets/css/responsive.css'); ?>">
-
-
+$mppSheets = [
+    '/assets/css/bootstrap-subset.css',
+    '/assets/css/slick.css',
+    '/assets/fonts/poppins/stylesheet.css',
+    '/assets/css/style.css',
+    '/assets/css/responsive.css',
+];
+foreach ($mppSheets as $sheet) {
+    $href = mpp_asset_v($assetBase, $sheet);
+    echo '<link rel="stylesheet" type="text/css" href="' . $href
+       . '" media="print" onload="this.media=\'all\';this.onload=null;">' . "\n";
+}
+echo "<noscript>\n";
+foreach ($mppSheets as $sheet) {
+    echo '    <link rel="stylesheet" type="text/css" href="'
+       . mpp_asset_v($assetBase, $sheet) . '">' . "\n";
+}
+echo "</noscript>\n";
+?>
 
 <script src="https://analytics.ahrefs.com/analytics.js" data-key="WHe/W6MDbhwfbjQb46uAUQ" async></script>
 

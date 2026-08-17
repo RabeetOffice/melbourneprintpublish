@@ -39,6 +39,13 @@ if (!function_exists('mpp_asset_v')) {
 <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
 <script defer src="<?php echo mpp_asset_v($assetBase, '/assets/js/slick.min.js'); ?>"></script>
-<script defer src="<?php echo mpp_asset_v($assetBase, '/assets/js/wow.min.js'); ?>"></script>
-<script defer src="<?php echo mpp_asset_v($assetBase, '/assets/js/Observer.min.js'); ?>"></script>
+<?php
+/* Removed as dead weight (verified against the rendered DOM sitewide):
+     wow.min.js      - the site has zero .wow elements and never calls
+                       new WOW(), and no animate.css is loaded for it to drive.
+     Observer.min.js - GreenSock Observer 3.11.4, which is a GSAP plugin. GSAP
+                       core is never loaded (the file exists in assets/js but
+                       is not referenced), so it could not do anything.
+   The files are left on disk; only the <script> tags are gone. */
+?>
 <script defer src="<?php echo mpp_asset_v($assetBase, '/assets/js/custom.js'); ?>"></script>

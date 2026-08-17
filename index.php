@@ -815,17 +815,17 @@ if ($page == 'index') {
                     <img class="main-book" src="assets/images/new-hero.webp" alt="Book Publishing Melbourne" width="1085" height="1450" loading="eager" fetchpriority="high">
 
                     <div class="floating-card card-one">
-                        <i class="fas fa-book-open"></i>
+                        <svg class="mpp-icon mpp-icon-book-open" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M542.22 32.05c-54.8 3.11-163.72 14.43-230.96 55.59-4.64 2.84-7.27 7.89-7.27 13.17v363.87c0 11.55 12.63 18.85 23.28 13.49 69.18-34.82 169.23-44.32 218.7-46.92 16.89-.89 30.02-14.43 30.02-30.66V62.75c.01-17.71-15.35-31.74-33.77-30.7zM264.73 87.64C197.5 46.48 88.58 35.17 33.78 32.05 15.36 31.01 0 45.04 0 62.75V400.6c0 16.24 13.13 29.78 30.02 30.66 49.49 2.6 149.59 12.11 218.77 46.95 10.62 5.35 23.21-1.94 23.21-13.46V100.63c0-5.29-2.62-10.14-7.27-12.99z"/></svg>
                         <span>Book Design</span>
                     </div>
 
                     <div class="floating-card card-two">
-                        <i class="fas fa-pen-nib"></i>
+                        <svg class="mpp-icon mpp-icon-pen-nib" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M136.6 138.79a64.003 64.003 0 0 0-43.31 41.35L0 460l14.69 14.69L164.8 324.58c-2.99-6.26-4.8-13.18-4.8-20.58 0-26.51 21.49-48 48-48s48 21.49 48 48-21.49 48-48 48c-7.4 0-14.32-1.81-20.58-4.8L37.31 497.31 52 512l279.86-93.29a64.003 64.003 0 0 0 41.35-43.31L416 224 288 96l-151.4 42.79zm361.34-64.62l-60.11-60.11c-18.75-18.75-49.16-18.75-67.91 0l-56.55 56.55 128.02 128.02 56.55-56.55c18.75-18.75 18.75-49.15 0-67.91z"/></svg>
                         <span>Editing</span>
                     </div>
 
                     <div class="floating-card card-three">
-                        <i class="fas fa-globe"></i>
+                        <svg class="mpp-icon mpp-icon-globe" viewBox="0 0 496 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z"/></svg>
                         <span>Global Publishing</span>
                     </div>
                 </div>
@@ -951,15 +951,20 @@ if ($page == 'index') {
         <div class="testimonial-video-column">
             <div class="video-decoration"></div>
 
+            <!-- Click-to-load facade instead of a live embed. loading="lazy"
+                 was already on the iframe, but Chrome's lazy threshold is wide
+                 on a throttled connection so PageSpeed still measured the
+                 player costing 976 KiB and 445 ms of main-thread time on
+                 mobile. The facade is one thumbnail; the real player is only
+                 built when someone actually wants to watch. -->
             <div class="testimonial-video">
-                <iframe
-                    src="https://www.youtube.com/embed/bophMqfJd8o?rel=0"
-                    title="Client video testimonial"
-                    loading="lazy"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin"
-                    allowfullscreen>
-                </iframe>
+                <button type="button" class="yt-facade" data-video-id="bophMqfJd8o"
+                        aria-label="Play client video testimonial">
+                    <img src="https://i.ytimg.com/vi/bophMqfJd8o/hqdefault.jpg"
+                         alt="Client video testimonial from Melbourne Print &amp; Publish"
+                         width="480" height="360" loading="lazy" decoding="async">
+                    <span class="yt-facade-play" aria-hidden="true"></span>
+                </button>
             </div>
 
             <div class="video-caption">

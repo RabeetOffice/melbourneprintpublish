@@ -1077,3 +1077,35 @@ jQuery(document).ready(function ($) {
     window.addEventListener('orientationchange', onScroll, { passive: true });
     sweep(); // handles a video that is already in view on first paint
 })();
+
+/* ---------------------------------------------------------------------------
+ * YouTube facade
+ * ---------------------------------------------------------------------------
+ * Swaps the lightweight thumbnail button for the real player on click. The
+ * embed is worth ~976 KiB and ~445 ms of main-thread time, which is a poor
+ * trade for visitors who never press play. autoplay=1 is set on the swapped-in
+ * iframe so the click that loads it also starts it.
+ */
+(function () {
+    document.addEventListener('click', function (ev) {
+        var btn = ev.target.closest ? ev.target.closest('.yt-facade') : null;
+        if (!btn) { return; }
+        var id = btn.getAttribute('data-video-id');
+        if (!id) { return; }
+        ev.preventDefault();
+
+        var f = document.createElement('iframe');
+        f.src = 'https://www.youtube-nocookie.com/embed/' + encodeURIComponent(id) +
+                '?rel=0&autoplay=1';
+        f.title = btn.getAttribute('aria-label') || 'Video';
+        f.setAttribute('frameborder', '0');
+        f.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+        f.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
+        f.setAttribute('allowfullscreen', '');
+        f.style.width = '100%';
+        f.style.height = '100%';
+        f.style.border = '0';
+
+        btn.parentNode.replaceChild(f, btn);
+    }, false);
+})();

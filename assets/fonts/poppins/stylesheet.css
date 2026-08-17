@@ -1,10 +1,22 @@
+/* font-display: optional (was: swap)
+   PageSpeed measured CLS 1.088 on mobile and named these faces as the
+   layout-shift sources -- 'swap' paints in a fallback face and then
+   re-lays-out the page when Poppins arrives, which moved the hero by
+   0.961 on its own. 'optional' tells the browser to use the real face
+   only if it is ready at first paint and never to swap afterwards, so
+   the reflow cannot happen. The 400 and 600 weights are preloaded in
+   includes/style.php so they normally ARE ready; other weights fall
+   back on a first visit and apply from cache on later ones.
+   To prioritise exact branding over layout stability, change these
+   back to 'swap'. */
+
 @font-face {
     font-family: 'Poppins';
     src: url('Poppins-Bold.woff2') format('woff2'),
         url('Poppins-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-    font-display: swap;
+    font-display: optional;
 }
 
 @font-face {
@@ -13,7 +25,7 @@
         url('Poppins-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
-    font-display: swap;
+    font-display: optional;
 }
 
 @font-face {
@@ -22,7 +34,7 @@
         url('Poppins-BlackItalic.woff') format('woff');
     font-weight: 900;
     font-style: italic;
-    font-display: swap;
+    font-display: optional;
 }
 
 @font-face {
@@ -31,7 +43,7 @@
         url('Poppins-BoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
-    font-display: swap;
+    font-display: optional;
 }
 
 @font-face {
@@ -40,7 +52,7 @@
         url('Poppins-ExtraBoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
-    font-display: swap;
+    font-display: optional;
 }
 
 @font-face {
@@ -49,7 +61,7 @@
         url('Poppins-ExtraBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-    font-display: swap;
+    font-display: optional;
 }
 
 @font-face {
@@ -58,7 +70,7 @@
         url('Poppins-ExtraLight.woff') format('woff');
     font-weight: 200;
     font-style: normal;
-    font-display: swap;
+    font-display: optional;
 }
 
 @font-face {
@@ -67,7 +79,7 @@
         url('Poppins-ExtraLightItalic.woff') format('woff');
     font-weight: 200;
     font-style: italic;
-    font-display: swap;
+    font-display: optional;
 }
 
 @font-face {
@@ -76,7 +88,7 @@
         url('Poppins-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
-    font-display: swap;
+    font-display: optional;
 }
 
 @font-face {
@@ -85,7 +97,7 @@
         url('Poppins-Italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
-    font-display: swap;
+    font-display: optional;
 }
 
 @font-face {
@@ -94,7 +106,7 @@
         url('Poppins-MediumItalic.woff') format('woff');
     font-weight: 500;
     font-style: italic;
-    font-display: swap;
+    font-display: optional;
 }
 
 @font-face {
@@ -103,7 +115,7 @@
         url('Poppins-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
-    font-display: swap;
+    font-display: optional;
 }
 
 @font-face {
@@ -112,7 +124,7 @@
         url('Poppins-LightItalic.woff') format('woff');
     font-weight: 300;
     font-style: italic;
-    font-display: swap;
+    font-display: optional;
 }
 
 @font-face {
@@ -121,7 +133,7 @@
         url('Poppins-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
-    font-display: swap;
+    font-display: optional;
 }
 
 @font-face {
@@ -130,7 +142,7 @@
         url('Poppins-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
+    font-display: optional;
 }
 
 @font-face {
@@ -139,7 +151,7 @@
         url('Poppins-SemiBoldItalic.woff') format('woff');
     font-weight: 600;
     font-style: italic;
-    font-display: swap;
+    font-display: optional;
 }
 
 @font-face {
@@ -148,7 +160,7 @@
         url('Poppins-Thin.woff') format('woff');
     font-weight: 100;
     font-style: normal;
-    font-display: swap;
+    font-display: optional;
 }
 
 @font-face {
@@ -157,6 +169,6 @@
         url('Poppins-ThinItalic.woff') format('woff');
     font-weight: 100;
     font-style: italic;
-    font-display: swap;
+    font-display: optional;
 }
 
