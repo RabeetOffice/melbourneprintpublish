@@ -1,1 +1,8 @@
-[]
+{
+    "smtp": {
+        "user": "marcus.hale@melbourneprintpublish.com.au",
+        "pass": "vorr gylq nyjx yjbe",
+        "from_email": "info@melbourneprintpublish.com.au",
+        "from_name": "Melbourne Print Publish"
+    }
+}

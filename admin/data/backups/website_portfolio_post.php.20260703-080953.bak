@@ -1,0 +1,35 @@
+<?php
+$websitePortfolio = [
+
+    [
+        "id" => "3",
+        "hidden" => "",
+        "image" => "",
+        "alt" => "",
+        "name" => "forby koonan",
+        "description" => "Forby Koonan is a teacher, former soldier, writer, and father who draws on his military background to craft dark science fiction exploring survival, technology, and psychological tension. His work examines the hidden pressures shaping ordinary lives in extraordinary circumstances. His debut novel, Foreverman, is an ambitious exploration of immortality, survival, and what it means to be human in a future where time offers no escape. Outside of writing, he enjoys 80s video games and restoring classic cars",
+        "link" => "https://forbykoonan.com/"
+    ],
+
+    [
+        "id" => "2",
+        "hidden" => "",
+        "image" => "",
+        "alt" => "",
+        "name" => "Cath Cunningham",
+        "description" => "Cath Cunningham is a passionate writer and storyteller, whose work often explores the humorous and philosophical aspects of life through unique perspectives. With a background in literature and creative writing, Cath has developed a distinctive voice that blends wit, depth, and an appreciation for the small moments that make life extraordinary.",
+        "link" => "https://cathcunninghamauthor.com/"
+    ],
+
+    [
+        "id" => "1",
+        "hidden" => "",
+        "image" => "",
+        "alt" => "",
+        "name" => "Do’Vinci",
+        "description" => "Do’Vinci is the creative mind behind Pino Noir: Memoirs of a Private Detective, a gripping noir mystery set between the shadows of the Second World War and the shifting cultural landscape of the 1960s.Through the character of Pino Noir, Do’Vinci brings readers into a world where mystery unfolds slowly, clues are hidden beneath layers of history, and every revelation leads deeper into the human mind.The Lipstick Murders marks the beginning of the Memoirs of a Private Detective series, introducing a story that moves between decades to uncover the events that shaped a detective’s life and the crimes that refuse to stay forgotten.",
+        "link" => "https://dovinciauthor.com/"
+    ]
+
+];
+?>

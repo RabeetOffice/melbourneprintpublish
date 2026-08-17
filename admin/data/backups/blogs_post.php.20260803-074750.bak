@@ -2,17 +2,6 @@
 $blogs = [
 
     [
-        "id" => "19",
-        "hidden" => "",
-        "image" => "/assets/images/the-rule-of-three-in-writing-an-australian-writers-guide-to-making-your-words-me.webp",
-        "alt" => "",
-        "name" => "Rule of Three in Writing: An Aussie Writer's Guide",
-        "text" => "",
-        "date" => "03-08-2026",
-        "link" => "/blogs/the-rule-of-three-in-writing/"
-    ],
-
-    [
         "id" => "18",
         "hidden" => "",
         "image" => "/assets/images/types-of-irony-in-literature-in-australia-2.webp",

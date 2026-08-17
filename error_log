@@ -1,0 +1,117 @@
+[16-Jul-2026 07:11:06 UTC] PHP Warning:  include(data/video_trailers_post.php): Failed to open stream: No such file or directory in /home/melbelgx/melbourneprintpublish.com.au/video-trailers-portfolio.php on line 38
+[16-Jul-2026 07:11:06 UTC] PHP Warning:  include(): Failed opening 'data/video_trailers_post.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/melbelgx/melbourneprintpublish.com.au/video-trailers-portfolio.php on line 38
+[16-Jul-2026 07:11:06 UTC] PHP Warning:  Undefined variable $videoTrailers in /home/melbelgx/melbourneprintpublish.com.au/video-trailers-portfolio.php on line 44
+[16-Jul-2026 07:11:06 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /home/melbelgx/melbourneprintpublish.com.au/video-trailers-portfolio.php:44
+Stack trace:
+#0 /home/melbelgx/melbourneprintpublish.com.au/video-trailers-portfolio.php(44): array_filter()
+#1 {main}
+  thrown in /home/melbelgx/melbourneprintpublish.com.au/video-trailers-portfolio.php on line 44
+[16-Jul-2026 07:11:09 UTC] PHP Warning:  include(data/video_trailers_post.php): Failed to open stream: No such file or directory in /home/melbelgx/melbourneprintpublish.com.au/video-trailers-portfolio.php on line 38
+[16-Jul-2026 07:11:09 UTC] PHP Warning:  include(): Failed opening 'data/video_trailers_post.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/melbelgx/melbourneprintpublish.com.au/video-trailers-portfolio.php on line 38
+[16-Jul-2026 07:11:09 UTC] PHP Warning:  Undefined variable $videoTrailers in /home/melbelgx/melbourneprintpublish.com.au/video-trailers-portfolio.php on line 44
+[16-Jul-2026 07:11:09 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /home/melbelgx/melbourneprintpublish.com.au/video-trailers-portfolio.php:44
+Stack trace:
+#0 /home/melbelgx/melbourneprintpublish.com.au/video-trailers-portfolio.php(44): array_filter()
+#1 {main}
+  thrown in /home/melbelgx/melbourneprintpublish.com.au/video-trailers-portfolio.php on line 44
+[16-Jul-2026 07:11:17 UTC] PHP Warning:  include(data/video_trailers_post.php): Failed to open stream: No such file or directory in /home/melbelgx/melbourneprintpublish.com.au/video-trailers-portfolio.php on line 38
+[16-Jul-2026 07:11:17 UTC] PHP Warning:  include(): Failed opening 'data/video_trailers_post.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/melbelgx/melbourneprintpublish.com.au/video-trailers-portfolio.php on line 38
+[16-Jul-2026 07:11:17 UTC] PHP Warning:  Undefined variable $videoTrailers in /home/melbelgx/melbourneprintpublish.com.au/video-trailers-portfolio.php on line 44
+[16-Jul-2026 07:11:17 UTC] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /home/melbelgx/melbourneprintpublish.com.au/video-trailers-portfolio.php:44
+Stack trace:
+#0 /home/melbelgx/melbourneprintpublish.com.au/video-trailers-portfolio.php(44): array_filter()
+#1 {main}
+  thrown in /home/melbelgx/melbourneprintpublish.com.au/video-trailers-portfolio.php on line 44
+[23-Jul-2026 19:21:38 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-907ba9e13e0sm51921366d6.31 - gsmtp
+[23-Jul-2026 19:21:38 UTC] [lead] mail send returned false for james@artvizual.com
+[24-Jul-2026 07:47:51 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 006d021491bc7-6aae72439f2sm967219eaf.15 - gsmtp
+[24-Jul-2026 07:47:51 UTC] [lead] mail send returned false for no.reply.SebastienWagner@gmail.com
+[24-Jul-2026 17:55:40 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 586e51a60fabf-45767486cf6sm8105413fac.15 - gsmtp
+[24-Jul-2026 17:55:40 UTC] [lead] mail send returned false for paulmalgassp@gmail.com
+[26-Jul-2026 00:33:14 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-932de51a7cbsm250447785a.8 - gsmtp
+[26-Jul-2026 00:33:14 UTC] [lead] mail send returned false for chelsmacpherson@gmail.com
+[26-Jul-2026 15:50:09 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-907e86d7449sm44593056d6.37 - gsmtp
+[26-Jul-2026 15:50:09 UTC] [lead] mail send returned false for naokocruz6209@gmx.com
+[26-Jul-2026 17:08:01 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-932de53d580sm409677685a.13 - gsmtp
+[26-Jul-2026 17:08:01 UTC] [lead] mail send returned false for ebrzrbhcepr@crown-marie.ru
+[11-Aug-2026 11:51:45 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 46e09a7af769-7f3a7aa384csm991148a34.24 - gsmtp
+[11-Aug-2026 11:51:45 UTC] [lead] mail send returned false for kdouglas.author@icloud.com
+[11-Aug-2026 12:15:53 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 006d021491bc7-6b0a7831d2fsm410318eaf.10 - gsmtp
+[11-Aug-2026 12:15:53 UTC] [lead] mail send returned false for thelittlehouseart@gmail.com
+[12-Aug-2026 11:12:03 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 006d021491bc7-6b0ad478ce6sm2511423eaf.1 - gsmtp
+[12-Aug-2026 11:12:03 UTC] [lead] mail send returned false for tp@packard.net.au
+[12-Aug-2026 16:00:41 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5614622812f47-4b22347c0basm160382b6e.6 - gsmtp
+[12-Aug-2026 16:00:41 UTC] [lead] mail send returned false for admin@promodoc.ru
+[13-Aug-2026 09:29:48 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-49981b0f4afsm59902235e9.5 - gsmtp
+[13-Aug-2026 09:29:48 UTC] [lead] mail send returned false for monsoorshalanda717@gmail.com
+[14-Aug-2026 19:08:26 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-936ce0b23d6sm330189885a.18 - gsmtp
+[14-Aug-2026 19:08:26 UTC] [lead] mail send returned false for mibwhjoswer@bazavodolazov.ru
+[14-Aug-2026 19:58:38 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-936cdf55756sm348779285a.3 - gsmtp
+[14-Aug-2026 19:58:38 UTC] [lead] mail send returned false for ananya@rocketdigitaltech.com
+[14-Aug-2026 20:09:36 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-90a93544957sm24849786d6.34 - gsmtp
+[14-Aug-2026 20:09:36 UTC] [lead] mail send returned false for xuseen423438@gmail.com
+[14-Aug-2026 22:54:15 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-90a93584343sm27601456d6.41 - gsmtp
+[14-Aug-2026 22:54:15 UTC] [lead] mail send returned false for kpfoihbvcka@moscowfocus.ru
+[15-Aug-2026 01:59:44 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-936ce250c20sm404363485a.47 - gsmtp
+[15-Aug-2026 01:59:44 UTC] [lead] mail send returned false for bemibrooks.dev@gmail.com
+[15-Aug-2026 03:46:51 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-52d84043241sm34340001cf.16 - gsmtp
+[15-Aug-2026 03:46:51 UTC] [lead] mail send returned false for jiancao317@gmail.com
+[15-Aug-2026 03:47:10 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-936ce1e698dsm435825585a.29 - gsmtp
+[15-Aug-2026 03:47:10 UTC] [lead] mail send returned false for jiancao317@gmail.com
+[15-Aug-2026 06:07:52 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-320d5bda546sm12848579eec.6 - gsmtp
+[15-Aug-2026 06:07:52 UTC] [lead] mail send returned false for eewxnxykcSn@bazavodolazov.store
+[15-Aug-2026 06:07:53 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-1413887ee65sm15172249c88.10 - gsmtp
+[15-Aug-2026 06:07:53 UTC] [lead] mail send returned false for wxfufcnnqsl@321mail.ru
+[15-Aug-2026 06:07:54 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-1413889d914sm16144971c88.13 - gsmtp
+[15-Aug-2026 06:07:54 UTC] [lead] mail send returned false for omhuknthrkn@seoflagman.ru
+[15-Aug-2026 11:26:56 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-320d66e52d2sm14699608eec.13 - gsmtp
+[15-Aug-2026 11:26:56 UTC] [lead] mail send returned false for rfjsaslcemt@lilycake.ru
+[15-Aug-2026 12:29:27 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-936cdf54ce8sm526595185a.4 - gsmtp
+[15-Aug-2026 12:29:27 UTC] [lead] mail send returned false for jnawyevyoOa@321mail.store
+[15-Aug-2026 17:04:02 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-90a935061fdsm43980926d6.29 - gsmtp
+[15-Aug-2026 17:04:02 UTC] [lead] mail send returned false for mwbhvdjddEr@vseindi.com
+[16-Aug-2026 01:00:52 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-90a92207b9csm52718536d6.16 - gsmtp
+[16-Aug-2026 01:00:52 UTC] [lead] mail send returned false for RussDa@mail.com
+[16-Aug-2026 04:24:30 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-320ea804233sm19304309eec.26 - gsmtp
+[16-Aug-2026 04:24:30 UTC] [lead] mail send returned false for leznssgtokt@victoria-photographer.ru
+[16-Aug-2026 07:21:13 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-936ce1e40e2sm713479585a.26 - gsmtp
+[16-Aug-2026 07:21:13 UTC] [lead] mail send returned false for annaboc2002@gmail.com
+[16-Aug-2026 10:53:26 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-52d8406fe35sm57320341cf.23 - gsmtp
+[16-Aug-2026 10:53:26 UTC] [lead] mail send returned false for celesteblackie01@gmail.com
+[16-Aug-2026 21:47:42 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-90a9350a11fsm67789046d6.27 - gsmtp
+[16-Aug-2026 21:47:42 UTC] [lead] mail send returned false for etienne316@gmail.com
+[16-Aug-2026 22:14:08 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-141388bd5a7sm44520477c88.15 - gsmtp
+[16-Aug-2026 22:14:08 UTC] [lead] mail send returned false for celesteblackie01@gmail.com
+[17-Aug-2026 04:31:07 UTC] SMTP send failed: SMTP: expected 235, got 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-1415317054dsm1866972c88.12 - gsmtp
+[17-Aug-2026 04:31:07 UTC] [lead] mail send returned false for neilabcoutts@gmail.com

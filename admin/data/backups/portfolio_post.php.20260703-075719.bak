@@ -1,61 +1,8 @@
 <?php
 $portfolio = [
 
-    [
-        "id" => "43",
-        "hidden" => "",
-        "image" => "https://m.media-amazon.com/images/P/B0HBB3K69F.01._SCLZZZZZZZ_SX500_.jpg",
-        "alt" => "",
-        "name" => "The Silence That Raised Me",
-        "link" => "https://www.amazon.com/dp/B0HBB3K69F"
-    ],
 
-    [
-        "id" => "42",
-        "hidden" => "",
-        "image" => "https://m.media-amazon.com/images/P/1918900981.01._SCLZZZZZZZ_SX500_.jpg",
-        "alt" => "",
-        "name" => "Just a Life",
-        "link" => "https://www.amazon.com/Just-Life-Chris-Bennett/dp/1918900981"
-    ],
-
-    [
-        "id" => "41",
-        "hidden" => "",
-        "image" => "https://m.media-amazon.com/images/P/1918900639.01._SCLZZZZZZZ_SX500_.jpg",
-        "alt" => "",
-        "name" => "I Can Change My Mind Whenever I Want: Freedom is a Choice",
-        "link" => "https://www.amazon.com/Can-Change-Mind-Whenever-Want/dp/1918900639/ref=tmm_pap_swatch_0"
-    ],
-
-    [
-        "id" => "40",
-        "hidden" => "",
-        "image" => "https://m.media-amazon.com/images/P/1918900558.01._SCLZZZZZZZ_SX500_.jpg",
-        "alt" => "",
-        "name" => "You Make Your Bed You Lie in It",
-        "link" => "https://www.amazon.com/You-Make-Your-Bed-Lie/dp/1918900558/ref=tmm_pap_swatch_0"
-    ],
-
-    [
-        "id" => "39",
-        "hidden" => "",
-        "image" => "https://m.media-amazon.com/images/P/1918900493.01._SCLZZZZZZZ_SX500_.jpg",
-        "alt" => "",
-        "name" => "Online Dating The Tricky Love Game: What You MUST Know and Never Suspected",
-        "link" => "https://www.amazon.com/Online-Dating-Tricky-Love-Game/dp/1918900493/ref=tmm_pap_swatch_0"
-    ],
-
-    [
-        "id" => "38",
-        "hidden" => "",
-        "image" => "https://m.media-amazon.com/images/P/191890037X.01._SCLZZZZZZZ_SX500_.jpg",
-        "alt" => "",
-        "name" => "EIDOLON",
-        "link" => "https://www.amazon.com/EIDOLON-LUKE-WILLIAM-SMITH/dp/191890037X/ref=tmm_pap_swatch_0"
-    ],
-
-    [
+   [
         "id" => "35",
         "hidden" => "",
         "image" => "https://m.media-amazon.com/images/I/81QqO4jnZ-L._SY466_.jpg",
@@ -64,7 +11,7 @@ $portfolio = [
         "link" => "https://www.amazon.com/dp/B0H4MXP9PG?ref=cm_sw_r_ffobk_cp_ud_dp_WY1E9MTNT83YW73PTG7P_1&ref_=cm_sw_r_ffobk_cp_ud_dp_WY1E9MTNT83YW73PTG7P_1&social_share=cm_sw_r_ffobk_cp_ud_dp_WY1E9MTNT83YW73PTG7P_1&bestFormat=true"
     ],
 
-    [
+   [
         "id" => "34",
         "hidden" => "",
         "image" => "https://m.media-amazon.com/images/I/81lBF-xTWSL._SY466_.jpg",
@@ -90,8 +37,8 @@ $portfolio = [
         "name" => "A Dance of Tethered Aeons",
         "link" => "https://www.amazon.com/Dance-Tethered-Aeons-Franklin-Burger-ebook/dp/B0GY25KLF9/"
     ],
-
-    [
+    
+        [
         "id" => "31",
         "hidden" => "",
         "image" => "assets/images/portfolio/book2.jpg",
@@ -99,7 +46,6 @@ $portfolio = [
         "name" => "The Dialectics Of Mania",
         "link" => "https://www.amazon.com/dp/1918900000?ref=cm_sw_r_ffobk_cp_ud_dp_ECKWJ5JNZ67V5WXZ91FF&ref_=cm_sw_r_ffobk_cp_ud_dp_ECKWJ5JNZ67V5WXZ91FF&social_share=cm_sw_r_ffobk_cp_ud_dp_ECKWJ5JNZ67V5WXZ91FF&bestFormat=true"
     ],
-
     [
         "id" => "33",
         "hidden" => "",
@@ -108,7 +54,6 @@ $portfolio = [
         "name" => "Indian Summer",
         "link" => "https://www.amazon.com/Indian-Summer-Ib-Svane/dp/1918900035/ref=tmm_hrd_swatch_0"
     ],
-
     [
         "id" => "1",
         "hidden" => "",
@@ -117,6 +62,7 @@ $portfolio = [
         "name" => "A Veil of Gods and Kings",
         "link" => "https://www.amazon.com.au/Veil-Gods-Kings-Apollo-Ascending/dp/B09TN45M45/ref=sr_1_6?crid=BI8WUQX1JCWA&amp;dib=eyJ2IjoiMSJ9.NssB06XcvMT8rHv80xKqZqp9M6MC43Q7AF3uO9RT_a-VukShGyzurAY-u-NA_q-BGhLykJllh8nh-DznjNRbeik59TryOOV-oUW5v3qqfcmvUMngpHRZQnS_1eTRhAd84vg167lvctbz2Y0bP0XCaRKdRgS5phNVG1Ppdt8Zgkm015gO0D69lb3LJfcVNtK9xNCyeNPPsvvbzOoQFrQuOrX8yLTRTMbGA4WYMqrvmWNEfd2qj3STs1ANZJzSNm2vB2k-aNgQWxpgjChFgHUPEzbijuTMohTqZ9ESArqhEKU.w3ChJ5OCMs1c9iD0tAYsMWjw9IuHN4wwA4IqzjsjiEM&amp;dib_tag=se&amp;keywords=fantasy+books+independently+published&amp;qid=1771397705&amp;sprefix=fantasy+books+indepently+publis%2Caps%2C354&amp;sr=8-6"
     ],
+    
 
     [
         "id" => "2",
@@ -278,7 +224,8 @@ $portfolio = [
         "alt" => "The Ultimate Book of Rare and Unusual Knowledge",
         "name" => "The Ultimate Book of Rare and Unusual Knowledge",
         "link" => "https://www.amazon.com/Ultimate-Book-Rare-Unusual-Knowledge/dp/B0DR6S7SHB/ref=sr_1_1?crid=2ZDP1C3KA79KG&dib=eyJ2IjoiMSJ9.KTenSpKm9rb9MTOvalcJcArpddibOz2Ejae2QZm_QUQVT9nDxcnIcoIMzR9njYi4Ad6tLuix2c0ihjKyRZQDiU9mts92h7NnP505AZTWFP1iNYX_u7Qb6GTSWoccGhmo1ea795m6bMtt0BDupZUbhbJR4ct3egfXD83QMrXyjIzMtEl6h0wbE15duiBX8Hynz6bh4fybglZs4Vin8Hxov9T7RyfbZIjc2LYt8MUWW5U.9t3lVrbpX_YnMvLiml_92GIFr7O_3zAR0wuNXK1qWq8&dib_tag=se&keywords=The+Ultimate+Book+of+Rare+and+Unusual+Knowledge&nsdOptOutParam=true&qid=1771314444&s=audible&sprefix=the+ultimate+book+of+rare+and+unusual+knowledge%2Caudible%2C364&sr=1-1"
-    ],
+    ]
+    ,
 
     [
         "id" => "20",
@@ -396,6 +343,8 @@ $portfolio = [
         "name" => "Two Good Men",
         "link" => "https://www.amazon.com/Two-Good-Carmichael-Saga-Book-ebook/dp/B07C94S3T3/ref=sr_1_3?crid=2X9N8TV4NDCNC&dib=eyJ2IjoiMSJ9.RKh23VKgq0LmRmNdoJQZ3EqXC9c0vWFd4YLXr7bKwD-j5OjON2sy0k9usSgjS38DdxSJ6pmbMrTAOT0OXr4R8VWf6Qk-TXreEXM8X0jHhEAz7sBHYJmZP1y4XFZlH-LFizrnwqNG4guuJXAOkYlo2wX8jIOcjlcz4w_-fpWRdmGRFvatiTgIVfvBcoLJE3x5jYbzkzY1Jp-G3DIjNNCZkyqbu9W4ymaBSFH7pIrnLKg.YdYvbpyCk95G_cTrfUGMvyZXvyh768BsbIAPRmNUgYI&dib_tag=se&keywords=Two+Good+Men&qid=1771318376&s=digital-text&sprefix=two+good+men%2Cdigital-text%2C353&sr=1-3"
     ]
+
+    
 
 ];
 ?>

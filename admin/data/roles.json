@@ -14,7 +14,34 @@
             "modules": [
                 "posts",
                 "authors",
+                "submissions",
                 "seo"
+            ],
+            "locked": false
+        },
+        {
+            "name": "publisher",
+            "label": "Publisher",
+            "modules": [
+                "portfolio"
+            ],
+            "locked": false
+        },
+        {
+            "name": "developer",
+            "label": "Developer",
+            "modules": [
+                "websites",
+                "videos",
+                "testimonials"
+            ],
+            "locked": false
+        },
+        {
+            "name": "sales",
+            "label": "Sales",
+            "modules": [
+                "submissions"
             ],
             "locked": false
         }

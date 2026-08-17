@@ -5,14 +5,35 @@
             "password": "$2y$10$D1f/EM11owsfVedutCskquTkHKPlvnXL2dlVQ.pp3TqvIIGMTqdQe",
             "role": "super-admin",
             "created": "2026-07-02T00:00:00+00:00",
-            "last_login": "2026-07-24T07:20:16+02:00"
+            "last_login": "2026-08-04T13:44:14+00:00"
         },
         {
             "username": "editor",
             "password": "$2y$10$QxaqNvD4ArPosYVRxNjH9Oh08G4H2ue6AkJ6KgKHV9iHhu2rOGHyG",
             "role": "editor",
             "created": "2026-07-02T00:00:00+00:00",
-            "last_login": "2026-07-02T15:25:51+02:00"
+            "last_login": "2026-08-17T06:03:17+00:00"
+        },
+        {
+            "username": "vimaldev",
+            "password": "$2y$10$LFaw5hzHUU/clSB23Rt0zO3s03wH4aoB9vfbDFHAsBRsBJ63Ci2ai",
+            "role": "developer",
+            "created": "2026-07-03T07:51:35+00:00",
+            "last_login": "2026-07-31T10:09:10+00:00"
+        },
+        {
+            "username": "timmypublisher",
+            "password": "$2y$10$dXR3KgeRODGc3HnmZWJd4OKCytHPvY8olClAkLpunOkQTmbT7rxRa",
+            "role": "publisher",
+            "created": "2026-07-03T07:51:49+00:00",
+            "last_login": "2026-08-06T09:16:46+00:00"
+        },
+        {
+            "username": "seller",
+            "password": "$2y$10$z7Q0gcuZe7JFBXcaOPoSVe3PLwhBIZ54kzAHztQT3Vg98WS.ZFpd6",
+            "role": "sales",
+            "created": "2026-07-17T05:35:18+00:00",
+            "last_login": "2026-08-17T06:06:29+00:00"
         }
     ]
 }

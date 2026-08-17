@@ -2,22 +2,12 @@
 $websitePortfolio = [
 
     [
-        "id" => "4",
-        "hidden" => "",
-        "image" => "",
-        "alt" => "",
-        "name" => "Franklin Burger",
-        "description" => "",
-        "link" => "https://authorfranklinburger.com/"
-    ],
-
-    [
         "id" => "3",
         "hidden" => "",
         "image" => "",
         "alt" => "",
-        "name" => "Forby Koonan",
-        "description" => "",
+        "name" => "forby koonan",
+        "description" => "Forby Koonan is a teacher, former soldier, writer, and father who draws on his military background to craft dark science fiction exploring survival, technology, and psychological tension. His work examines the hidden pressures shaping ordinary lives in extraordinary circumstances. His debut novel, Foreverman, is an ambitious exploration of immortality, survival, and what it means to be human in a future where time offers no escape. Outside of writing, he enjoys 80s video games and restoring classic cars",
         "link" => "https://forbykoonan.com/"
     ],
 

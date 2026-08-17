@@ -1,0 +1,14 @@
+<?php
+$websitePortfolio = [
+
+    [
+        "id" => "1",
+        "hidden" => "",
+        "image" => "",
+        "alt" => "",
+        "name" => "Do’Vinci",
+        "link" => "https://dovinciauthor.com/"
+    ]
+
+];
+?>

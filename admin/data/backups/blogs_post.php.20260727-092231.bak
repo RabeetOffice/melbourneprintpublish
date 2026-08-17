@@ -2,20 +2,9 @@
 $blogs = [
 
     [
-        "id" => "19",
-        "hidden" => "",
-        "image" => "/assets/images/the-rule-of-three-in-writing-an-australian-writers-guide-to-making-your-words-me.webp",
-        "alt" => "",
-        "name" => "Rule of Three in Writing: An Aussie Writer's Guide",
-        "text" => "",
-        "date" => "03-08-2026",
-        "link" => "/blogs/the-rule-of-three-in-writing/"
-    ],
-
-    [
         "id" => "18",
         "hidden" => "",
-        "image" => "/assets/images/types-of-irony-in-literature-in-australia-2.webp",
+        "image" => "/assets/images/types-of-irony-in-literature-in-australia.webp",
         "alt" => "",
         "name" => "Types of Irony in Literature in Australia",
         "text" => "Every writer has sat in a workshop and heard someone say \"that's so ironic\" about something that isn't ironic at all. Rain on a wedding day. A traffic jam when you're already late. Alanis Morissette built a whole song out of the confusion, and three decades later writers are still borrowing her mistake. That's not irony. That's just bad luck with better PR.",

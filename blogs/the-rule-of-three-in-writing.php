@@ -1,5 +1,4 @@
 <?php require_once __DIR__ . '/../includes/config.php'; ?>
-<?php session_name('mpp_admin_sess'); if (session_status() !== PHP_SESSION_ACTIVE) { @session_start(); } if (empty($_SESSION['admin_user'])) { http_response_code(404); exit; } header('X-Robots-Tag: noindex, nofollow'); ?>
 <!DOCTYPE html>
 <html lang="en">
 

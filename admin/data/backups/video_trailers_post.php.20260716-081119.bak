@@ -2,17 +2,9 @@
 $videoTrailers = [
 
     [
-        "id" => "3",
-        "hidden" => "",
-        "name" => "Ib Svane - Video Book Trailer",
-        "description" => "",
-        "link" => "https://www.youtube.com/watch?v=pzjMdLVBdfg"
-    ],
-
-    [
         "id" => "2",
         "hidden" => "",
-        "name" => "Corinne Mesana - Video Book Trailer",
+        "name" => "Corinne - Video Book Trailer",
         "description" => "",
         "link" => "https://www.youtube.com/watch?v=dxTw50NRWc4"
     ],

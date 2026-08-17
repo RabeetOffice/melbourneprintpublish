@@ -2,33 +2,6 @@
 $portfolio = [
 
     [
-        "id" => "43",
-        "hidden" => "",
-        "image" => "https://m.media-amazon.com/images/P/B0HBB3K69F.01._SCLZZZZZZZ_SX500_.jpg",
-        "alt" => "",
-        "name" => "The Silence That Raised Me",
-        "link" => "https://www.amazon.com/dp/B0HBB3K69F"
-    ],
-
-    [
-        "id" => "42",
-        "hidden" => "",
-        "image" => "https://m.media-amazon.com/images/P/1918900981.01._SCLZZZZZZZ_SX500_.jpg",
-        "alt" => "",
-        "name" => "Just a Life",
-        "link" => "https://www.amazon.com/Just-Life-Chris-Bennett/dp/1918900981"
-    ],
-
-    [
-        "id" => "41",
-        "hidden" => "",
-        "image" => "https://m.media-amazon.com/images/P/1918900639.01._SCLZZZZZZZ_SX500_.jpg",
-        "alt" => "",
-        "name" => "I Can Change My Mind Whenever I Want: Freedom is a Choice",
-        "link" => "https://www.amazon.com/Can-Change-Mind-Whenever-Want/dp/1918900639/ref=tmm_pap_swatch_0"
-    ],
-
-    [
         "id" => "40",
         "hidden" => "",
         "image" => "https://m.media-amazon.com/images/P/1918900558.01._SCLZZZZZZZ_SX500_.jpg",
@@ -53,6 +26,15 @@ $portfolio = [
         "alt" => "",
         "name" => "EIDOLON",
         "link" => "https://www.amazon.com/EIDOLON-LUKE-WILLIAM-SMITH/dp/191890037X/ref=tmm_pap_swatch_0"
+    ],
+
+    [
+        "id" => "36",
+        "hidden" => "",
+        "image" => "https://m.media-amazon.com/images/P/1918900345.01._SCLZZZZZZZ_SX500_.jpg",
+        "alt" => "",
+        "name" => "The Lady Climbed Upon the Bus",
+        "link" => "https://www.amazon.com/Lady-Climbed-Upon-Bus/dp/1918900345/ref=tmm_pap_swatch_0"
     ],
 
     [

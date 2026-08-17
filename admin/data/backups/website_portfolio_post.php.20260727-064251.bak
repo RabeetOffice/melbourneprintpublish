@@ -16,7 +16,7 @@ $websitePortfolio = [
         "hidden" => "",
         "image" => "",
         "alt" => "",
-        "name" => "Forby Koonan",
+        "name" => "forby koonan",
         "description" => "",
         "link" => "https://forbykoonan.com/"
     ],
