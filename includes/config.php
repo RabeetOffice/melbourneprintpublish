@@ -57,15 +57,15 @@ if (!is_array($__secrets)) { $__secrets = []; }
  *  SMTP - Google Workspace (defaults; overridable in Admin → Site → SMTP)
  *  NOTE: SMTP credentials below still use the .com Google Workspace account.
  *  After Google Workspace migration to .com.au, update SMTP_USER /
- *  SMTP_FROM_EMAIL to ethan.reyes@melbourneprintpublish.com.au and refresh
+ *  SMTP_FROM_EMAIL to marcus.hale@melbourneprintpublish.com.au and refresh
  *  the App Password.
  * ----------------------------------------------------------------------- */
 define('SMTP_HOST', cfg_or('smtp.host', 'smtp.gmail.com'));
 define('SMTP_PORT', (int) cfg_or('smtp.port', 587));
 define('SMTP_ENCRYPTION', cfg_or('smtp.encryption', 'tls'));
-define('SMTP_USER', cfg_or('smtp.user', 'ethan.reyes@melbourneprintpublish.com.au'));
-define('SMTP_PASS', cfg_or('smtp.pass', (string) ($__secrets['smtp_pass'] ?? 'jrrw ybix lwoa bqkx')));
-define('SMTP_FROM_EMAIL', cfg_or('smtp.from_email', 'ethan.reyes@melbourneprintpublish.com.au'));
+define('SMTP_USER', cfg_or('smtp.user', 'marcus.hale@melbourneprintpublish.com.au'));
+define('SMTP_PASS', cfg_or('smtp.pass', (string) ($__secrets['smtp_pass'] ?? 'oxxk iwfe tfsv pyei')));
+define('SMTP_FROM_EMAIL', cfg_or('smtp.from_email', 'marcus.hale@melbourneprintpublish.com.au'));
 define('SMTP_FROM_NAME', cfg_or('smtp.from_name', BRAND_NAME));
 
 /* -------------------------------------------------------------------------
